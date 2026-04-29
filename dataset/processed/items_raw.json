@@ -1,0 +1,452 @@
+[
+  {
+    "source": "DSQ-60",
+    "item_id": 1,
+    "raw_text": "I get satisfaction from helping others and if this were taken away from me I would get depressed"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 2,
+    "raw_text": "People often call me a sulker"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 3,
+    "raw_text": "I'm able to keep a problem out of my mind until I have time to deal with it"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 4,
+    "raw_text": "I work out my anxiety through doing something constructive and creative like painting or woodwork"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 5,
+    "raw_text": "I often change my opinion about people; at one time I think highly of them, at another time I think they're worthless"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 6,
+    "raw_text": "I am able to find good reasons for everything I do"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 7,
+    "raw_text": "I'm able to laugh at myself pretty easily"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 8,
+    "raw_text": "People tend to mistreat me"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 9,
+    "raw_text": "If someone mugged me and stole my money, I'd rather he'd be helped than punished"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 10,
+    "raw_text": "If I have a conflict with someone, I try to think of what might have been my part in it"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 11,
+    "raw_text": "People say I tend to ignore unpleasant facts as if they didn't exist"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 12,
+    "raw_text": "I often feel superior to people I'm with"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 13,
+    "raw_text": "Someone is robbing me emotionally of all I've got"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 14,
+    "raw_text": "When there's real danger, it's as if I'm not there and I feel no fear"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 15,
+    "raw_text": "If I'm treated unfairly, I stand up for my rights"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 16,
+    "raw_text": "I manage danger as if I were Superman"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 17,
+    "raw_text": "I pride myself on my ability to cut people down to size"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 18,
+    "raw_text": "I often act impulsively when something is bothering me"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 19,
+    "raw_text": "Actually I'm pretty worthless"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 20,
+    "raw_text": "When dealing with people they often end up feeling what I feel"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 21,
+    "raw_text": "I get more satisfaction from my fantasies than from my real life"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 22,
+    "raw_text": "I withdraw when I'm angry"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 23,
+    "raw_text": "When I'm in difficulties I often feel unreal"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 24,
+    "raw_text": "I've got special talents that allow me to go through life with no problems"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 25,
+    "raw_text": "I prefer to talk about abstract things rather than about my feelings"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 26,
+    "raw_text": "There are always good reasons when things don't work out for me"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 27,
+    "raw_text": "I work more things out in my daydreams than in my real life"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 28,
+    "raw_text": "When people get angry with me, I tend to think they are exaggerating"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 29,
+    "raw_text": "Sometimes I think I'm an angel and other times I think I'm a devil"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 30,
+    "raw_text": "If someone gets angry at me I tend to get annoyed by things I usually ignore"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 31,
+    "raw_text": "I get openly aggressive when I feel hurt"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 32,
+    "raw_text": "I hardly remember anything from my early school years"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 33,
+    "raw_text": "I withdraw when I'm sad"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 34,
+    "raw_text": "I always feel that someone I know is like a guardian angel"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 35,
+    "raw_text": "I'm actually worse than people think I am"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 36,
+    "raw_text": "As far as I'm concerned, people are either good or bad"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 37,
+    "raw_text": "If my boss bugged me, I might make a mistake in my work or work more slowly so as to get back at him"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 38,
+    "raw_text": "There is someone I know who can do anything and who is absolutely fair and just"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 39,
+    "raw_text": "If I've experienced something unpleasant then the next day I've sometimes forgotten what it was about"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 40,
+    "raw_text": "Helping others makes me feel good"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 41,
+    "raw_text": "I can keep the lid on my feelings if letting them out would interfere with what I'm doing"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 42,
+    "raw_text": "I'm usually able to see the funny side of an otherwise painful predicament"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 43,
+    "raw_text": "I often find myself being very nice to people who by all rights I should be angry at"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 44,
+    "raw_text": "There's no such thing as 'finding a little good in everyone,' if you're bad, you're all bad"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 45,
+    "raw_text": "When something I do doesn't turn out well, I try to find out what I may have overlooked"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 46,
+    "raw_text": "People tend to be dishonest with me"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 47,
+    "raw_text": "When I have to face a difficult situation I try to imagine what it will be like and plan ways to cope with it"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 48,
+    "raw_text": "Doctors never really understand what is wrong with me"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 49,
+    "raw_text": "After I fight for my rights, I tend to apologize for my assertiveness"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 50,
+    "raw_text": "If someone is annoying me, then I tell them without hurting their feelings"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 51,
+    "raw_text": "I'm often told that I don't show my feelings"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 52,
+    "raw_text": "When I feel bad, I try to be with someone"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 53,
+    "raw_text": "If I can predict that I'm going to be sad ahead of time, I can cope better"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 54,
+    "raw_text": "No matter how much I complain, I never get a satisfactory response"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 55,
+    "raw_text": "Instead of saying exactly what I feel, I explain my thoughts extensively"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 56,
+    "raw_text": "Often I find that I don't feel anything when the situation would seem to warrant strong emotions"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 57,
+    "raw_text": "When I feel depressed or anxious, I like to engage in some creative or physical activity"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 58,
+    "raw_text": "If I got into a crisis, I would seek out someone to share my worries with"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 59,
+    "raw_text": "If I have an aggressive thought, I feel the need to do something to compensate for it"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 60,
+    "raw_text": "When something exciting is happening, I tend to fuss over unimportant details"
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 1,
+    "raw_text": "Didyouperceiveothersas“allgood”or“allbad”?"
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 2,
+    "raw_text": "Didyoureactasifyouweredetachedfrompersonallyrelevantissues?"
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 3,
+    "raw_text": "Didyoudevelopsomaticsymptoms,suchasheadache,stomachpain,orthelossofabilitytodosomething,inresponsetoemotionalsituations?"
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 4,
+    "raw_text": "Didyouofferphysicalorpsychologicalhelptoothersinneed?"
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 5,
+    "raw_text": "Didyouhaverepetitiveorserialdaydreamstowhichyouretreatedinlieuofreallife?"
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 6,
+    "raw_text": "Didyouthinkabouthowyouwouldhandledifficultiesthatyoumightexpectinthefuture?"
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 7,
+    "raw_text": "Didyoufeelasiftherewasnothingpositiveorredeemingaboutyourself?"
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 8,
+    "raw_text": "Didyouhaveanattitudeofgivingmuchmorethanyoureceivedwithoutperceivingtheimbalance?"
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 9,
+    "raw_text": "Didyouaskforphysicaloremotionalsupportwhiledoingyourbesttohandletheproblem?"
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 10,
+    "raw_text": "Didyoutrytodiffusethetensionbyengagingincreativeactivities?"
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 11,
+    "raw_text": "Didyouhaveanattitudeofsuspiciousnessorperceiveothersasuntrustworthy,unfaithful,ormanipulative?"
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 12,
+    "raw_text": "Didyoumakehumorouscommentsaboutchallengingpersonalissuesorstressfulsituations?"
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 13,
+    "raw_text": "Didyoureflectuponyouremotionalexperiencesandpersonalthoughts?"
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 14,
+    "raw_text": "Didyoutrytotakeyourangeroutonyourselforexpressitwithself-harmingbehaviors?"
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 15,
+    "raw_text": "Didyoujustifyorgiveplausibleexplanationstocoveruptherealreasonsforpersonalproblemsorstressfulsituations?"
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 16,
+    "raw_text": "Didyoutakeanactiveroleinsolvingproblemsthatarose?"
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 17,
+    "raw_text": "Didyouidealizeyourselforothersforyour/theirpersonalcharacteristics?"
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 18,
+    "raw_text": "Didyouconsciouslyorunconsciouslytrytoirritatesomeoneinindirectorannoyingways?"
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 19,
+    "raw_text": "Didyoutemporarilyputasideyourpersonalneedstodealwithotherthingsthatneededtobedone?"
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 20,
+    "raw_text": "Didyoufocusonminororunrelatedmattersthatdistractedyouawayfromaproblemthatmakesyouanxious?"
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 21,
+    "raw_text": "Didyoudiscussanemotionaltopicingeneralorimpersonalway,withoutconsideringorexperiencingyourfeelings?"
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 22,
+    "raw_text": "Didyoucomplainabouthowothersdon’tunderstandyouordon’treallycare?"
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 23,
+    "raw_text": "Didyouexperiencestrongfeelingstowardsomeone,thinkingthattheotherpersonintendedtomakeyoufeelthatway?"
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 24,
+    "raw_text": "Didyoufeelconfused,“spacedout,”orunabletotalkaboutadistressingtopic?"
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 25,
+    "raw_text": "Didyouengageinverbalorphysicalfights?"
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 26,
+    "raw_text": "Didyouhavetroublerememberingsimplethings?"
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 27,
+    "raw_text": "Didyouavoidthinkingaboutpersonalproblemsorfeelings?"
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 28,
+    "raw_text": "Didyouperceiveyourselfasverystrong,powerful,untouchable?"
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 29,
+    "raw_text": "Didyouhavecontradictoryorconflictualideasaboutatopicthatmakesyouanxious?"
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 30,
+    "raw_text": "Didyoudevalueyourselforothersforyour/theirpersonalcharacteristics?"
+  }
+]

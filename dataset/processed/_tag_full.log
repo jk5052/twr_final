@@ -1,0 +1,126 @@
+codebook: 28 defenses
+poems: 2874
+[   1/2874] ✓ Isolation of Affect       i=4 Objects Used to Prop Open a Window  | 0.17/s ETA=284m  cost~$0.01
+[  26/2874] ✓ Affiliation               i=3 Hello, Baihua Mountain              | 0.21/s ETA=223m  cost~$0.23
+[  51/2874] ✓ Isolation of Affect       i=4 [That]                              | 0.20/s ETA=232m  cost~$0.44
+[  76/2874] ✓ Dissociation              i=5 Girl, 11                            | 0.21/s ETA=225m  cost~$0.66
+[ 101/2874] · —                         i=0 from From "Living Truthfully Under  | 0.21/s ETA=224m  cost~$0.88
+[ 126/2874] ✓ Anticipation              i=4 Before                              | 0.21/s ETA=220m  cost~$1.09
+[ 151/2874] ✓ Isolation of Affect       i=3 Between Autumn Equinox and Winter S | 0.21/s ETA=217m  cost~$1.31
+[ 176/2874] ✓ Anticipation              i=4 "When you, that at this moment are  | 0.21/s ETA=216m  cost~$1.53
+[ 201/2874] ✓ Self-Assertion            i=4 Song                                | 0.21/s ETA=212m  cost~$1.74
+[ 226/2874] ✓ Idealization              i=4 Strange!                            | 0.21/s ETA=209m  cost~$1.96
+[ 251/2874] ✓ Intellectualization       i=4 “An Archive of Confessions, A Genea | 0.21/s ETA=207m  cost~$2.18
+[ 276/2874] ✓ Anticipation              i=3 Fly, Dragonfly!                     | 0.21/s ETA=205m  cost~$2.39
+[ 301/2874] ✓ Dissociation              i=4 "When I used to focus on the worrie | 0.21/s ETA=204m  cost~$2.61
+[ 326/2874] ✓ Sublimation               i=4 Frank O'Hara                        | 0.21/s ETA=202m  cost~$2.83
+[ 351/2874] ✓ Omnipotence               i=5 Katrina                             | 0.21/s ETA=201m  cost~$3.05
+[ 376/2874] ✓ Humor                     i=4 Are All the Break-Ups in Your Poems | 0.21/s ETA=199m  cost~$3.26
+[ 401/2874] · —                         i=0 Vegan Symphony #9                   | 0.21/s ETA=197m  cost~$3.48
+[ 426/2874] ✓ Suppression               i=2 A Stop Before Starting              | 0.21/s ETA=195m  cost~$3.69
+[ 451/2874] ✓ Devaluation               i=4 Self Portrait                       | 0.21/s ETA=194m  cost~$3.91
+[ 476/2874] ✓ Isolation of Affect       i=4 Aubade Ending with the Death of a M | 0.21/s ETA=193m  cost~$4.12
+[ 501/2874] ✓ Rationalization           i=4 Coming to Sumer                     | 0.21/s ETA=191m  cost~$4.34
+[ 526/2874] ✓ Sublimation               i=4 In Time of ‘The Breaking of Nations | 0.21/s ETA=189m  cost~$4.56
+[ 551/2874] ✓ Undoing                   i=3 The Collection                      | 0.21/s ETA=187m  cost~$4.78
+[ 576/2874] ✓ Rationalization           i=4 On an Acura Integra                 | 0.21/s ETA=184m  cost~$5.00
+[ 601/2874] ✓ Anticipation              i=4 Love's Last                         | 0.21/s ETA=182m  cost~$5.21
+[ 626/2874] ✓ Rationalization           i=4 Knowlt Hoheimer                     | 0.21/s ETA=181m  cost~$5.44
+[ 651/2874] · Anticipation              i=2 Firefly                             | 0.21/s ETA=179m  cost~$5.65
+[ 676/2874] ✓ Sublimation               i=4 From the Snowmelt of '66            | 0.21/s ETA=177m  cost~$5.87
+[ 701/2874] ✓ Anticipation              i=4 Old Love                            | 0.21/s ETA=174m  cost~$6.08
+[ 726/2874] · —                         i=0 Mud Season                          | 0.21/s ETA=172m  cost~$6.30
+[ 751/2874] ✓ Anticipation              i=3 September 9                         | 0.21/s ETA=171m  cost~$6.51
+[ 776/2874] ✓ Intellectualization       i=4 Of Not Communicating One's Glory    | 0.21/s ETA=168m  cost~$6.73
+[ 801/2874] ✓ Sublimation               i=4 World Word                          | 0.21/s ETA=166m  cost~$6.95
+[ 826/2874] ✓ Omnipotence               i=4 I Want to Read at the White House   | 0.21/s ETA=164m  cost~$7.17
+[ 851/2874] ✓ Altruism                  i=4 Jerusalem Sonnets (27)              | 0.21/s ETA=162m  cost~$7.38
+[ 876/2874] ✓ Dissociation              i=4 Citizenship [I was so afraid.]      | 0.21/s ETA=160m  cost~$7.60
+[ 901/2874] ✓ Self-Assertion            i=4 Queerodactyl                        | 0.21/s ETA=157m  cost~$7.82
+[ 926/2874] · —                         i=0 Flight                              | 0.21/s ETA=156m  cost~$8.04
+[ 951/2874] ✓ Splitting                 i=4 yasmeen                             | 0.21/s ETA=154m  cost~$8.26
+[ 976/2874] ✓ Dissociation              i=4 Decrescence                         | 0.21/s ETA=152m  cost~$8.48
+[1001/2874] · —                         i=0 Crepuscule with Paula               | 0.21/s ETA=149m  cost~$8.70
+[1026/2874] ✓ Dissociation              i=4 Explorer                            | 0.21/s ETA=147m  cost~$8.93
+[1051/2874] ✓ Isolation of Affect       i=3 In an Unrelated                     | 0.21/s ETA=145m  cost~$9.14
+[1076/2874] ✓ Self-Observation          i=3 Second Helpings                     | 0.21/s ETA=143m  cost~$9.36
+[1101/2874] ✓ Rationalization           i=4 A blind man was riding an unheated  | 0.21/s ETA=142m  cost~$9.58
+[1126/2874] ✓ Idealization              i=4 Each Day                            | 0.21/s ETA=139m  cost~$9.80
+[1151/2874] ✓ Splitting                 i=4 Monsters                            | 0.21/s ETA=137m  cost~$10.02
+[1176/2874] ✓ Splitting                 i=4 Black Gentleman                     | 0.21/s ETA=135m  cost~$10.24
+[1201/2874] ✓ Dissociation              i=4 Midnight Office                     | 0.21/s ETA=133m  cost~$10.46
+[1226/2874] ✓ Intellectualization       i=3 Wild Is the Wind                    | 0.21/s ETA=131m  cost~$10.68
+[1251/2874] ✓ Displacement              i=3 Nautical Twilight                   | 0.21/s ETA=129m  cost~$10.90
+[1276/2874] ✓ Intellectualization       i=3 Act                                 | 0.21/s ETA=127m  cost~$11.11
+[1301/2874] ✓ Rationalization           i=3 Ode to the Electric Fish that Eat O | 0.21/s ETA=125m  cost~$11.33
+[1326/2874] ✓ Altruism                  i=4 Second Attempt Crossing             | 0.21/s ETA=123m  cost~$11.55
+[1351/2874] ✓ Sublimation               i=4 The Bottle Gatherer                 | 0.21/s ETA=121m  cost~$11.77
+[1376/2874] ✓ Intellectualization       i=3 Johanna Hirshhorn                   | 0.21/s ETA=119m  cost~$11.99
+[1401/2874] ✓ Undoing                   i=5 Cuba, 1962                          | 0.21/s ETA=117m  cost~$12.21
+[1426/2874] ✓ Isolation of Affect       i=4 Weltende Variation #I               | 0.21/s ETA=115m  cost~$12.43
+[1451/2874] ✓ Anticipation              i=3 The Animals                         | 0.21/s ETA=113m  cost~$12.65
+[1476/2874] · —                         i=0 Words                               | 0.21/s ETA=111m  cost~$12.87
+[1501/2874] ✓ Rationalization           i=3 Mother, I cannot Mind my Wheel      | 0.21/s ETA=109m  cost~$13.08
+[1526/2874] ✓ Idealization              i=4 Peace                               | 0.21/s ETA=107m  cost~$13.30
+[1551/2874] · —                         i=0 Insect                              | 0.21/s ETA=105m  cost~$13.52
+[1576/2874] ✓ Idealization              i=5 To -                                | 0.21/s ETA=103m  cost~$13.73
+[1601/2874] ✓ Rationalization           i=3 On the Gift of a Book to a Child    | 0.21/s ETA=101m  cost~$13.95
+[1626/2874] · —                         i=0 Thanksgiving Magic                  | 0.21/s ETA=99m  cost~$14.16
+[1651/2874] ✓ Suppression               i=3 History Lesson                      | 0.21/s ETA=97m  cost~$14.38
+[1676/2874] ✓ Anticipation              i=4 Question                            | 0.21/s ETA=95m  cost~$14.60
+[1701/2874] ✓ Isolation of Affect       i=4 In the Novel                        | 0.21/s ETA=93m  cost~$14.81
+[1726/2874] ✓ Suppression               i=3 Dreams                              | 0.21/s ETA=91m  cost~$15.03
+[1751/2874] ✓ Undoing                   i=4 The Mower                           | 0.21/s ETA=89m  cost~$15.25
+[1776/2874] ✓ Anticipation              i=4 Stowaway                            | 0.21/s ETA=87m  cost~$15.46
+[1801/2874] ✓ Intellectualization       i=4 The Figurehead                      | 0.21/s ETA=85m  cost~$15.68
+[1826/2874] ✓ Sublimation               i=4 In Tennessee I Found a Firefly      | 0.21/s ETA=83m  cost~$15.89
+[1851/2874] ✓ Self-Assertion            i=5 You Who Wronged                     | 0.21/s ETA=81m  cost~$16.11
+[1876/2874] ✓ Passive Aggression        i=4 Vespers [In your extended absence,  | 0.21/s ETA=79m  cost~$16.33
+[1901/2874] ✓ Isolation of Affect       i=4 Pre-Dialogue, II                    | 0.21/s ETA=77m  cost~$16.54
+[1926/2874] ✓ Idealization              i=4 Amoretti LV: So oft as I her beauty | 0.21/s ETA=75m  cost~$16.76
+[1951/2874] ✓ Omnipotence               i=4 To the Same Purpose                 | 0.21/s ETA=73m  cost~$16.98
+[1976/2874] ✓ Intellectualization       i=4 A Vision of the Bodhisattvas        | 0.21/s ETA=71m  cost~$17.19
+[2001/2874] ✓ Reaction Formation        i=4 Why I Voted the Socialist Ticket    | 0.21/s ETA=69m  cost~$17.41
+[2026/2874] ✓ Intellectualization       i=4 The Beautiful Animal                | 0.21/s ETA=67m  cost~$17.63
+[2051/2874] ✓ Dissociation              i=4 At a VA Hospital in the Middle of t | 0.21/s ETA=65m  cost~$17.84
+[2076/2874] ✓ Displacement              i=4 from By the Well of Living and Seei | 0.21/s ETA=63m  cost~$18.06
+[2101/2874] ✓ Dissociation              i=4 “I Am Not I”                        | 0.21/s ETA=61m  cost~$18.27
+[2126/2874] ✓ Reaction Formation        i=5 Bible Defense of Slavery            | 0.21/s ETA=59m  cost~$18.49
+[2151/2874] ✓ Isolation of Affect       i=4 Linnaeus in Lapland                 | 0.21/s ETA=57m  cost~$18.70
+[2176/2874] ✓ Intellectualization       i=4 On the Crash of an Airliner at Take | 0.21/s ETA=55m  cost~$18.92
+[2201/2874] ✓ Isolation of Affect       i=4 Poem by the Charles River           | 0.21/s ETA=53m  cost~$19.14
+[2226/2874] ✓ Anticipation              i=4 At the Un-National Monument along t | 0.21/s ETA=51m  cost~$19.36
+[2251/2874] ✓ Affiliation               i=4 The Roll Call                       | 0.21/s ETA=49m  cost~$19.58
+[2276/2874] ✓ Rationalization           i=4 Eponymous                           | 0.21/s ETA=47m  cost~$19.79
+  FAIL [2282] [Exordium: ‘In what way names’]: list index out of range
+[2302/2874] ✓ Dissociation              i=3 The Film                            | 0.21/s ETA=45m  cost~$20.01
+[2327/2874] · —                         i=0 Inclement                           | 0.21/s ETA=43m  cost~$20.22
+[2352/2874] ✓ Intellectualization       i=4 Postlude                            | 0.21/s ETA=41m  cost~$20.44
+[2377/2874] ✓ Humor                     i=4 Fabrication of Ancestors            | 0.21/s ETA=39m  cost~$20.66
+[2402/2874] ✓ Intellectualization       i=3 At the Beach                        | 0.21/s ETA=37m  cost~$20.88
+[2427/2874] ✓ Intellectualization       i=4 Ever After                          | 0.21/s ETA=35m  cost~$21.10
+[2452/2874] · —                         i=0 New York                            | 0.21/s ETA=33m  cost~$21.32
+[2477/2874] ✓ Sublimation               i=4 Jackfruit                           | 0.21/s ETA=31m  cost~$21.53
+[2502/2874] ✓ Suppression               i=4 “Alone I stare into the frost’s whi | 0.21/s ETA=29m  cost~$21.75
+[2527/2874] ✓ Isolation of Affect       i=4 Elegy                               | 0.21/s ETA=27m  cost~$21.97
+[2552/2874] ✓ Anticipation              i=3 My Autumn Leaves                    | 0.21/s ETA=25m  cost~$22.19
+[2577/2874] ✓ Sublimation               i=4 Scallop Song                        | 0.21/s ETA=23m  cost~$22.41
+[2602/2874] ✓ Isolation of Affect       i=5 Inhibited                           | 0.21/s ETA=21m  cost~$22.63
+[2627/2874] ✓ Idealization              i=4 Song to a Fair Young Lady Going out | 0.21/s ETA=19m  cost~$22.85
+[2652/2874] ✓ Projection                i=3 Song in the Songless                | 0.21/s ETA=17m  cost~$23.07
+[2677/2874] ✓ Idealization              i=4 Sonnet 30: When to the sessions of  | 0.21/s ETA=15m  cost~$23.29
+[2702/2874] ✓ Displacement              i=3 The Look                            | 0.21/s ETA=13m  cost~$23.51
+[2727/2874] ✓ Intellectualization       i=4 Song of Social Despair              | 0.21/s ETA=12m  cost~$23.72
+[2752/2874] ✓ Dissociation              i=4 In My Dreams                        | 0.21/s ETA=10m  cost~$23.94
+[2777/2874] ✓ Intellectualization       i=3 Sounding Chinese at Inspiration Poi | 0.21/s ETA=8m  cost~$24.15
+[2802/2874] ✓ Splitting                 i=4 Seizure                             | 0.21/s ETA=6m  cost~$24.36
+[2827/2874] ✓ Projection                i=5 Small Woman on Swallow Street       | 0.21/s ETA=4m  cost~$24.58
+[2852/2874] ✓ Displacement              i=4 The Lake                            | 0.21/s ETA=2m  cost~$24.80
+
+=== DONE ===
+total: 2874  new: 2873  failed: 1
+time: 225.1m
+tokens — in:1,002,830  cache_w:0  cache_r:52,909,168  out:407,570
+cost: $24.99
+
+Saved: /Users/jayce/SP2026/Colloquium/Prototyping/twr/dataset/processed/poems_tagged.json

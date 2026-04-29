@@ -1,0 +1,298 @@
+[
+  {
+    "id": 1,
+    "primary_defense": "Apathetic Withdrawal",
+    "author_pseudonym": "the one by the window",
+    "blank_template_id": 2,
+    "blank_answer": "watching from a distance",
+    "letter_text": "I sit by the window often these days. I look outside, then inside, then outside again, and time just goes by. If someone calls my name, I answer. If no one calls, I just stay there. I'm not sure if this is laziness or rest. How is it for you?"
+  },
+  {
+    "id": 2,
+    "primary_defense": "Isolation of Affect",
+    "author_pseudonym": "the one who didn't go",
+    "blank_template_id": 2,
+    "blank_answer": "keeping a distance",
+    "letter_text": "Last week I heard that an old friend had died. I didn't go to the funeral. It seemed like the right thing to do, but my body wouldn't move. I'm not sad even now. That is what feels stranger. I don't know what's normal anymore."
+  },
+  {
+    "id": 3,
+    "primary_defense": "Apathetic Withdrawal",
+    "author_pseudonym": "the one in the corner",
+    "blank_template_id": 4,
+    "blank_answer": "it is quiet",
+    "letter_text": "When I'm in a crowded place, I find a corner. I'm not doing it on purpose, but somehow I end up standing there. If someone speaks to me, I answer briefly. I could say more, but I cut it short. Sometimes I envy the ones who keep talking."
+  },
+  {
+    "id": 4,
+    "primary_defense": "Repression",
+    "author_pseudonym": "the one who forgets",
+    "blank_template_id": 9,
+    "blank_answer": "those days",
+    "letter_text": "Some days just pass through me. I can't really remember what happened. I look at photos and I must have been there, but the feeling of that day doesn't come back. If someone brings it up, I just say 'oh, right, that.' It's all gone."
+  },
+  {
+    "id": 5,
+    "primary_defense": "Denial",
+    "author_pseudonym": "the tired one",
+    "blank_template_id": 2,
+    "blank_answer": "fine",
+    "letter_text": "I'm fine. Really, I'm fine. People keep saying I don't look fine, and that's starting to bother me. I know my own state best. I'm just tired. A few nights of sleep and it'll pass."
+  },
+  {
+    "id": 6,
+    "primary_defense": "Dissociation",
+    "author_pseudonym": "the absent one",
+    "blank_template_id": 1,
+    "blank_answer": "drift somewhere else",
+    "letter_text": "In some moments, I feel like I'm not there. My body is, but my mind is somewhere else. I was in a meeting once, and when it ended I couldn't remember what was said. Everyone told me I was listening well. I don't know if that's frightening or comforting."
+  },
+  {
+    "id": 7,
+    "primary_defense": "Suppression",
+    "author_pseudonym": "the one who postpones",
+    "blank_template_id": 7,
+    "blank_answer": "the feelings, for later",
+    "letter_text": "I have to finish the work first. I'll deal with the feelings later, I tell myself, but 'later' doesn't come. Late at night, when I'm alone, something rises for a moment, and then I sleep. By morning there's another task. Maybe this is what becoming an adult means."
+  },
+  {
+    "id": 8,
+    "primary_defense": "Intellectualization",
+    "author_pseudonym": "the one who sorts things",
+    "blank_template_id": 1,
+    "blank_answer": "analyze why",
+    "letter_text": "We broke up. I thought about why for several days. Our patterns, attachment styles, our childhoods — I have it all sorted out. When it's sorted out, I get calmer. A friend asked, 'so are you sad?' I said, 'I'm not sure about that part yet.'"
+  },
+  {
+    "id": 9,
+    "primary_defense": "Apathetic Withdrawal",
+    "author_pseudonym": "the one passing through",
+    "blank_template_id": 1,
+    "blank_answer": "let things pass",
+    "letter_text": "Lately, the way other people get excited feels far away to me. I can't quite follow what they're so happy or angry about. I'm with them, but it doesn't feel like I'm with them. I'm not sure if I changed or they did."
+  },
+  {
+    "id": 10,
+    "primary_defense": "Isolation of Affect",
+    "author_pseudonym": "the calm one",
+    "blank_template_id": 1,
+    "blank_answer": "look only at the facts",
+    "letter_text": "The test results came back. They aren't good. The doctor explained things calmly, and I listened calmly. I took notes. I came home and explained the same way to my family. They cried. I didn't. A few days later, in the bathroom, I cried for a moment. Once."
+  },
+  {
+    "id": 12,
+    "primary_defense": "Repression",
+    "author_pseudonym": "the one with the radio on",
+    "blank_template_id": 6,
+    "blank_answer": "the radio",
+    "letter_text": "I leave the radio on while I cook, while I drive, before I sleep. Silence is when something almost-shaped tries to come up. I don't know what it is. I don't want to find out tonight either. Maybe one day I'll let the room be quiet."
+  },
+  {
+    "id": 14,
+    "primary_defense": "Denial",
+    "author_pseudonym": "the one with the lights on",
+    "blank_template_id": 6,
+    "blank_answer": "every light in the house",
+    "letter_text": "I leave every light in the house on. I sleep better that way. People keep asking if something happened and I say no, I just like the brightness. They don't believe me. I'm not sure what to do with that disbelief, so I turn another lamp on."
+  },
+  {
+    "id": 16,
+    "primary_defense": "Dissociation",
+    "author_pseudonym": "the one who drove home",
+    "blank_template_id": 1,
+    "blank_answer": "lose the drive home",
+    "letter_text": "I drove home from work yesterday and I don't remember any of it. The car is in the driveway. The keys are on the counter. That hour of the afternoon is just missing. It happens more often than I'd like to admit. I haven't told anyone."
+  },
+  {
+    "id": 22,
+    "primary_defense": "Acting Out",
+    "author_pseudonym": "the one with the short fuse",
+    "blank_template_id": 1,
+    "blank_answer": "say things before I know I mean them",
+    "letter_text": "I open my mouth and the words are already out. By the time I hear them, it's too late. The other person flinches, and I flinch too, on the inside. I tell myself I'll wait next time. Sometimes I do. Most times the fuse is lit before I notice it."
+  },
+  {
+    "id": 24,
+    "primary_defense": "Acting Out",
+    "author_pseudonym": "the one who acted first",
+    "blank_template_id": 5,
+    "blank_answer": "heat that carries from the morning into the afternoon",
+    "letter_text": "I had a hard call before lunch and was sharp with the cashier by two. I knew while I was doing it. I couldn't stop in time. I went back to the same store the next day and bought something small from her. She was kind about it. I don't think she remembered."
+  },
+  {
+    "id": 27,
+    "primary_defense": "Affiliation",
+    "author_pseudonym": "the one who shares early",
+    "blank_template_id": 2,
+    "blank_answer": "would rather not carry it alone",
+    "letter_text": "When I find out something hard, I want to tell someone within the hour. I used to think this was weakness. Now I think it's how I metabolize. The thing gets smaller as soon as it's in another person's ear. Maybe that's not maturity, but it keeps me upright."
+  },
+  {
+    "id": 28,
+    "primary_defense": "Altruism",
+    "author_pseudonym": "the one who shows up",
+    "blank_template_id": 2,
+    "blank_answer": "shows up when someone is sick",
+    "letter_text": "I drove four hours last weekend to sit with a friend after her surgery. I made soup, walked her dog, didn't talk much. I came home tired and clearer than I'd been in months. I'm not sure if that's generosity or something else, but it's the realest I've felt all year."
+  },
+  {
+    "id": 32,
+    "primary_defense": "Anticipation",
+    "author_pseudonym": "the one with the bag packed",
+    "blank_template_id": 5,
+    "blank_answer": "a small bag, in case the news is bad",
+    "letter_text": "I keep a small bag packed by the door this winter — a change of clothes, a phone charger, the names of the medications. My mother is older than she's ever been. The bag isn't fear exactly. It's more like making the future a little softer for the version of me who'll need it."
+  },
+  {
+    "id": 34,
+    "primary_defense": "Autistic Fantasy",
+    "author_pseudonym": "the one in the small house",
+    "blank_template_id": 1,
+    "blank_answer": "imagine the small house in my head",
+    "letter_text": "I keep returning to a small house with a field beyond the window. No neighbors. A kettle. A chair. No one knows the address. I don't think I want to live there. I want to know it exists. On hard days I sit in it for an hour and the day softens."
+  },
+  {
+    "id": 36,
+    "primary_defense": "Autistic Fantasy",
+    "author_pseudonym": "the inward one",
+    "blank_template_id": 4,
+    "blank_answer": "the world I made up is kinder",
+    "letter_text": "When the day gets too loud I drift into a version of it I made up, where the people are kinder and the rooms are quieter. I don't tell anyone I'm doing this. I come back when called. I'm starting to wonder how much time I've spent in there."
+  },
+  {
+    "id": 38,
+    "primary_defense": "Devaluation",
+    "author_pseudonym": "the second-date leaver",
+    "blank_template_id": 7,
+    "blank_answer": "another second date",
+    "letter_text": "I left another second date behind last week. By dessert I'd already started cataloging the small ways he wasn't quite right. He was kind. He called the next day. I didn't answer. I'm starting to wonder if I'm protecting myself from something or just from people."
+  },
+  {
+    "id": 41,
+    "primary_defense": "Displacement",
+    "author_pseudonym": "the one with the kettle",
+    "blank_template_id": 5,
+    "blank_answer": "an anger I can't quite address",
+    "letter_text": "I carry an anger I can't properly direct. The person who hurt me is two states away and won't answer. So the kettle gets it. The cabinet gets it. The dog watches from the rug. Most days now I can put it down before I open the door. Most."
+  },
+  {
+    "id": 44,
+    "primary_defense": "Help-Rejecting Complaining",
+    "author_pseudonym": "the one who returns",
+    "blank_template_id": 8,
+    "blank_answer": "the same complaint, a little altered",
+    "letter_text": "I keep going back to the same story with my friend. She's tried every angle. I've found a flaw in every angle. She's stopped suggesting things. I miss the suggestions. I think I'd like to let one of them work this week, even imperfectly, and see what happens."
+  },
+  {
+    "id": 48,
+    "primary_defense": "Humor",
+    "author_pseudonym": "the one who laughs in waiting rooms",
+    "blank_template_id": 1,
+    "blank_answer": "laugh in waiting rooms",
+    "letter_text": "I laughed quietly in the waiting room before my mother's surgery. Not because anything was funny, exactly — because the alternative was a kind of stiffness I couldn't survive in for two more hours. The nurse smiled. So did my mother, when I told her later. We needed it."
+  },
+  {
+    "id": 50,
+    "primary_defense": "Idealization",
+    "author_pseudonym": "the one with the imagined mother",
+    "blank_template_id": 8,
+    "blank_answer": "the version of her who would have understood",
+    "letter_text": "I keep going back to the mother I made up — the one who would have understood, who would have asked the right question, who would have stayed in the room. The real one is more complicated. The imagined one is more comforting. I'm slowly learning to let both exist in the same week."
+  },
+  {
+    "id": 53,
+    "primary_defense": "Omnipotence",
+    "author_pseudonym": "the one with the long list",
+    "blank_template_id": 5,
+    "blank_answer": "a long list of what I owe people",
+    "letter_text": "I carry a list of what I owe people, or what I think I owe them. Calls to return, favors to repay, meals to make. The list never ends. I'm not sure I asked for half of these debts. I'm trying, this month, to take one off without paying it, just to see if the world holds."
+  },
+  {
+    "id": 56,
+    "primary_defense": "Passive Aggression",
+    "author_pseudonym": "the one with the unsent draft",
+    "blank_template_id": 7,
+    "blank_answer": "a sentence in a draft email from last spring",
+    "letter_text": "I left a sentence unsent in a draft from last spring — the thing I couldn't say to my manager. Instead I forwarded the work slightly late, with a polite note. He noticed. He didn't say anything. I noticed he noticed. That whole quiet exchange did more damage than the sentence would have."
+  },
+  {
+    "id": 58,
+    "primary_defense": "Projection",
+    "author_pseudonym": "the one who feels watched",
+    "blank_template_id": 8,
+    "blank_answer": "the feeling that I'm being judged",
+    "letter_text": "I keep going back to the feeling that I'm being judged. I walk into rooms with that weight already there. Last week a friend told me she'd been thinking, the whole dinner, that I seemed warm. I almost didn't believe her. I'm starting to suspect the judging voice is mostly mine."
+  },
+  {
+    "id": 60,
+    "primary_defense": "Projection",
+    "author_pseudonym": "the disliked one",
+    "blank_template_id": 2,
+    "blank_answer": "is sure people are not on her side",
+    "letter_text": "I'm sure my new neighbor doesn't like me. I have evidence — the way she nodded, the small pause, the closed window. None of it is evidence, really. I'm slowly learning that what I'm reading on her face is sometimes a sentence I wrote and forgot to sign."
+  },
+  {
+    "id": 61,
+    "primary_defense": "Projective Identification",
+    "author_pseudonym": "the calm one others get edgy around",
+    "blank_template_id": 2,
+    "blank_answer": "stays calm while the room gets edgy",
+    "letter_text": "I'm calm, sometimes too calm, and the people with me start fidgeting and raising their voices. Afterwards I tell myself I had nothing to do with it. I'm not sure that's true anymore. Some of what I'm not feeling seems to land in whoever's nearest. I'd like to start carrying my share."
+  },
+  {
+    "id": 66,
+    "primary_defense": "Rationalization",
+    "author_pseudonym": "the smoother of stories",
+    "blank_template_id": 8,
+    "blank_answer": "the smoother version of the story",
+    "letter_text": "I keep going back to the smoother explanation I gave myself because it lets me sleep. The rougher version surfaces sometimes — usually around 3 a.m. — and I usually push it back under. Lately I've been letting it sit on the edge of the bed for a minute before I do."
+  },
+  {
+    "id": 68,
+    "primary_defense": "Reaction Formation",
+    "author_pseudonym": "the loudly happy one",
+    "blank_template_id": 1,
+    "blank_answer": "tell everyone how happy I am for them",
+    "letter_text": "When my friend's career took off last year, I told everyone how thrilled I was. The volume of my happiness was louder than the feeling could carry. I think I knew. Now, quieter, I can also be a little jealous and still glad for her. The two fit in the same week, it turns out."
+  },
+  {
+    "id": 71,
+    "primary_defense": "Self-Assertion",
+    "author_pseudonym": "the harder-to-talk-over one",
+    "blank_template_id": 2,
+    "blank_answer": "is harder to talk over now",
+    "letter_text": "I used to lose the end of my sentences in meetings. Now, more often than not, I finish them. It isn't comfortable. People are surprised. So am I. The difference it makes — in what gets decided, in how I feel walking home — is bigger than I expected."
+  },
+  {
+    "id": 75,
+    "primary_defense": "Self-Observation",
+    "author_pseudonym": "the mirror reader",
+    "blank_template_id": 10,
+    "blank_answer": "the small things I do under pressure",
+    "letter_text": "Under pressure my voice goes higher, I avoid certain calls, I reach for sugar at midnight. I used to be embarrassed by these patterns. Now I read them like a mirror, plainly. Knowing them makes them smaller. Knowing them earlier makes them smaller still."
+  },
+  {
+    "id": 78,
+    "primary_defense": "Splitting",
+    "author_pseudonym": "the rewriter",
+    "blank_template_id": 1,
+    "blank_answer": "rewrite people overnight",
+    "letter_text": "After one hard night, my steady partner becomes someone I never really knew. By morning he is back to being the man who makes my coffee. I don't tell him about the rewriting; I'm not proud of it. The ones who can wait through that storm get to stay. He's been patient. I'm grateful, quietly."
+  },
+  {
+    "id": 81,
+    "primary_defense": "Sublimation",
+    "author_pseudonym": "the gardener",
+    "blank_template_id": 8,
+    "blank_answer": "the garden after a hard week",
+    "letter_text": "I keep going back to the garden after a hard week. Whatever didn't get said in the meeting goes into the soil. By the end of an afternoon I'm tired in my body and quiet in my head, and the tomatoes don't know any of it. I keep thinking that's a good arrangement."
+  },
+  {
+    "id": 83,
+    "primary_defense": "Undoing",
+    "author_pseudonym": "the one who checks twice",
+    "blank_template_id": 1,
+    "blank_answer": "check every light I turned off, twice",
+    "letter_text": "I went back to the kitchen three times tonight to make sure the stove was off. Each time it was. The checking isn't really about the stove. It's a small ritual that keeps something else at bay — I'm not sure what yet. I'm trying to ask the question instead of doing the loop."
+  }
+]

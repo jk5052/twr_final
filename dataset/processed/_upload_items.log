@@ -1,0 +1,23 @@
+/Users/jayce/conda/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.3.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.1) doesn't match a supported version!
+  warnings.warn(
+Model   : text-embedding-3-large (3072d)
+Supabase: https://xxdyxtgrnjesbrtalybh.supabase.co
+labeled items: 90
+already uploaded: 0
+to upload       : 90
+
+[  1/90] DSQ-60      # 1 → Altruism                   0.5/s
+[ 11/90] DSQ-60      #12 → Omnipotence                0.9/s
+[ 21/90] DSQ-60      #22 → Apathetic Withdrawal       0.8/s
+[ 31/90] DSQ-60      #32 → Repression                 0.9/s
+[ 41/90] DSQ-60      #45 → Self-Observation           1.0/s
+[ 51/90] DSQ-60      #55 → Intellectualization        1.1/s
+[ 61/90] DMRS-SR-30  # 5 → Autistic Fantasy           1.1/s
+[ 71/90] DMRS-SR-30  #15 → Rationalization            1.1/s
+[ 81/90] DMRS-SR-30  #25 → Acting Out                 1.2/s
+[ 90/90] DSQ-60      #44 → Splitting                  1.2/s
+
+=== DONE ===
+success: 90
+failed : 0
+time   : 74.9s

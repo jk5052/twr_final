@@ -1,0 +1,67 @@
+Loaded 1600 pages from 7 sources
+
+[1/28] Acting Out — 10 passages
+[2/28] Affiliation — 9 passages
+[3/28] Altruism — 10 passages
+[4/28] Anticipation — 10 passages
+[5/28] Apathetic Withdrawal — 0 passages
+[6/28] Autistic Fantasy — 9 passages
+[7/28] Denial — 10 passages
+[8/28] Devaluation — 10 passages
+[9/28] Displacement — 10 passages
+  FAIL: Expecting ',' delimiter: line 14 column 21 (char 962)
+[10/28] Dissociation — 10 passages
+[11/28] Help-Rejecting Complaining — 1 passages
+[12/28] Humor — 10 passages
+[13/28] Idealization — 10 passages
+[14/28] Intellectualization — 10 passages
+[15/28] Isolation of Affect — 10 passages
+[16/28] Omnipotence — 10 passages
+[17/28] Passive Aggression — 10 passages
+[18/28] Projection — 10 passages
+[19/28] Projective Identification — 10 passages
+[20/28] Rationalization — 10 passages
+[21/28] Reaction Formation — 10 passages
+[22/28] Repression — 10 passages
+[23/28] Self-Assertion — 8 passages
+[24/28] Self-Observation — 3 passages
+[25/28] Splitting — 10 passages
+[26/28] Sublimation — 10 passages
+[27/28] Suppression — 10 passages
+[28/28] Undoing — 10 passages
+
+Done. /Users/jayce/SP2026/Colloquium/Prototyping/twr/dataset/processed/defense_codebook.json
+Loaded 1600 pages from 7 sources
+
+Existing codebook: 28 entries
+
+[1/28] Acting Out — skip (cached)
+[2/28] Affiliation — skip (cached)
+[3/28] Altruism — skip (cached)
+[4/28] Anticipation — skip (cached)
+[5/28] Apathetic Withdrawal — 10 passages
+[6/28] Autistic Fantasy — skip (cached)
+[7/28] Denial — skip (cached)
+[8/28] Devaluation — skip (cached)
+[9/28] Displacement — 10 passages
+[10/28] Dissociation — skip (cached)
+[11/28] Help-Rejecting Complaining — skip (cached)
+[12/28] Humor — skip (cached)
+[13/28] Idealization — skip (cached)
+[14/28] Intellectualization — skip (cached)
+[15/28] Isolation of Affect — skip (cached)
+[16/28] Omnipotence — skip (cached)
+[17/28] Passive Aggression — skip (cached)
+[18/28] Projection — skip (cached)
+[19/28] Projective Identification — skip (cached)
+[20/28] Rationalization — skip (cached)
+[21/28] Reaction Formation — skip (cached)
+[22/28] Repression — skip (cached)
+[23/28] Self-Assertion — skip (cached)
+[24/28] Self-Observation — skip (cached)
+[25/28] Splitting — skip (cached)
+[26/28] Sublimation — skip (cached)
+[27/28] Suppression — skip (cached)
+[28/28] Undoing — skip (cached)
+
+Done. /Users/jayce/SP2026/Colloquium/Prototyping/twr/dataset/processed/defense_codebook.json

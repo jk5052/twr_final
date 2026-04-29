@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Room intro — 1인칭 눈 깜박임 (5s 시퀀스) */
+@keyframes blinkIntroTop {
+  0%   { transform: translateY(0); }
+  10%  { transform: translateY(0); }
+  35%  { transform: translateY(-100%); }
+  45%  { transform: translateY(-100%); }
+  50%  { transform: translateY(0); }
+  55%  { transform: translateY(-100%); }
+  100% { transform: translateY(-100%); }
+}
+
+@keyframes blinkIntroBottom {
+  0%   { transform: translateY(0); }
+  10%  { transform: translateY(0); }
+  35%  { transform: translateY(100%); }
+  45%  { transform: translateY(100%); }
+  50%  { transform: translateY(0); }
+  55%  { transform: translateY(100%); }
+  100% { transform: translateY(100%); }
+}
+
+@keyframes blinkIntroText {
+  0%, 30%  { opacity: 0; transform: translateY(8px); }
+  40%, 85% { opacity: 1; transform: translateY(0); }
+  100%     { opacity: 0; transform: translateY(-4px); }
+}

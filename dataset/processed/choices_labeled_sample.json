@@ -1,0 +1,287 @@
+[
+  {
+    "source": "ITEMS",
+    "room": 1,
+    "item_id": "room01_tv",
+    "event_index": 0,
+    "choice_index": 0,
+    "prompt": "The TV is on.",
+    "label": "A documentary I don't recognize. Someone is being interviewed. I can't read the subtitles.",
+    "tag": "CG",
+    "end_chain": false,
+    "card_id": null,
+    "applicable": true,
+    "primary_defense": "Isolation of Affect",
+    "secondary_defense": "Intellectualization",
+    "defense_weights": [
+      {
+        "defense": "Isolation of Affect",
+        "weight": 0.65
+      },
+      {
+        "defense": "Intellectualization",
+        "weight": 0.35
+      }
+    ],
+    "confidence": 0.78,
+    "reasoning": "The response demonstrates affective disconnection through observational reporting ('Someone is being interviewed') without emotional engagement or personal meaning-making. The inability to 'read the subtitles' suggests blocked comprehension or integration while maintaining detached perception—classic isolation where the person watches but remains sequestered from emotional significance.",
+    "metaphors": [
+      "spatial-distance",
+      "theatrical-mask"
+    ],
+    "operations": [
+      "avoid",
+      "conceal"
+    ],
+    "motifs": [
+      "screen",
+      "stranger",
+      "voice"
+    ],
+    "metaphors_novel": [],
+    "operations_novel": [],
+    "motifs_novel": [],
+    "valence": 0.3,
+    "arousal": 0.2,
+    "dominance": 0.35,
+    "vaillant_level": "neurotic",
+    "empath": {
+      "journalism": 0.05555555555555555,
+      "reading": 0.05555555555555555,
+      "communication": 0.05555555555555555,
+      "writing": 0.05555555555555555
+    },
+    "empath_top": [
+      "journalism",
+      "reading",
+      "communication",
+      "writing"
+    ]
+  },
+  {
+    "source": "ITEMS",
+    "room": 1,
+    "item_id": "room01_tv",
+    "event_index": 0,
+    "choice_index": 1,
+    "prompt": "The TV is on.",
+    "label": "A commercial. The same one keeps looping.",
+    "tag": "AV",
+    "end_chain": false,
+    "card_id": null,
+    "applicable": true,
+    "primary_defense": "Isolation of Affect",
+    "secondary_defense": "Apathetic Withdrawal",
+    "defense_weights": [
+      {
+        "defense": "Isolation of Affect",
+        "weight": 0.6
+      },
+      {
+        "defense": "Apathetic Withdrawal",
+        "weight": 0.4
+      }
+    ],
+    "confidence": 0.75,
+    "reasoning": "The response observes external stimuli (looping commercial) with mechanical, affectless reporting that suggests disconnection from emotional impact. The choice to note repetition without any subjective reaction or engagement enacts isolation—seeing the 'what' while severing the 'how it feels'—combined with withdrawal into passive observation rather than active engagement (turning off TV, changing channel, moving away).",
+    "metaphors": [
+      "repetition-loop"
+    ],
+    "operations": [
+      "avoid",
+      "freeze"
+    ],
+    "motifs": [
+      "screen"
+    ],
+    "metaphors_novel": [
+      "screen"
+    ],
+    "operations_novel": [],
+    "motifs_novel": [
+      "repetition-loop"
+    ],
+    "valence": 0.25,
+    "arousal": 0.15,
+    "dominance": 0.2,
+    "vaillant_level": "neurotic",
+    "empath": {},
+    "empath_top": []
+  },
+  {
+    "source": "ITEMS",
+    "room": 1,
+    "item_id": "room01_tv",
+    "event_index": 0,
+    "choice_index": 2,
+    "prompt": "The TV is on.",
+    "label": "A cartoon I used to love as a kid.",
+    "tag": "AD",
+    "end_chain": false,
+    "card_id": null,
+    "applicable": true,
+    "primary_defense": "Repression",
+    "secondary_defense": "Affiliation",
+    "defense_weights": [
+      {
+        "defense": "Repression",
+        "weight": 0.7
+      },
+      {
+        "defense": "Affiliation",
+        "weight": 0.3
+      }
+    ],
+    "confidence": 0.75,
+    "reasoning": "The choice to see 'a cartoon I used to love as a kid' enacts repression by accessing affect-laden childhood material ('love') while keeping the specific ideational content vague and safe—the speaker can 'hear the music but forgets the words.' The secondary affiliation weight captures the implicit turn toward connection through shared cultural objects and nostalgic comfort.",
+    "metaphors": [
+      "mirror-fragmentation",
+      "temporal-rupture"
+    ],
+    "operations": [
+      "avoid",
+      "repeat"
+    ],
+    "motifs": [
+      "child",
+      "screen"
+    ],
+    "metaphors_novel": [],
+    "operations_novel": [],
+    "motifs_novel": [],
+    "valence": 0.65,
+    "arousal": 0.35,
+    "dominance": 0.4,
+    "vaillant_level": "neurotic",
+    "empath": {
+      "optimism": 0.07692307692307693,
+      "superhero": 0.07692307692307693,
+      "love": 0.07692307692307693,
+      "affection": 0.07692307692307693,
+      "friends": 0.07692307692307693,
+      "positive_emotion": 0.07692307692307693
+    },
+    "empath_top": [
+      "optimism",
+      "superhero",
+      "love",
+      "affection",
+      "friends",
+      "positive_emotion"
+    ]
+  },
+  {
+    "source": "ITEMS",
+    "room": 1,
+    "item_id": "room01_tv",
+    "event_index": 0,
+    "choice_index": 3,
+    "prompt": "The TV is on.",
+    "label": "The screen is full of static. If I get closer, a shape might come through.",
+    "tag": "EX",
+    "end_chain": false,
+    "card_id": null,
+    "applicable": true,
+    "primary_defense": "Anticipation",
+    "secondary_defense": "Self-Observation",
+    "defense_weights": [
+      {
+        "defense": "Anticipation",
+        "weight": 0.65
+      },
+      {
+        "defense": "Self-Observation",
+        "weight": 0.35
+      }
+    ],
+    "confidence": 0.78,
+    "reasoning": "The response enacts anticipatory planning ('if I get closer') with explicit acknowledgment of current uncertainty ('might come through'), spreading anxiety about the unknown across incremental action. The observational stance ('a shape might come through') reflects metacognitive awareness of perceptual process without defensiveness.",
+    "metaphors": [
+      "spatial-distance",
+      "threshold-liminality"
+    ],
+    "operations": [
+      "approach"
+    ],
+    "motifs": [
+      "screen",
+      "threshold"
+    ],
+    "metaphors_novel": [],
+    "operations_novel": [],
+    "motifs_novel": [],
+    "valence": 0.45,
+    "arousal": 0.55,
+    "dominance": 0.6,
+    "vaillant_level": "mature",
+    "empath": {
+      "computer": 0.05263157894736842,
+      "internet": 0.05263157894736842,
+      "programming": 0.05263157894736842,
+      "phone": 0.05263157894736842,
+      "strength": 0.05263157894736842,
+      "technology": 0.05263157894736842,
+      "shape_and_size": 0.05263157894736842,
+      "party": 0.05263157894736842
+    },
+    "empath_top": [
+      "computer",
+      "internet",
+      "programming",
+      "phone",
+      "strength",
+      "technology",
+      "shape_and_size",
+      "party"
+    ]
+  },
+  {
+    "source": "ITEMS",
+    "room": 1,
+    "item_id": "calendar",
+    "event_index": 0,
+    "choice_index": 0,
+    "prompt": "A calendar hangs on the wall.",
+    "label": "Still last year's calendar. No one ever flipped it.",
+    "tag": "AV",
+    "end_chain": false,
+    "card_id": null,
+    "applicable": true,
+    "primary_defense": "Isolation of Affect",
+    "secondary_defense": "Apathetic Withdrawal",
+    "defense_weights": [
+      {
+        "defense": "Isolation of Affect",
+        "weight": 0.65
+      },
+      {
+        "defense": "Apathetic Withdrawal",
+        "weight": 0.35
+      }
+    ],
+    "confidence": 0.78,
+    "reasoning": "The factual observation 'Still last year's calendar' delivered without emotional resonance exemplifies isolation—temporal stuckness acknowledged intellectually but stripped of affect. The addition 'No one ever flipped it' gestures toward apathetic withdrawal, noting collective abandonment of time-marking without distress or agency.",
+    "metaphors": [
+      "absence-void",
+      "temporal-rupture"
+    ],
+    "operations": [
+      "avoid",
+      "freeze"
+    ],
+    "motifs": [
+      "absent-figure"
+    ],
+    "metaphors_novel": [],
+    "operations_novel": [],
+    "motifs_novel": [
+      "calendar"
+    ],
+    "valence": 0.25,
+    "arousal": 0.15,
+    "dominance": 0.2,
+    "vaillant_level": "neurotic",
+    "empath": {},
+    "empath_top": []
+  }
+]

@@ -1,0 +1,62 @@
+codebook: 28 defenses
+sample: 50 poems (seed=42)
+
+[ 1/50] ✓ Altruism                  i=3 Pluto (cache_read=0)
+[ 2/50] ✓ Humor                     i=4 Destiny (cache_read=18416)
+[ 3/50] ✓ Dissociation              i=4 One Kind of Hunger (cache_read=18416)
+[4] FAIL: Sequels to an Uncollected Winter: unsupported format string passed to NoneType.__format__
+[5] FAIL: Fish & Chips: unsupported format string passed to NoneType.__format__
+[ 6/50] ✓ Rationalization           i=3 Weatherman (cache_read=18416)
+[ 7/50] ✓ Rationalization           i=3 A Real-Life Drama (cache_read=18416)
+[ 8/50] ✓ Self-Assertion            i=4 Why Is We Americans (cache_read=18416)
+[ 9/50] ✓ Sublimation               i=4 Hymn (cache_read=18416)
+[10/50] ✓ Dissociation              i=4 The House of Life: 71. The Choice, I (cache_read=18416)
+[11/50] ✓ Intellectualization       i=2 Lying in a Hammock at William Duffy’s Fa (cache_read=18416)
+[12] FAIL: The Robin Makes a Laughing Sound: unsupported format string passed to NoneType.__format__
+[13/50] ✓ Dissociation              i=4 The Cliff-Top Monastery (cache_read=18416)
+[14/50] ✓ Intellectualization       i=4 Waking (cache_read=18416)
+[15/50] ✓ Intellectualization       i=4 Lucifer Alone (cache_read=18416)
+[16/50] ✓ Anticipation              i=4 Night Images (cache_read=18416)
+[17/50] ✓ Displacement              i=3 Addiction (cache_read=18416)
+[18/50] ✓ Undoing                   i=4 “A kiss on the forehead” (cache_read=18416)
+[19/50] ✓ Isolation of Affect       i=4 The Solitary Land (cache_read=18416)
+[20] FAIL: Double: unsupported format string passed to NoneType.__format__
+[21/50] ✓ Dissociation              i=4 from Junk (cache_read=18416)
+[22/50] ✓ Isolation of Affect       i=4 Neutral Tones (cache_read=18416)
+[23/50] ✓ Intellectualization       i=3 In the Winter of My Thirty-Eighth Year (cache_read=18416)
+[24/50] ✓ Anticipation              i=3 Goodnight (cache_read=18416)
+[25] FAIL: The Intruder: unsupported format string passed to NoneType.__format__
+[26/50] ✓ Undoing                   i=4 New Kind of Light (cache_read=18416)
+[27/50] ✓ Intellectualization       i=4 Thought Experiment: Mary in the Black-an (cache_read=18416)
+[28/50] ✓ Humor                     i=4 Do You Remember the Rude Nudists (cache_read=18416)
+[29] FAIL: Meeting the Mountains: unsupported format string passed to NoneType.__format__
+[30/50] ✓ Altruism                  i=4 a little hopeful song (cache_read=18416)
+[31] FAIL: What I Saw: unsupported format string passed to NoneType.__format__
+[32/50] ✓ Suppression               i=4 "I shall go back again to the bleak shor (cache_read=18416)
+[33/50] ✓ Sublimation               i=4 Danse Russe (cache_read=18416)
+[34/50] ✓ Anticipation              i=4 Marco Polo at Finisterre (cache_read=18416)
+[35/50] ✓ Intellectualization       i=4 Eyes (cache_read=18416)
+[36] FAIL: Home and the Homeless: unsupported format string passed to NoneType.__format__
+[37/50] ✓ Intellectualization       i=4 The Vain Advice (cache_read=18416)
+[38/50] ✓ Sublimation               i=4 Decorating a Cake While Listening to Ten (cache_read=18416)
+[39] FAIL: A Song for Soweto: unsupported format string passed to NoneType.__format__
+[40/50] ✓ Anticipation              i=3 Walking West (cache_read=18416)
+[41/50] ✓ Dissociation              i=5 Typhoni (cache_read=18416)
+[42] FAIL: Small Kingdom: unsupported format string passed to NoneType.__format__
+[43/50] ✓ Idealization              i=4 Larry Levan (snake) (cache_read=18416)
+[44/50] ✓ Dissociation              i=4 The Secret Garden (cache_read=18416)
+[45/50] ✓ Anticipation              i=3 Encounter (cache_read=18416)
+[46/50] ✓ Help-Rejecting Complaining i=4 Song (cache_read=18416)
+[47] FAIL: Girls Online: unsupported format string passed to NoneType.__format__
+[48] FAIL: Seeding an Alphabet: unsupported format string passed to NoneType.__format__
+[49/50] ✓ Intellectualization       i=3 Money Is Also a Kind of Music (cache_read=18416)
+[50/50] ✓ Anticipation              i=3 Spider Crystal Ascension (cache_read=18416)
+
+=== usage ===
+input (uncached): 16,882
+cache write     : 18,416
+cache read      : 902,384
+output          : 6,774
+rough cost: $0.492
+
+Saved: /Users/jayce/SP2026/Colloquium/Prototyping/twr/dataset/processed/poems_tagged_sample.json

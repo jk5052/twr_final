@@ -1,0 +1,80 @@
+/Users/jayce/conda/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.3.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.1) doesn't match a supported version!
+  warnings.warn(
+items_rag rows: 90
+
+✓ [avoidant withdrawal in conflict]  query: "I'd rather not look. There's nothing to see anyway. I'll jus..."
+   top defense (vote): Apathetic Withdrawal   expected ∈ {'Suppression', 'Apathetic Withdrawal', 'Dissociation', 'Denial'}
+   ranked top-5:
+     0.664  Apathetic Withdrawal
+     0.651  Suppression
+     0.309  Dissociation
+     0.165  Passive Aggression
+   matched items:
+     sim=0.335  DSQ-60 #33  → Apathetic Withdrawal
+                "I withdraw when I'm sad"
+     sim=0.331  DSQ-60 #41  → Suppression
+                "I can keep the lid on my feelings if letting them out would interfere with what I'm doing"
+     sim=0.329  DSQ-60 #22  → Apathetic Withdrawal
+                "I withdraw when I'm angry"
+     sim=0.319  DSQ-60 #3  → Suppression
+                "I'm able to keep a problem out of my mind until I have time to deal with it"
+     sim=0.309  DSQ-60 #14  → Dissociation
+                "When there's real danger, it's as if I'm not there and I feel no fear"
+
+✓ [hyper-rational distancing]  query: "Statistically speaking, this kind of outcome is well within ..."
+   top defense (vote): Isolation of Affect   expected ∈ {'Intellectualization', 'Isolation of Affect', 'Rationalization'}
+   ranked top-5:
+     0.740  Isolation of Affect
+     0.416  Intellectualization
+     0.284  Rationalization
+     0.227  Anticipation
+   matched items:
+     sim=0.321  DSQ-60 #56  → Isolation of Affect
+                "Often I find that I don't feel anything when the situation would seem to warrant strong em"
+     sim=0.284  DSQ-60 #28  → Rationalization
+                "When people get angry with me, I tend to think they are exaggerating"
+     sim=0.281  DMRS-SR-30 #2  → Isolation of Affect
+                "Did you react as if you were detached from personally relevant issues?"
+     sim=0.276  DMRS-SR-30 #21  → Intellectualization
+                "Did you discuss an emotional topic in general or impersonal way, without considering or ex"
+     sim=0.227  DSQ-60 #53  → Anticipation
+                "If I can predict that I'm going to be sad ahead of time, I can cope better"
+
+✓ [preemptive worry / planning]  query: "I keep imagining how it might go wrong tomorrow so I can hav..."
+   top defense (vote): Anticipation   expected ∈ {'Anticipation', 'Self-Observation'}
+   ranked top-5:
+     1.448  Anticipation
+     0.421  Self-Observation
+     0.396  Autistic Fantasy
+   matched items:
+     sim=0.560  DSQ-60 #47  → Anticipation
+                "When I have to face a difficult situation I try to imagine what it will be like and plan w"
+     sim=0.458  DSQ-60 #53  → Anticipation
+                "If I can predict that I'm going to be sad ahead of time, I can cope better"
+     sim=0.429  DMRS-SR-30 #6  → Anticipation
+                "Did you think about how you would handle difficulties that you might expect in the future?"
+     sim=0.421  DSQ-60 #45  → Self-Observation
+                "When something I do doesn't turn out well, I try to find out what I may have overlooked"
+     sim=0.396  DSQ-60 #27  → Autistic Fantasy
+                "I work more things out in my daydreams than in my real life"
+
+✓ [all-or-nothing reversal]  query: "Yesterday I thought she was the best person I knew. Now I se..."
+   top defense (vote): Splitting   expected ∈ {'Idealization', 'Splitting', 'Devaluation'}
+   ranked top-5:
+     1.056  Splitting
+     0.294  Idealization
+     0.292  Devaluation
+     0.147  Omnipotence
+   matched items:
+     sim=0.411  DSQ-60 #5  → Splitting
+                "I often change my opinion about people; at one time I think highly of them, at another tim"
+     sim=0.334  DSQ-60 #44  → Splitting
+                "There's no such thing as 'finding a little good in everyone,' if you're bad, you're all ba"
+     sim=0.311  DSQ-60 #36  → Splitting
+                "As far as I'm concerned, people are either good or bad"
+     sim=0.294  DSQ-60 #38  → Idealization
+                "There is someone I know who can do anything and who is absolutely fair and just"
+     sim=0.292  DSQ-60 #35  → Devaluation
+                "I'm actually worse than people think I am"
+
+=== SUMMARY ===  expected-hits 4/4

@@ -1,0 +1,72 @@
+/Users/jayce/conda/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.3.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.1) doesn't match a supported version!
+  warnings.warn(
+Model   : text-embedding-3-large (3072d)
+Supabase: https://xxdyxtgrnjesbrtalybh.supabase.co
+tagged poems: 2873
+already uploaded: 0
+to upload       : 2873
+
+[   1/2873] Objects Used to Prop Open a Window       0.5/s  ETA=99.6m
+[  51/2873] [That]                                   1.3/s  ETA=35.4m
+[ 101/2873] from From "Living Truthfully Under Imagi 1.4/s  ETA=32.0m
+[ 151/2873] Between Autumn Equinox and Winter Solsti 1.5/s  ETA=31.0m
+[ 201/2873] Song                                     1.4/s  ETA=30.8m
+[ 251/2873] “An Archive of Confessions, A Genealogy  1.5/s  ETA=29.3m
+[ 301/2873] "When I used to focus on the worries, ev 1.5/s  ETA=28.7m
+[ 351/2873] Katrina                                  1.5/s  ETA=28.0m
+[ 401/2873] Vegan Symphony #9                        1.5/s  ETA=27.6m
+[ 451/2873] Self Portrait                            1.5/s  ETA=27.0m
+[ 501/2873] Coming to Sumer                          1.5/s  ETA=26.4m
+[ 551/2873] The Collection                           1.5/s  ETA=25.7m
+[ 601/2873] Love's Last                              1.5/s  ETA=25.3m
+[ 651/2873] Firefly                                  1.5/s  ETA=25.0m
+[ 701/2873] Old Love                                 1.5/s  ETA=24.4m
+[ 751/2873] September 9                              1.5/s  ETA=23.8m
+[ 801/2873] World Word                               1.5/s  ETA=23.4m
+[ 851/2873] Jerusalem Sonnets (27)                   1.5/s  ETA=22.8m
+[ 901/2873] Queerodactyl                             1.5/s  ETA=22.2m
+[ 951/2873] yasmeen                                  1.5/s  ETA=21.6m
+[1001/2873] Crepuscule with Paula                    1.5/s  ETA=21.1m
+[1051/2873] In an Unrelated                          1.5/s  ETA=20.7m
+[1101/2873] A blind man was riding an unheated train 1.5/s  ETA=20.2m
+[1151/2873] Monsters                                 1.5/s  ETA=19.7m
+[1201/2873] Midnight Office                          1.5/s  ETA=19.2m
+[1251/2873] Nautical Twilight                        1.5/s  ETA=18.6m
+[1301/2873] Ode to the Electric Fish that Eat Only t 1.5/s  ETA=18.0m
+[1351/2873] The Bottle Gatherer                      1.4/s  ETA=17.5m
+[1401/2873] Cuba, 1962                               1.4/s  ETA=17.0m
+[1451/2873] The Animals                              1.4/s  ETA=16.4m
+[1501/2873] Mother, I cannot Mind my Wheel           1.4/s  ETA=15.9m
+[1551/2873] Insect                                   1.4/s  ETA=15.3m
+[1601/2873] On the Gift of a Book to a Child         1.4/s  ETA=14.8m
+[1651/2873] History Lesson                           1.4/s  ETA=14.3m
+[1701/2873] In the Novel                             1.4/s  ETA=13.6m
+[1751/2873] The Mower                                1.4/s  ETA=13.0m
+[1801/2873] The Figurehead                           1.4/s  ETA=12.4m
+[1851/2873] You Who Wronged                          1.4/s  ETA=11.9m
+[1901/2873] Pre-Dialogue, II                         1.4/s  ETA=11.3m
+[1951/2873] To the Same Purpose                      1.4/s  ETA=10.7m
+[2001/2873] Why I Voted the Socialist Ticket         1.4/s  ETA=10.1m
+[2051/2873] At a VA Hospital in the Middle of the Un 1.4/s  ETA=9.6m
+[2101/2873] “I Am Not I”                             1.4/s  ETA=9.0m
+[2151/2873] Linnaeus in Lapland                      1.4/s  ETA=8.4m
+[2201/2873] Poem by the Charles River                1.4/s  ETA=7.8m
+[2251/2873] The Roll Call                            1.4/s  ETA=7.3m
+[2301/2873] The Film                                 1.4/s  ETA=6.7m
+[2351/2873] Postlude                                 1.4/s  ETA=6.1m
+[2401/2873] At the Beach                             1.4/s  ETA=5.5m
+[2451/2873] New York                                 1.4/s  ETA=4.9m
+[2501/2873] “Alone I stare into the frost’s white fa 1.4/s  ETA=4.3m
+[2551/2873] My Autumn Leaves                         1.4/s  ETA=3.7m
+[2601/2873] Inhibited                                1.4/s  ETA=3.2m
+[2651/2873] Song in the Songless                     1.4/s  ETA=2.6m
+[2701/2873] The Look                                 1.4/s  ETA=2.0m
+[2751/2873] In My Dreams                             1.4/s  ETA=1.4m
+[2801/2873] Seizure                                  1.4/s  ETA=0.8m
+[2851/2873] The Lake                                 1.4/s  ETA=0.3m
+[2873/2873] 0                                        1.4/s  ETA=0.0m
+
+=== DONE ===
+success: 2873
+failed : 0
+time   : 33.4m

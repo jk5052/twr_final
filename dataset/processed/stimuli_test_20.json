@@ -1,0 +1,142 @@
+[
+  {
+    "film": "Ordinary People",
+    "defense": "Denial",
+    "stimulus": "가족 중 누군가 무너졌을 때\n그 사람을 돌보는 것보다\n'원래대로'를 먼저 복구하고 싶어지는 순간이 있습니다.\n\n안부를 묻는 것보다\n예전처럼 웃는 게 먼저고,\n대화하는 것보다\n일상을 유지하는 게 먼저입니다.\n\n당신은 그럴 때\n일단 그 사람에게 가까이 가는 편인가요,\n아니면\n평소처럼 행동하는 쪽을 선택하나요?\n\n왜요?",
+    "evidence_from_plot": "Beth denies her loss, hoping to maintain her composure and restore her family to what it once was. She is determined to maintain the appearance of perfection and normality. Beth never visited Conrad in the hospital and has grown cold toward him, focusing on maintaining appearances rather than emotionally connecting with her surviving son.",
+    "confidence": 0.95
+  },
+  {
+    "film": "Force Majeure",
+    "defense": "Projective Identification",
+    "stimulus": "누군가 실수했을 때\n그 사람이 인정 안 하면\n화가 나는 이유가 있습니다.\n\n내가 겪은 일이 없던 일이 되니까요.\n\n그래서 이상한 일이 생겨요.\n상대가 인정할 때까지\n계속 그 이야기를 꺼내게 됩니다.\n다른 사람 앞에서도요.\n\n이럴 때 보통 어떻게 하나요?\n한두 번 말하고 접는 편인가요,\n아니면 증거라도 보여주고 싶은 편인가요?\n\n왜요?",
+    "evidence_from_plot": "Ebba repeatedly recounts the avalanche story to friends (Charlotte, then Mats and Fanny) because Tomas refuses to admit he ran away. She even fetches his phone to show video evidence. This escalates from private argument to public retelling, making others uncomfortable. This is projective identification - she needs external witnesses to validate her reality because Tomas's denial makes her question what happened.",
+    "confidence": 0.92
+  },
+  {
+    "film": "American History X",
+    "defense": "Displacement",
+    "stimulus": "아버지가 사라진 이유를\n누군가는 구조의 문제로 설명하고\n누군가는 특정한 집단 탓으로 정리합니다.\n\n둘 다 설명은 됩니다.\n하나는 복잡하고\n하나는 명확해요.\n\n당신은 상처를 이해할 때\n복잡한 쪽으로 가나요,\n아니면 분명한 대상 쪽으로 가나요?\n\n왜요?",
+    "evidence_from_plot": "Derek's father was killed by a Black drug dealer, and Derek immediately displaces his grief and rage onto an entire racial group rather than processing the loss itself. He channels personal tragedy into a broader racial hatred, joining Cameron's neo-Nazi movement. This is classic displacement - redirecting emotional pain from its true source (loss of father, unprocessed grief) onto a substitute target (racial minorities). The film shows how personal trauma gets displaced onto ideological scapegoating.",
+    "confidence": 0.95
+  },
+  {
+    "film": "As Good as It Gets",
+    "defense": "Help-Rejecting Complaining",
+    "stimulus": "도움을 받으면\n고마우면서도 동시에\n왜 이렇게까지 하는지 의심이 듭니다.\n\n순수한 호의일 리 없다는 생각.\n뭔가 내가 갚아야 할 것 같은 불편함.\n\n도움을 받을 때\n그냥 감사하게 받는 편인가요,\n아니면\n상대의 의도를 먼저 따져보는 편인가요?\n\n왜요?",
+    "evidence_from_plot": "Carol이 Melvin이 아들 Spencer의 의료비를 대주겠다고 했을 때, 감사하면서도 suspicious of his motives하며 '절대 섹스 안 한다'고 선을 그은 장면. 도움을 받으면서도 그 뒤의 의도를 의심하고 거부하는 help-rejecting complaining의 전형.",
+    "confidence": 0.95
+  },
+  {
+    "film": "8½ / Otto e mezzo",
+    "defense": "Self-Observation",
+    "stimulus": "뭔가 만들어야 하는데\n아무것도 안 나올 때가 있습니다.\n\n머릿속은 복잡한데\n정작 꺼낼 말은 없고,\n사람들은 기다리는데\n나는 아직 준비가 안 됐어요.\n\n이럴 때\n그냥 멈춰 있는 편인가요,\n아니면\n일단 뭐라도 시작해보는 편인가요?\n\n왜요?",
+    "evidence_from_plot": "Guido is suffering from 'director's block', stalled on his film, lost interest amidst artistic difficulties, struggling to recover at a spa while the production crew tries unsuccessfully to get him to work. He admits he wanted to make something pure and honest but is struggling with something honest to say.",
+    "confidence": 0.95
+  },
+  {
+    "film": "The Cider House Rules",
+    "defense": "Altruism",
+    "stimulus": "누군가 당신을 필요로 할 때\n당신은 그 사람을 위해 움직입니다.\n\n근데 그게 반복되면\n어느 순간부터는\n내가 원해서 가는 건지\n필요해서 가는 건지 헷갈려요.\n\n당신은 누군가 도울 때\n그게 내 선택인지 확인하는 편인가요,\n아니면\n필요하다는 것 자체가 이유라고 생각하나요?\n\n왜요?",
+    "evidence_from_plot": "Homer learns Dr. Larch has died and decides he is most needed back at the orphanage. 줄거리 전반에서 Homer는 자신의 욕구(외부 세계 탐험)보다 타인의 필요(Rose의 낙태, 고아원으로의 귀환)를 우선시하는 이타주의적 선택을 반복함. Larch 또한 고아들을 돌보고 여성들에게 낙태 시술을 제공하며 자신을 희생하는 이타적 인물.",
+    "confidence": 0.92
+  },
+  {
+    "film": "Black Narcissus",
+    "defense": "Reaction Formation",
+    "stimulus": "어떤 감정은\n느끼면 안 될 것 같아서\n반대로 행동하게 됩니다.\n\n끌리면 더 차갑게 대하고,\n흔들리면 더 단호하게 굴고,\n약해지는 게 두려우면 더 강한 척합니다.\n\n당신은 금지된 감정이 올라올 때\n바로 인정하는 편인가요,\n아니면\n정반대 태도로 덮으려는 편인가요?\n\n왜요?",
+    "evidence_from_plot": "Sister Clodagh는 Mr Dean에게 점점 끌리지만 그의 태만함과 불경함에 짜증을 표현하며, Sister Ruth는 Mr Dean을 향한 집착을 느끼면서도 수녀복을 입고 금욕적 태도를 유지하려 애씁니다. 두 사람 모두 정절 서약과 충돌하는 욕망을 느끼지만, 그 감정을 인정하는 대신 겉으로는 냉담함, 분노, 엄격함으로 반응합니다. 이는 반동형성(Reaction Formation)의 전형적 사례입니다.",
+    "confidence": 0.95
+  },
+  {
+    "film": "Whiplash",
+    "defense": "Sublimation",
+    "stimulus": "마음이 복잡하면\n누군가는 사람을 찾고\n누군가는 반복을 찾습니다.\n\n리듬, 작업, 정리.\n\n당신은 흔들릴 때\n사람 쪽으로 가나요\n작업 쪽으로 가나요?\n\n왜요?",
+    "evidence_from_plot": "Andrew가 Fletcher의 학대와 스트레스 상황에서 여자친구 Nicole과 헤어지고 가족과도 충돌하면서, 대신 드럼 연습에 과도하게 몰두하여 손에서 피가 날 때까지 치는 행동. 감정적 관계를 차단하고 연습이라는 '작업'으로 에너지를 전환하는 sublimation의 전형적 사례.",
+    "confidence": 0.95
+  },
+  {
+    "film": "Enough Said",
+    "defense": "Projective Identification",
+    "stimulus": "누군가와 새로 가까워질 때\n그 사람 얘기를 다른 데서 듣게 되는 경우가 있습니다.\n\n근데 이상하게\n그 정보를 계속 수집하게 돼요.\n직접 물어보는 대신\n다른 사람 입을 빌려서 확인하는 거예요.\n\n그러다 보면\n내가 직접 본 그 사람보다\n남이 말하는 그 사람이 더 진짜처럼 느껴집니다.\n\n당신은 이럴 때\n직접 물어보는 편인가요,\n아니면 간접 정보를 더 모으는 편인가요?\n\n왜요?",
+    "evidence_from_plot": "Eva가 Albert와 관계를 발전시키면서도, Marianne이 전 남편에 대해 불평하도록 부추겨 Albert의 단점을 간접적으로 파악하려 하고, 결국 Marianne의 부정적 시각이 자신의 관계에 영향을 미쳐 디너파티에서 Albert의 결점을 지적하게 되는 부분. 직접 소통 대신 타인을 통한 간접 확인을 선택하고, 그것이 관계를 왜곡시키는 투사적 동일시의 전형적 패턴.",
+    "confidence": 0.95
+  },
+  {
+    "film": "The Spirit of the Beehive",
+    "defense": "Autistic Fantasy",
+    "stimulus": "어떤 아이들은\n무서운 이야기를 듣고 나면\n그게 가짜라는 말로 안심합니다.\n\n근데 어떤 아이들은\n가짜라는 말을 듣고 나서\n오히려 더 자주 찾아가요.\n\n진짜가 아니어도 괜찮다는 게\n안심이 아니라\n허락처럼 느껴지는 거예요.\n\n당신은 어떤 쪽이었나요?\n무서우면 멀어졌나요,\n아니면 자꾸 확인하러 갔나요?\n\n왜요?",
+    "evidence_from_plot": "Ana가 Frankenstein을 보고 깊은 인상을 받은 후, 언니 Isabel이 '괴물은 가짜고 영혼 같은 것'이라고 말해주자, Ana는 오히려 그 이야기에 더 몰입하여 양 우리(괴물의 집)를 반복적으로 혼자 찾아가고, 결국 부상당한 공화군 병사를 괴물처럼 대하며 돌보고, 마지막엔 실제로 괴물의 영혼을 보게 되는 자폐적 환상(autistic fantasy) 속으로 완전히 들어가는 과정",
+    "confidence": 0.92
+  },
+  {
+    "film": "North Country",
+    "defense": "Self-Assertion",
+    "stimulus": "누군가 당신 말을 안 믿을 때가 있습니다.\n\n그냥 안 믿는 게 아니라\n이미 다른 버전을 먼저 들었을 때요.\n\n이럴 때 보통 어떻게 하나요?\n일단 설득을 시도하나요,\n아니면\n믿을 사람만 곁에 두고 나머지는 포기하나요?\n\n왜요?",
+    "evidence_from_plot": "Josey가 성폭행 피해 사실을 말하지만 아들 Sammy를 포함해 많은 사람들이 Bobby가 퍼뜨린 루머(promiscuous하다는)를 먼저 믿고 있는 상황. 법정에서 진실을 밝히지만 여전히 아들은 믿지 않다가 나중에야 화해함. 자신의 진실을 말하는 것과 타인이 이미 형성한 편견 사이의 갈등이 핵심.",
+    "confidence": 0.92
+  },
+  {
+    "film": "Dr. Strangelove",
+    "defense": "Intellectualization",
+    "stimulus": "세상이 끝날 수도 있는 상황에서\n누군가는 울고\n누군가는 계산합니다.\n\n확률, 절차, 시스템.\n\n당신은 감당 안 되는 순간에\n감정으로 먼저 반응하나요,\n아니면 구조를 먼저 파악하는 편인가요?\n\n왜요?",
+    "evidence_from_plot": "Ripper가 핵 공격을 명령한 광기 어린 상황에서, War Room의 인물들(Turgidson, Muffley, Strangelove)은 감정적 공황 대신 Plan R의 메커니즘, CRM 코드 조합 계산, 소련과의 전략적 커뮤니케이션, doomsday machine의 작동 원리 등 기술적·절차적 측면에 집중함. 이는 전형적인 지성화(Intellectualization) 방어기제 - 감당 안 되는 공포를 기술적 분석으로 치환.",
+    "confidence": 0.95
+  },
+  {
+    "film": "Fight Club",
+    "defense": "Splitting",
+    "stimulus": "어떤 사람은\n자기 안에 두 가지 버전이 있습니다.\n\n하나는 규칙 안에서 살아가는 쪽,\n하나는 그걸 다 부수고 싶은 쪽.\n\n보통은 한쪽만 보이는데\n가끔 반대쪽이 너무 강렬해 보일 때가 있어요.\n\n그럴 때\n둘을 섞으려 하나요,\n아니면\n하나를 완전히 죽여야 앞으로 갈 수 있다고 느끼나요?\n\n왜요?",
+    "evidence_from_plot": "화자는 회사 생활에 불만을 가진 불면증 환자로 규칙적 삶을 살다가, Tyler Durden이라는 정반대 인격을 만들어낸다. 영화 말미 화자는 Tyler와 자신이 분열된 인격임을 깨닫고, Tyler를 '죽이기' 위해 자신을 쏜다. 이는 Splitting 방어기제의 핵심—대상을 완전히 좋거나 완전히 나쁜 것으로 나누고, 통합하지 못하는—을 보여준다.",
+    "confidence": 0.95
+  },
+  {
+    "film": "Cure (Kyua)",
+    "defense": "Projection",
+    "stimulus": "누군가 계속 이상한 질문을 합니다.\n내 일상, 집, 관계.\n\n대답하다 보면\n갑자기 내 안에 있던 말이\n밖으로 쏟아져 나와요.\n\n평소엔 절대 안 꺼낼 말.\n그런데 그 순간엔 그 사람한테 문제가 있다고\n확신하면서 내뱉게 됩니다.\n\n이럴 때\n상대가 유도했다고 생각하나요,\n아니면\n내 안에 원래 있던 게 드러난 거라고 생각하나요?\n\n왜요?",
+    "evidence_from_plot": "Mamiya constantly evades Takabe's questions, instead asking about Takabe's private life until Takabe eventually lashes out, shouting his resentment for Fumie / Takabe가 Mamiya의 질문을 받다가 결국 아내에 대한 분노를 터뜨리는 장면. 투사의 핵심: 자신의 내면을 타인에게서 보거나, 타인 때문이라고 믿으며 자기 감정을 외부화하는 방어기제",
+    "confidence": 0.95
+  },
+  {
+    "film": "Bad Lieutenant",
+    "defense": "Acting Out",
+    "stimulus": "무너지는 게 느껴지는데\n이상하게 멈출 생각이 안 들 때가 있습니다.\n\n오히려 더 세게 밀어붙이면\n뭔가 돌파되거나\n아니면 아예 끝나버릴 것 같은 느낌.\n\n당신은 위험 신호가 와도\n일단 멈춰보는 편인가요,\n아니면\n끝까지 밀고 가보는 편인가요?\n\n왜요?",
+    "evidence_from_plot": "The lieutenant continuously escalates his destructive behaviors - cocaine use, gambling debts that keep doubling ($30,000 → doubled again despite inability to pay), drug use while driving, extortion - rather than stopping when consequences mount. He acts out his internal crisis through increasingly reckless external actions until the fatal endpoint. This pattern of escalating action despite clear danger signals is the core of acting out as a defense mechanism.",
+    "confidence": 0.95
+  },
+  {
+    "film": "Vivre sa vie",
+    "defense": "Apathetic Withdrawal",
+    "stimulus": "어떤 꿈은\n포기하는 게 아니라\n그냥 안 보이게 됩니다.\n\n당장 필요한 돈이 생기고,\n당장 할 수 있는 일이 생기면\n나중에 하려던 것들이\n조용히 멀어져요.\n\n당신은 그걸\n현실적으로 적응한 거라고 보나요,\n아니면\n뭔가 중요한 걸 놓친 거라고 느끼나요?\n\n왜요?",
+    "evidence_from_plot": "Nana가 배우의 꿈을 가지고 남편과 아들을 떠났지만, 돈을 벌지 못해 집에서도 쫓겨나고, 결국 성매매로 생계를 해결하며 레코드 가게도 그만두고 배우의 꿈을 완전히 포기하는 과정. 이는 적극적인 포기가 아니라 생존 필요에 의해 점진적으로 꿈이 사라지는 무감각한 철수(Apathetic Withdrawal)의 전형.",
+    "confidence": 0.95
+  },
+  {
+    "film": "Peppermint Candy / 박하사탕",
+    "defense": "Self-Observation",
+    "stimulus": "어떤 사람들은\n자기 인생을 뒤에서부터 읽으면\n이유가 보인다고 생각합니다.\n\n지금 이 순간이 이상하게 느껴질 때\n당신은 어느 쪽인가요?\n\n지금을 고치려고 하나요,\n아니면\n예전 어느 지점을 떠올리나요?\n\n왜요?",
+    "evidence_from_plot": "영화 전체가 자살 직전 주인공이 '돌아가고 싶다'고 외치며 시작해, 역순으로 20년을 되짚는 구조. 현재를 이해하기 위해 과거로 거슬러 올라가며 자기 인생을 관찰하는 방식 자체가 Self-Observation의 핵심. Young-ho가 카메라 필름을 보고 울며 과거를 회상하는 장면도 자기 삶을 되돌아보는 행위.",
+    "confidence": 0.95
+  },
+  {
+    "film": "The Master",
+    "defense": "Devaluation",
+    "stimulus": "누군가 당신을 믿어줬는데\n그 사람이 점점 이상해 보이기 시작합니다.\n\n주변 사람들도 눈치챘고,\n당신도 이제 알아요.\n\n그런데 그 사람이 처음 당신을 받아준 유일한 사람이었다면\n어떻게 하나요?\n\n그 사람을 먼저 틀렸다고 말하나요,\n아니면\n그 사람을 의심하는 주변을 먼저 비난하나요?\n\n왜요?",
+    "evidence_from_plot": "Freddie는 전쟁 후 적응하지 못하고 폭력적 행동으로 일자리를 잃고 도망치다가, Dodd만이 그를 'aberrated'라고 부르며 받아줌. 하지만 뉴욕 파티에서 한 남자가 The Cause를 사이비라고 비난하자 Freddie는 그 남자를 폭행함. Dodd의 가족들과 추종자들이 Freddie를 위험하다고 의심하기 시작하고, 감옥에서 Freddie는 Dodd를 향해 폭발하며 가짜라고 비난하지만, 출소 후 다시 화해함. 이후에도 출판업자가 Dodd의 책을 비판하자 Freddie는 또 폭행함. 이는 Devaluation의 전형적 패턴 - Dodd와 The Cause에 대한 외부 비판을 공격적으로 평가절하하며, 자신을 받아준 유일한 대상에 대한 애착을 방어하는 모습.",
+    "confidence": 0.95
+  },
+  {
+    "film": "The Lighthouse",
+    "defense": "Apathetic Withdrawal",
+    "stimulus": "두 사람이 좁은 공간에 오래 있으면\n처음엔 괜찮다가\n어느 순간부터 상대의 숨소리까지 신경 쓰입니다.\n\n그럴 때\n어떤 사람은 더 대화하려 하고\n어떤 사람은 아예 말을 줄입니다.\n\n당신은 피할 수 없는 관계 안에서\n긴장이 쌓일 때\n더 풀어보려는 편인가요,\n아니면\n최소한으로만 반응하는 편인가요?\n\n왜요?",
+    "evidence_from_plot": "Two men stranded at remote lighthouse after storm, developing cabin fever in isolation - enforced proximity leading to psychological deterioration. Apathetic Withdrawal as defense against inescapable relational tension.",
+    "confidence": 0.92
+  },
+  {
+    "film": "Moss / 이끼",
+    "defense": "Self-Observation",
+    "stimulus": "어떤 것들은\n아주 작고, 눈에 안 띄고,\n제대로 된 구조도 없는데\n계속 있습니다.\n\n그런데 자세히 보면\n나름의 방식으로 물을 흡수하고,\n빛을 받아들이고,\n자기 방식대로 살아가고 있어요.\n\n당신은 스스로를\n어느 쪽으로 보는 편인가요?\n\n'아직 덜 갖춰진 쪽'인가요,\n아니면\n'다른 방식으로 작동하는 쪽'인가요?\n\n왜요?",
+    "evidence_from_plot": "이끼는 관다발 조직이 없고 작은 식물이지만('non-vascular', 'small', 'poorly developed conducting tissues'), 나름의 방식으로 물과 영양분을 흡수하고 광합성을 하며('absorb water and nutrients mainly through their leaves', 'harvest carbon dioxide and sunlight'), 생태계에서 중요한 역할을 수행한다('keystone species', 'absorb 6.4 billion tons of carbon annually'). 이는 자기관찰(Self-Observation)의 핵심—자신을 결핍으로 볼 것인가, 다른 체계로 볼 것인가—와 연결된다.",
+    "confidence": 0.92
+  }
+]

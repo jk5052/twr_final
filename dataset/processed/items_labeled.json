@@ -1,0 +1,812 @@
+[
+  {
+    "source": "DSQ-60",
+    "item_id": 1,
+    "raw_text": "I get satisfaction from helping others and if this were taken away from me I would get depressed",
+    "clean_text": "I get satisfaction from helping others and if this were taken away from me I would get depressed",
+    "primary_defense": "Altruism",
+    "secondary_defense": null,
+    "reasoning": "The item directly measures vicarious gratification through giving to others what the self desires, a core feature of altruism. The statement that removal of this helping role would cause depression indicates the defense's function in meeting the subject's own instinctual needs through service to others."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 2,
+    "raw_text": "People often call me a sulker",
+    "clean_text": "People often call me a sulker",
+    "primary_defense": "Passive Aggression",
+    "secondary_defense": null,
+    "reasoning": "Sulking is a prototypical passive-aggressive behavior that broadcasts suffering and injury to punish others indirectly while maintaining plausible deniability of hostile intent. The item captures the characteristic pattern of expressing aggression through visible withdrawal and non-verbal communication of distress that others recognize ('people call me'), aligning with the codebook's emphasis on oppressive nonverbal broadcasts and current suffering aimed at frustrating others."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 3,
+    "raw_text": "I'm able to keep a problem out of my mind until I have time to deal with it",
+    "clean_text": "I'm able to keep a problem out of my mind until I have time to deal with it",
+    "primary_defense": "Suppression",
+    "secondary_defense": null,
+    "reasoning": "The item directly describes semiconscious postponement of attention to a conflict while maintaining awareness and intention to address it later ('until I have time'), matching the codebook's definition of suppression as voluntary deferral with finite timeframe rather than elimination of the problem."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 4,
+    "raw_text": "I work out my anxiety through doing something constructive and creative like painting or woodwork",
+    "clean_text": "I work out my anxiety through doing something constructive and creative like painting or woodwork",
+    "primary_defense": "Sublimation",
+    "secondary_defense": null,
+    "reasoning": "The item directly describes channeling anxiety (a primitive affect) into socially valuable creative activity (painting, woodwork) that maintains intensity while transforming expression—the definitional core of sublimation. The phrase 'work out...through doing something constructive and creative' matches sublimation's linguistic signals of redirecting impulses into productive forms without suppression."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 6,
+    "raw_text": "I am able to find good reasons for everything I do",
+    "clean_text": "I am able to find good reasons for everything I do",
+    "primary_defense": "Rationalization",
+    "secondary_defense": null,
+    "reasoning": "This item directly captures the essence of rationalization—constructing plausible, socially acceptable reasons to justify behaviors that were actually driven by other motives. The phrase 'find good reasons for everything I do' matches Franklin's description cited in the codebook: enabling one to 'find or make a Reason for everything one has in mind to do,' converting what one already wants into reasonable language."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 7,
+    "raw_text": "I'm able to laugh at myself pretty easily",
+    "clean_text": "I'm able to laugh at myself pretty easily",
+    "primary_defense": "Humor",
+    "secondary_defense": null,
+    "reasoning": "The item directly measures the capacity to make oneself the target of humor, a core feature of mature humor which involves self-mocking acknowledgment of one's own foibles without shame. The codebook specifies that humor 'typically makes oneself rather than others the butt of the joke' and involves 'self-deprecating observations about one's pretensions or limitations.'"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 8,
+    "raw_text": "People tend to mistreat me",
+    "clean_text": "People tend to mistreat me",
+    "primary_defense": "Projection",
+    "secondary_defense": null,
+    "reasoning": "The item attributes negative intent and maltreatment to external others ('people mistreat me') rather than examining one's own contributions or internal states. This matches projection's core mechanism of perceiving others as possessing hostile or critical attitudes that actually belong to the self, with the linguistic signal 'They have something against me' and the pattern of constructing external persecution narratives."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 9,
+    "raw_text": "If someone mugged me and stole my money, I'd rather he'd be helped than punished",
+    "clean_text": "If someone mugged me and stole my money, I'd rather he'd be helped than punished",
+    "primary_defense": "Altruism",
+    "secondary_defense": "Reaction Formation",
+    "reasoning": "The item captures vicarious gratification through giving to others (even wrongdoers) what the self desires—compassionate treatment rather than retaliation—transforming personal harm into constructive concern that correctly attributes rehabilitation needs to the perpetrator. The secondary defense reflects the transformation of aggressive impulses into their polar opposite (forgiveness over punishment) with potentially excessive moral virtue that may reveal underlying hostility through its strained quality."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 10,
+    "raw_text": "If I have a conflict with someone, I try to think of what might have been my part in it",
+    "clean_text": "If I have a conflict with someone, I try to think of what might have been my part in it",
+    "primary_defense": "Self-Observation",
+    "secondary_defense": null,
+    "reasoning": "This item directly measures the mature capacity to reflect on one's own internal states and contributions to relational dynamics with curiosity and objectivity. The phrase 'I try to think of what might have been my part' exemplifies metacognitive awareness and present-tense reflection on psychological processes without defensiveness—core linguistic signals of Self-Observation."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 11,
+    "raw_text": "People say I tend to ignore unpleasant facts as if they didn't exist",
+    "clean_text": "People say I tend to ignore unpleasant facts as if they didn't exist",
+    "primary_defense": "Denial",
+    "secondary_defense": null,
+    "reasoning": "The item directly operationalizes denial's core feature: refusing to acknowledge external reality that is unpleasant, with the characteristic linguistic signal 'ignore unpleasant facts as if they didn't exist' matching the codebook's 'There is no problem' and 'This isn't happening' patterns of obliterating perception of external painful stimuli."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 12,
+    "raw_text": "I often feel superior to people I'm with",
+    "clean_text": "I often feel superior to people I'm with",
+    "primary_defense": "Omnipotence",
+    "secondary_defense": "Devaluation",
+    "reasoning": "The item captures grandiose self-investment and conviction of superior status (Omnipotence: 'I have special powers that others don't possess'). The comparative superiority framework simultaneously diminishes others' worth (Devaluation: 'ranking process evaluating comparative worth'), making it a secondary mechanism."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 13,
+    "raw_text": "Someone is robbing me emotionally of all I've got",
+    "clean_text": "Someone is robbing me emotionally of all I've got",
+    "primary_defense": "Projection",
+    "secondary_defense": null,
+    "reasoning": "The item attributes internal depletion or loss to an external agent ('someone is robbing me'), misattributing an internal state of emptiness or deprivation as originating from outside the self. This matches projection's core mechanism of perceiving others as possessing or causing what actually belongs to the self, with the accusatory tone and external attribution of malevolent intent characteristic of this defense."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 14,
+    "raw_text": "When there's real danger, it's as if I'm not there and I feel no fear",
+    "clean_text": "When there's real danger, it's as if I'm not there and I feel no fear",
+    "primary_defense": "Dissociation",
+    "secondary_defense": null,
+    "reasoning": "The item directly captures dissociative alterations in consciousness during threatening situations, with the linguistic signal 'as if I'm not there' indicating out-of-body experience and emotional numbing ('feel no fear') that exemplifies discontinuities in integrated awareness of danger."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 15,
+    "raw_text": "If I'm treated unfairly, I stand up for my rights",
+    "clean_text": "If I'm treated unfairly, I stand up for my rights",
+    "primary_defense": "Self-Assertion",
+    "secondary_defense": null,
+    "reasoning": "The item directly measures capacity to express autonomy and legitimate needs without guilt or aggression in contexts where fairness is violated. Matches codebook signals: 'Setting boundaries with calm clarity,' 'Direct requests or refusals,' and 'I statements claiming agency,' characteristic of mature self-assertion."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 16,
+    "raw_text": "I manage danger as if I were Superman",
+    "clean_text": "I manage danger as if I were Superman",
+    "primary_defense": "Omnipotence",
+    "secondary_defense": null,
+    "reasoning": "The Superman metaphor directly captures the fantasy of possessing unlimited, magical control over reality that characterizes omnipotence. The item reflects the conviction that one's personal powers transcend ordinary human constraints and limitations when facing danger."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 17,
+    "raw_text": "I pride myself on my ability to cut people down to size",
+    "clean_text": "I pride myself on my ability to cut people down to size",
+    "primary_defense": "Devaluation",
+    "secondary_defense": "Omnipotence",
+    "reasoning": "The item directly measures devaluation through explicit pride in diminishing others' worth ('cut people down to size'). The grandiose self-congratulation ('pride myself') suggests secondary omnipotence, as the speaker elevates their capacity to control or reduce others' stature."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 18,
+    "raw_text": "I often act impulsively when something is bothering me",
+    "clean_text": "I often act impulsively when something is bothering me",
+    "primary_defense": "Acting Out",
+    "secondary_defense": null,
+    "reasoning": "The item directly measures impulsive behavior in response to distressing affect ('when something is bothering me'), capturing the core feature of acting out: expressing unconscious wishes or affects through action to avoid conscious awareness of the accompanying emotion. The automatic, compulsive quality ('often act impulsively') reflects the defense's characteristic transformation of passive helplessness into active agency without conscious deliberation."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 19,
+    "raw_text": "Actually I'm pretty worthless",
+    "clean_text": "Actually I'm pretty worthless",
+    "primary_defense": "Devaluation",
+    "secondary_defense": "Apathetic Withdrawal",
+    "reasoning": "The item directly operationalizes devaluation of self, using dismissive self-assessment ('worthless') consistent with the defense's global, dismissive characterizations. The term 'actually' suggests a convinced stance that reflects badly on oneself, potentially coupled with withdrawal from investment in self-worth."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 20,
+    "raw_text": "When dealing with people they often end up feeling what I feel",
+    "clean_text": "When dealing with people they often end up feeling what I feel",
+    "primary_defense": "Projective Identification",
+    "secondary_defense": null,
+    "reasoning": "The item directly captures projective identification's defining feature: exerting interpersonal pressure on others to experience feelings that originate in the self. The phrase 'end up feeling what I feel' describes the induced countertransference and self-fulfilling prophecy quality central to this defense mechanism."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 21,
+    "raw_text": "I get more satisfaction from my fantasies than from my real life",
+    "clean_text": "I get more satisfaction from my fantasies than from my real life",
+    "primary_defense": "Autistic Fantasy",
+    "secondary_defense": null,
+    "reasoning": "The item directly measures withdrawal from external reality into an internal fantasy world that provides greater gratification than actual interpersonal engagement or real-world activity. The explicit preference for imagined over lived experience, with fantasy as primary source of satisfaction, is the defining feature of Autistic Fantasy as a substitute for reality-based problem-solving and social participation."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 22,
+    "raw_text": "I withdraw when I'm angry",
+    "clean_text": "I withdraw when I'm angry",
+    "primary_defense": "Apathetic Withdrawal",
+    "secondary_defense": "Passive Aggression",
+    "reasoning": "The item directly captures retreat from engagement when experiencing anger, matching Apathetic Withdrawal's pattern of severing emotional investment in real relationships through detachment. The withdrawal simultaneously communicates distress to the actual source of conflict ('Look what you made me suffer'), suggesting secondary Passive Aggression through indirect expression of hostility via observable removal."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 23,
+    "raw_text": "When I'm in difficulties I often feel unreal",
+    "clean_text": "When I'm in difficulties I often feel unreal",
+    "primary_defense": "Dissociation",
+    "secondary_defense": null,
+    "reasoning": "The statement 'feel unreal' directly captures the altered consciousness and discontinuity in integrated awareness characteristic of dissociation. This reflects the dissociative defense's core feature of creating experiential distance from overwhelming difficulties through changes in the sense of self and reality."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 24,
+    "raw_text": "I've got special talents that allow me to go through life with no problems",
+    "clean_text": "I've got special talents that allow me to go through life with no problems",
+    "primary_defense": "Omnipotence",
+    "secondary_defense": "Denial",
+    "reasoning": "The assertion of possessing 'special talents' that eliminate all life problems directly reflects omnipotent fantasy of magical control and unlimited personal power ('I have special powers that others don't possess'). The secondary Denial surfaces in the absolute claim of 'no problems'—refusing to acknowledge external reality's inevitable difficulties and limitations."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 25,
+    "raw_text": "I prefer to talk about abstract things rather than about my feelings",
+    "clean_text": "I prefer to talk about abstract things rather than about my feelings",
+    "primary_defense": "Intellectualization",
+    "secondary_defense": "Isolation of Affect",
+    "reasoning": "The item directly captures intellectualization's core feature of converting emotional content into abstract, theoretical discussion to maintain affective distance. The preference for abstraction over feeling-disclosure also signals isolation of affect, where cognitive content is accessible but emotional resonance is stripped away."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 26,
+    "raw_text": "There are always good reasons when things don't work out for me",
+    "clean_text": "There are always good reasons when things don't work out for me",
+    "primary_defense": "Rationalization",
+    "secondary_defense": null,
+    "reasoning": "This item directly measures rationalization's core function of constructing plausible explanations for negative outcomes that are beyond one's control or driven by other motives. The phrase 'always good reasons' captures the post-hoc reframing and retrospective justification that minimizes disappointment by converting failures into acceptable narratives."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 27,
+    "raw_text": "I work more things out in my daydreams than in my real life",
+    "clean_text": "I work more things out in my daydreams than in my real life",
+    "primary_defense": "Autistic Fantasy",
+    "secondary_defense": null,
+    "reasoning": "The item directly describes retreat into elaborate internal fantasy world as a substitute for real-world problem-solving and interpersonal engagement. The preference for imaginal solutions over actual participation matches the codebook's defining feature of autistic fantasy: 'relying on self-generated internal stimulation rather than active participation in social or relational life' with daydreams that 'remain private and do not become socially productive.'"
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 28,
+    "raw_text": "When people get angry with me, I tend to think they are exaggerating",
+    "clean_text": "When people get angry with me, I tend to think they are exaggerating",
+    "primary_defense": "Rationalization",
+    "secondary_defense": null,
+    "reasoning": "The item reflects constructing a plausible explanation ('they are exaggerating') to dismiss or minimize others' anger, avoiding full acknowledgment of one's own contribution to their reaction. This matches rationalization's function of converting uncomfortable interpersonal feedback into socially acceptable cognitive reframing that protects self-esteem."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 29,
+    "raw_text": "Sometimes I think I'm an angel and other times I think I'm a devil",
+    "clean_text": "Sometimes I think I'm an angel and other times I think I'm a devil",
+    "primary_defense": "Splitting",
+    "secondary_defense": "Omnipotence",
+    "reasoning": "The item directly captures splitting's core feature of segregating self-representations into all-good (angel) and all-bad (devil) categories without integration or ambivalence, oscillating between contradictory self-images. The grandiose, mythological framing (angel/devil rather than good/bad qualities) suggests secondary omnipotence through identification with supernatural entities."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 30,
+    "raw_text": "If someone gets angry at me I tend to get annoyed by things I usually ignore",
+    "clean_text": "If someone gets angry at me I tend to get annoyed by things I usually ignore",
+    "primary_defense": "Displacement",
+    "secondary_defense": null,
+    "reasoning": "The item directly operationalizes displacement: affect (annoyance) arising from one source (someone's anger) is redirected onto substitute objects (things usually ignored) rather than addressed toward the original target. This matches the codebook pattern of affect remaining conscious but reattaching to less anxiety-provoking targets."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 31,
+    "raw_text": "I get openly aggressive when I feel hurt",
+    "clean_text": "I get openly aggressive when I feel hurt",
+    "primary_defense": "Acting Out",
+    "secondary_defense": null,
+    "reasoning": "The item describes direct expression of aggression in response to emotional pain without apparent mediation by thought or reflection, transforming passive hurt into active discharge through behavior. The 'openly aggressive' formulation captures the automatic, unmodulated quality characteristic of acting out, where affect is discharged directly rather than contained or symbolized."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 32,
+    "raw_text": "I hardly remember anything from my early school years",
+    "clean_text": "I hardly remember anything from my early school years",
+    "primary_defense": "Repression",
+    "secondary_defense": null,
+    "reasoning": "The item directly measures motivated forgetting of developmentally significant material (early school years), with the key signal being genuine memory gaps at emotionally charged periods—a core feature of repression where disturbing ideas are automatically excluded from awareness while evidence suggests the material has become inaccessible specifically because of its psychological significance."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 33,
+    "raw_text": "I withdraw when I'm sad",
+    "clean_text": "I withdraw when I'm sad",
+    "primary_defense": "Apathetic Withdrawal",
+    "secondary_defense": null,
+    "reasoning": "The item directly describes retreat from external reality and relationships in response to negative affect (sadness), which is the core operation of Apathetic Withdrawal. The defense manifests as observable detachment and social disengagement that severs emotional investment in available others."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 34,
+    "raw_text": "I always feel that someone I know is like a guardian angel",
+    "clean_text": "I always feel that someone I know is like a guardian angel",
+    "primary_defense": "Idealization",
+    "secondary_defense": null,
+    "reasoning": "The attribution of guardian angel qualities (omnipotence, omnibenevolence, protective powers) to known persons represents archetypal idealization, involving merger fantasies with an omnipotent protective figure to manage internal terror. The language emphasizes total trust in another's special powers to maintain emotional safety."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 35,
+    "raw_text": "I'm actually worse than people think I am",
+    "clean_text": "I'm actually worse than people think I am",
+    "primary_defense": "Devaluation",
+    "secondary_defense": null,
+    "reasoning": "This item reflects devaluation directed at the self, expressing a global negative self-assessment that diminishes one's own worth or character. The statement 'worse than people think' suggests a comparative ranking and dismissive self-characterization consistent with devaluation's function of protecting against vulnerability through preemptive self-diminishment."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 37,
+    "raw_text": "If my boss bugged me, I might make a mistake in my work or work more slowly so as to get back at him",
+    "clean_text": "If my boss bugged me, I might make a mistake in my work or work more slowly so as to get back at him",
+    "primary_defense": "Passive Aggression",
+    "secondary_defense": null,
+    "reasoning": "The item directly operationalizes passive aggression through indirect expression of hostility toward the actual source of conflict (boss) via self-sabotage and failure ('make a mistake,' 'work more slowly') that simultaneously punishes the target while maintaining plausible deniability of aggressive intent. The phrase 'so as to get back at him' explicitly confirms the aggressive motivation directed at the genuine object of frustration, matching the codebook's core definition."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 38,
+    "raw_text": "There is someone I know who can do anything and who is absolutely fair and just",
+    "clean_text": "There is someone I know who can do anything and who is absolutely fair and just",
+    "primary_defense": "Idealization",
+    "secondary_defense": "Omnipotence",
+    "reasoning": "The attribution of omnipotence ('can do anything') and absolute perfection ('absolutely fair and just') to another person reflects pathological idealization—merging with an omnipotent, omniscient, omnibenevolent figure to counteract internal terror. The 'can do anything' phrasing also taps Omnipotence as a secondary defense, projecting magical control onto the idealized object."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 39,
+    "raw_text": "If I've experienced something unpleasant then the next day I've sometimes forgotten what it was about",
+    "clean_text": "If I've experienced something unpleasant then the next day I've sometimes forgotten what it was about",
+    "primary_defense": "Repression",
+    "secondary_defense": null,
+    "reasoning": "The item directly operationalizes repression's core mechanism of motivated forgetting—exclusion of disturbing material from awareness. The temporal pattern ('next day I've sometimes forgotten') and inability to recall unpleasant content matches repression's signature of making emotionally charged material inaccessible specifically because of its power to upset."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 40,
+    "raw_text": "Helping others makes me feel good",
+    "clean_text": "Helping others makes me feel good",
+    "primary_defense": "Altruism",
+    "secondary_defense": null,
+    "reasoning": "The item directly measures vicarious gratification through giving to others, where helping behavior provides personal satisfaction—the core construct of altruism as defined in the codebook. The statement captures the mature defense's characteristic of leaving 'both self partly gratified and object genuinely blessed' through service."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 41,
+    "raw_text": "I can keep the lid on my feelings if letting them out would interfere with what I'm doing",
+    "clean_text": "I can keep the lid on my feelings if letting them out would interfere with what I'm doing",
+    "primary_defense": "Suppression",
+    "secondary_defense": null,
+    "reasoning": "The item describes conscious, voluntary postponement of affect ('keep the lid on') with explicit awareness of the feeling and strategic timing based on current goals ('if letting them out would interfere'). This matches suppression's semiconscious decision to defer attention to impulses while maintaining awareness of all components, rather than eliminating or losing track of the conflict."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 43,
+    "raw_text": "I often find myself being very nice to people who by all rights I should be angry at",
+    "clean_text": "I often find myself being very nice to people who by all rights I should be angry at",
+    "primary_defense": "Reaction Formation",
+    "secondary_defense": null,
+    "reasoning": "The item directly captures the transformation of anger into its polar opposite (excessive niceness), maintaining awareness of the impulse's domain (anger) while reversing its expression. The phrasing 'by all rights I should be angry' reveals conscious recognition of the appropriate affect, yet behavior consistently manifests the opposite, characteristic of reaction formation's conversion mechanism."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 45,
+    "raw_text": "When something I do doesn't turn out well, I try to find out what I may have overlooked",
+    "clean_text": "When something I do doesn't turn out well, I try to find out what I may have overlooked",
+    "primary_defense": "Self-Observation",
+    "secondary_defense": null,
+    "reasoning": "The item measures reflective examination of one's own mental processes and actions ('try to find out what I may have overlooked') with curiosity rather than criticism. This matches Self-Observation's core construct of reflecting on internal states and patterns with objectivity, using the linguistic signal 'I noticed/realized I...' equivalent and the narrative pattern of noting patterns in one's reactions without defensiveness."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 46,
+    "raw_text": "People tend to be dishonest with me",
+    "clean_text": "People tend to be dishonest with me",
+    "primary_defense": "Projection",
+    "secondary_defense": null,
+    "reasoning": "The item attributes dishonesty to others in a generalized manner, reflecting the projection of one's own disowned impulses or qualities onto external objects. This exemplifies the classic projective pattern of perceiving others as possessing negative attributes that actually originate within the self, involving distortion of external reality through misattribution."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 47,
+    "raw_text": "When I have to face a difficult situation I try to imagine what it will be like and plan ways to cope with it",
+    "clean_text": "When I have to face a difficult situation I try to imagine what it will be like and plan ways to cope with it",
+    "primary_defense": "Anticipation",
+    "secondary_defense": null,
+    "reasoning": "The item directly operationalizes anticipation through realistic, affect-laden planning for future discomfort ('imagine what it will be like') combined with active preparation ('plan ways to cope'). This matches the codebook's definition of spreading anxiety over time through self-inoculation with anticipatory doses while maintaining conscious awareness of both cognitive planning and corresponding affects."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 48,
+    "raw_text": "Doctors never really understand what is wrong with me",
+    "clean_text": "Doctors never really understand what is wrong with me",
+    "primary_defense": "Help-Rejecting Complaining",
+    "secondary_defense": null,
+    "reasoning": "This item captures the characteristic stance of soliciting medical help while maintaining that no helper can truly understand or address the problem, thereby preserving the aggrieved position and ensuring ongoing attention without genuine relief. The statement 'never really understand' establishes the pattern of devaluing helpers' efforts while maintaining the complaint."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 49,
+    "raw_text": "After I fight for my rights, I tend to apologize for my assertiveness",
+    "clean_text": "After I fight for my rights, I tend to apologize for my assertiveness",
+    "primary_defense": "Undoing",
+    "secondary_defense": null,
+    "reasoning": "The item describes a compensatory behavior (apologizing) that magically neutralizes or counterbalances a preceding assertion of rights, with the person unaware that the apology is driven by unconscious guilt over the assertive act. This matches undoing's pattern of expressing a wish/affect and then ritually denying or atoning for it through symbolic reversal."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 50,
+    "raw_text": "If someone is annoying me, then I tell them without hurting their feelings",
+    "clean_text": "If someone is annoying me, then I tell them without hurting their feelings",
+    "primary_defense": "Self-Assertion",
+    "secondary_defense": null,
+    "reasoning": "The item describes direct expression of legitimate needs and boundaries ('I tell them') with relational authenticity ('without hurting their feelings'), matching self-assertion's linguistic signals of 'I' statements claiming agency, setting boundaries with calm clarity, and distinguishing assertiveness from aggression."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 51,
+    "raw_text": "I'm often told that I don't show my feelings",
+    "clean_text": "I'm often told that I don't show my feelings",
+    "primary_defense": "Isolation of Affect",
+    "secondary_defense": null,
+    "reasoning": "The item captures others' observation that the person fails to display emotional expression despite presumably experiencing feelings internally—the hallmark of isolation where affect is sequestered from its expression. The linguistic signal 'don't show my feelings' directly reflects the disconnect between internal emotional states and their outward manifestation that defines this defense."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 52,
+    "raw_text": "When I feel bad, I try to be with someone",
+    "clean_text": "When I feel bad, I try to be with someone",
+    "primary_defense": "Affiliation",
+    "secondary_defense": null,
+    "reasoning": "The item directly captures turning to others for connection and support during distress ('when I feel bad, I try to be with someone'), which is the core linguistic signal of Affiliation: 'I reached out to [friend/colleague/family]' and 'I needed to connect with people who understand.' This reflects the mature defense of seeking social resources without distorting relationships or rendering oneself helpless."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 53,
+    "raw_text": "If I can predict that I'm going to be sad ahead of time, I can cope better",
+    "clean_text": "If I can predict that I'm going to be sad ahead of time, I can cope better",
+    "primary_defense": "Anticipation",
+    "secondary_defense": null,
+    "reasoning": "The item directly operationalizes anticipation's core mechanism: realistic, affect-laden planning for future discomfort that spreads anxiety out over time through self-inoculation with anticipatory emotional pain. The phrase 'predict that I'm going to be sad ahead of time' and 'cope better' captures anticipation's dual process of thinking and feeling about affective issues before they occur, preparing the self to avoid being overwhelmed."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 54,
+    "raw_text": "No matter how much I complain, I never get a satisfactory response",
+    "clean_text": "No matter how much I complain, I never get a satisfactory response",
+    "primary_defense": "Help-Rejecting Complaining",
+    "secondary_defense": null,
+    "reasoning": "The item directly captures the core pattern of help-rejecting complaining: repeated solicitation (complaining) that never yields satisfaction, maintaining a stance of aggrieved helplessness. The 'never' formulation reflects the defense's characteristic cycle of complaint, rejection of response, and renewal of complaint without resolution."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 55,
+    "raw_text": "Instead of saying exactly what I feel, I explain my thoughts extensively",
+    "clean_text": "Instead of saying exactly what I feel, I explains my thoughts extensively",
+    "primary_defense": "Intellectualization",
+    "secondary_defense": "Isolation of Affect",
+    "reasoning": "The item directly captures intellectualization's core pattern of acknowledging affective content cognitively while stripping emotional resonance through extensive theoretical elaboration ('explains thoughts extensively' rather than expressing feelings directly). Secondary isolation of affect reflects the sequestration mechanism where cognitive dimension remains available while affective aspect is disconnected."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 56,
+    "raw_text": "Often I find that I don't feel anything when the situation would seem to warrant strong emotions",
+    "clean_text": "Often I find that I don't feel anything when the situation would seem to warrant strong emotions",
+    "primary_defense": "Isolation of Affect",
+    "secondary_defense": null,
+    "reasoning": "The item directly measures the core construct of isolation of affect: disconnection between cognitive awareness of emotionally significant situations and the corresponding affective experience. The phrase 'I don't feel anything when the situation would seem to warrant strong emotions' matches the codebook's defining signal of reporting no feelings about emotionally charged material despite recognizing that affect should be present."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 57,
+    "raw_text": "When I feel depressed or anxious, I like to engage in some creative or physical activity",
+    "clean_text": "When I feel depressed or anxious, I like to engage in some creative or physical activity",
+    "primary_defense": "Sublimation",
+    "secondary_defense": null,
+    "reasoning": "The item describes channeling distressing affects (depression, anxiety) into creative or physical activity—precisely the transformation of primitive emotional states into socially valuable, productive outlets without suppression or loss of engagement, which defines sublimation at the mature level."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 58,
+    "raw_text": "If I got into a crisis, I would seek out someone to share my worries with",
+    "clean_text": "If I got into a crisis, I would seek out someone to share my worries with",
+    "primary_defense": "Affiliation",
+    "secondary_defense": null,
+    "reasoning": "The item explicitly measures turning to others for support and connection during stress ('seek out someone to share my worries with'), which is the defining feature of Affiliation. The collaborative engagement without distortion of relationships or helplessness matches the codebook's description of conscious, adaptive social resource use at the mature level."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 59,
+    "raw_text": "If I have an aggressive thought, I feel the need to do something to compensate for it",
+    "clean_text": "If I have an aggressive thought, I feel the need to do something to compensate for it",
+    "primary_defense": "Undoing",
+    "secondary_defense": null,
+    "reasoning": "The item directly operationalizes the core mechanism of undoing: compensating for a hostile thought through a neutralizing action, reflecting the defense's magical belief that thoughts are equivalent to deeds requiring ritualistic expiation. The conscious awareness of needing to 'compensate' captures undoing's automatic, compulsive quality of balancing aggressive ideation through counteractive behavior."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 60,
+    "raw_text": "When something exciting is happening, I tend to fuss over unimportant details",
+    "clean_text": "When something exciting is happening, I tend to fuss over unimportant details",
+    "primary_defense": "Isolation of Affect",
+    "secondary_defense": "Intellectualization",
+    "reasoning": "The item captures displacement of attention from emotionally charged exciting content to trivial procedural details, characteristic of isolation where affect is sequestered from its cognitive dimension. The 'fussing over unimportant details' reflects the overvaluing of thinking and undervaluing of feeling that defines this neurotic-level defense, with secondary intellectualization in the cognitive redirection strategy."
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 1,
+    "raw_text": "Didyouperceiveothersas“allgood”or“allbad”?",
+    "clean_text": "Did you perceive others as \"all good\" or \"all bad\"?",
+    "primary_defense": "Splitting",
+    "secondary_defense": null,
+    "reasoning": "The item directly assesses the segregation of others into all-good or all-bad categories without integration, which is the defining feature of splitting. The explicit \"all good\" / \"all bad\" formulation matches the codebook's linguistic signal for splitting as a mechanism that organizes experiences into clear moral dichotomies without acknowledging complexity."
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 2,
+    "raw_text": "Didyoureactasifyouweredetachedfrompersonallyrelevantissues?",
+    "clean_text": "Did you react as if you were detached from personally relevant issues?",
+    "primary_defense": "Isolation of Affect",
+    "secondary_defense": "Intellectualization",
+    "reasoning": "The item directly measures emotional detachment from personally meaningful content—the hallmark of isolation of affect, where cognitive awareness persists but affective resonance is severed. Intellectualization is secondary because detachment can manifest through overly theoretical or observational stances toward one's own experiences."
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 3,
+    "raw_text": "Didyoudevelopsomaticsymptoms,suchasheadache,stomachpain,orthelossofabilitytodosomething,inresponsetoemotionalsituations?",
+    "clean_text": "Did you develop somatic symptoms, such as headache, stomach pain, or the loss of ability to do something, in response to emotional situations?",
+    "primary_defense": "Dissociation",
+    "secondary_defense": null,
+    "reasoning": "The item describes conversion of emotional distress into physical symptoms and functional impairments (somatic manifestations), which represents dissociative transformation of unbearable affect into bodily alterations rather than conscious psychological experience. This matches the codebook's definition of dissociation as creating discontinuities in the integration of behavior, affect, sensation, and knowledge (BASK model) through constitutional capacity for altered states when confronted with overwhelming emotion."
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 4,
+    "raw_text": "Didyouofferphysicalorpsychologicalhelptoothersinneed?",
+    "clean_text": "Did you offer physical or psychological help to others in need?",
+    "primary_defense": "Altruism",
+    "secondary_defense": null,
+    "reasoning": "This item directly measures offering help to others in need, which operationalizes altruism's core feature of vicarious gratification through giving to others what the self desires. The item taps constructive service that benefits the recipient while leaving the helper partly gratified, without requiring acknowledgment of one's own needs."
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 5,
+    "raw_text": "Didyouhaverepetitiveorserialdaydreamstowhichyouretreatedinlieuofreallife?",
+    "clean_text": "Did you have repetitive or serial daydreams to which you retreated in lieu of real life?",
+    "primary_defense": "Autistic Fantasy",
+    "secondary_defense": null,
+    "reasoning": "The item directly measures withdrawal into elaborate internal fantasy as a substitute for external reality and interpersonal engagement ('in lieu of real life'), matching the codebook definition of Autistic Fantasy. The 'retreat' language and emphasis on repetitive internal stimulation replacing social participation are core signals of this immature defense."
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 6,
+    "raw_text": "Didyouthinkabouthowyouwouldhandledifficultiesthatyoumightexpectinthefuture?",
+    "clean_text": "Did you think about how you would handle difficulties that you might expect in the future?",
+    "primary_defense": "Anticipation",
+    "secondary_defense": null,
+    "reasoning": "This item directly operationalizes anticipation by asking about realistic, affect-laden planning for future discomfort. The emphasis on thinking about handling expected difficulties matches the codebook's definition of spreading anxiety over time through self-inoculation with anticipatory doses of emotional pain while maintaining conscious awareness of both planning and affect."
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 7,
+    "raw_text": "Didyoufeelasiftherewasnothingpositiveorredeemingaboutyourself?",
+    "clean_text": "Did you feel as if there was nothing positive or redeeming about yourself?",
+    "primary_defense": "Devaluation",
+    "secondary_defense": null,
+    "reasoning": "This item captures devaluation directed toward the self—experiencing oneself as having no positive or redeeming qualities. The global, dismissive self-assessment ('nothing positive') matches the codebook's description of devaluation as diminishing worth to protect against shame or vulnerability, particularly the primitive form involving image-distorting operations."
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 8,
+    "raw_text": "Didyouhaveanattitudeofgivingmuchmorethanyoureceivedwithoutperceivingtheimbalance?",
+    "clean_text": "Did you have an attitude of giving much more than you received without perceiving the imbalance?",
+    "primary_defense": "Altruism",
+    "secondary_defense": null,
+    "reasoning": "The item directly captures altruism's core feature: giving to others what the self desires while the subject's own needs are correctly attributed to the object through empathic accuracy, with the key phrase 'without perceiving the imbalance' indicating the unconscious gratification wherein 'both self partly gratified and object genuinely blessed.'"
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 9,
+    "raw_text": "Didyouaskforphysicaloremotionalsupportwhiledoingyourbesttohandletheproblem?",
+    "clean_text": "Did you ask for physical or emotional support while doing your best to handle the problem?",
+    "primary_defense": "Affiliation",
+    "secondary_defense": null,
+    "reasoning": "The item directly measures turning to others for support while maintaining self-agency ('doing your best to handle'), which matches Affiliation's definition of seeking collaborative problem-solving without rendering oneself helpless or distorting relationships."
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 10,
+    "raw_text": "Didyoutrytodiffusethetensionbyengagingincreativeactivities?",
+    "clean_text": "Did you try to diffuse the tension by engaging in creative activities?",
+    "primary_defense": "Sublimation",
+    "secondary_defense": null,
+    "reasoning": "The item directly assesses channeling tension into creative activities, which is the core operational definition of sublimation—transforming biologically based impulses or conflicts into socially valuable, creative activity while maintaining intensity of feeling but redirecting its mode of expression."
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 11,
+    "raw_text": "Didyouhaveanattitudeofsuspiciousnessorperceiveothersasuntrustworthy,unfaithful,ormanipulative?",
+    "clean_text": "Did you have an attitude of suspiciousness or perceive others as untrustworthy, unfaithful, or manipulative?",
+    "primary_defense": "Projection",
+    "secondary_defense": null,
+    "reasoning": "The item directly assesses attribution of negative qualities (untrustworthiness, unfaithfulness, manipulation) to external others, matching projection's core mechanism of misattributing internal states as originating from outside the self. The linguistic signals align with projection's characteristic accusatory stance and conviction that 'others have something against me' or possess malevolent attributes that actually belong to the self."
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 12,
+    "raw_text": "Didyoumakehumorouscommentsaboutchallengingpersonalissuesorstressfulsituations?",
+    "clean_text": "Did you make humorous comments about challenging personal issues or stressful situations?",
+    "primary_defense": "Humor",
+    "secondary_defense": null,
+    "reasoning": "The item directly operationalizes mature humor as defined in the codebook: making oneself the subject of jokes about personal distress, maintaining conscious awareness of painful reality while responding 'as if it were a game.' The specific reference to 'challenging personal issues' rather than deflecting onto others aligns with humor's characteristic of making oneself rather than others the butt of the joke."
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 13,
+    "raw_text": "Didyoureflectuponyouremotionalexperiencesandpersonalthoughts?",
+    "clean_text": "Did you reflect upon your emotional experiences and personal thoughts?",
+    "primary_defense": "Self-Observation",
+    "secondary_defense": null,
+    "reasoning": "This item directly measures the capacity to reflect on one's own internal states and mental processes with awareness, which is the defining feature of Self-Observation. The phrase 'reflect upon your emotional experiences and personal thoughts' aligns precisely with codebook signals like 'I noticed that I...' and 'metacognitive markers about internal states.'"
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 14,
+    "raw_text": "Didyoutrytotakeyourangeroutonyourselforexpressitwithself-harmingbehaviors?",
+    "clean_text": "Did you try to take your anger out on yourself or express it with self-harming behaviors?",
+    "primary_defense": "Passive Aggression",
+    "secondary_defense": "Acting Out",
+    "reasoning": "The item directly taps passive aggression's core mechanism of turning aggression against the self ('Look what you made me suffer!') through self-directed injury that punishes both self and the real source of conflict. Self-harm as impulsive, affect-expelling action without full conscious linkage also engages acting out, making it a secondary component when the behavior bypasses reflective awareness."
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 15,
+    "raw_text": "Didyoujustifyorgiveplausibleexplanationstocoveruptherealreasonsforpersonalproblemsorstressfulsituations?",
+    "clean_text": "Did you justify or give plausible explanations to cover up the real reasons for personal problems or stressful situations?",
+    "primary_defense": "Rationalization",
+    "secondary_defense": null,
+    "reasoning": "The item directly measures the construction of plausible, socially acceptable reasons to justify or explain behaviors/outcomes that were actually driven by other motives, which is the defining feature of rationalization. The phrase 'cover up the real reasons' explicitly captures the unconscious conversion of true motivations into acceptable language."
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 16,
+    "raw_text": "Didyoutakeanactiveroleinsolvingproblemsthatarose?",
+    "clean_text": "Did you take an active role in solving problems that arose?",
+    "primary_defense": "Self-Assertion",
+    "secondary_defense": null,
+    "reasoning": "This item measures the capacity to exercise autonomy and competence in problem-solving contexts, directly tapping self-assertion's definition of expressing 'one's autonomy, competence, and legitimate needs directly and effectively' through 'forward-moving, adaptive manifestations' including 'claiming agency or effectiveness.'"
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 17,
+    "raw_text": "Didyouidealizeyourselforothersforyour/theirpersonalcharacteristics?",
+    "clean_text": "Did you idealize yourself or others for your/their personal characteristics?",
+    "primary_defense": "Idealization",
+    "secondary_defense": null,
+    "reasoning": "The item directly assesses the attribution of exaggerated positive qualities or perfection to self or others based on personal characteristics, which is the core construct of Idealization as defined in the codebook. The wording explicitly targets the idealization process without tapping any secondary mechanism."
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 18,
+    "raw_text": "Didyouconsciouslyorunconsciouslytrytoirritatesomeoneinindirectorannoyingways?",
+    "clean_text": "Did you consciously or unconsciously try to irritate someone in indirect or annoying ways?",
+    "primary_defense": "Passive Aggression",
+    "secondary_defense": null,
+    "reasoning": "This item directly assesses indirect expression of hostility through annoying or irritating behavior aimed at the actual target, which is the defining feature of passive aggression. The emphasis on 'indirect ways' captures the defense's characteristic of communicating aggression while maintaining plausible deniability of hostile intent."
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 19,
+    "raw_text": "Didyoutemporarilyputasideyourpersonalneedstodealwithotherthingsthatneededtobedone?",
+    "clean_text": "Did you temporarily put aside your personal needs to deal with other things that needed to be done?",
+    "primary_defense": "Suppression",
+    "secondary_defense": null,
+    "reasoning": "The item directly operationalizes suppression's core feature: semiconscious, temporary postponement of personal needs/desires while maintaining full awareness of them. The emphasis on 'temporarily' and active decision-making ('put aside') matches suppression's finite deferral rather than elimination, keeping the need in mind while addressing other priorities."
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 20,
+    "raw_text": "Didyoufocusonminororunrelatedmattersthatdistractedyouawayfromaproblemthatmakesyouanxious?",
+    "clean_text": "Did you focus on minor or unrelated matters that distracted you away from a problem that makes you anxious?",
+    "primary_defense": "Displacement",
+    "secondary_defense": null,
+    "reasoning": "The item directly measures redirection of attention and emotional focus from an anxiety-provoking primary problem to less threatening substitute concerns. This matches displacement's core mechanism of shifting preoccupation from its natural object to safer symbolic channels while the affect remains in consciousness."
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 21,
+    "raw_text": "Didyoudiscussanemotionaltopicingeneralorimpersonalway,withoutconsideringorexperiencingyourfeelings?",
+    "clean_text": "Did you discuss an emotional topic in general or impersonal way, without considering or experiencing your feelings?",
+    "primary_defense": "Intellectualization",
+    "secondary_defense": "Isolation of Affect",
+    "reasoning": "The item directly measures discussing emotional topics in a detached, impersonal manner without experiencing feelings—the hallmark of intellectualization (talking about feelings like 'weather reports'). Isolation of affect is secondary because the sequestration of affect from cognition underlies this impersonal discussion style."
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 22,
+    "raw_text": "Didyoucomplainabouthowothersdon’tunderstandyouordon’treallycare?",
+    "clean_text": "Did you complain about how others don't understand you or don't really care?",
+    "primary_defense": "Help-Rejecting Complaining",
+    "secondary_defense": null,
+    "reasoning": "The item directly taps persistent complaining about others' failure to understand or care, which is the core communicative pattern of help-rejecting complaining. This defense maintains aggrieved helplessness through repetitive complaints that simultaneously solicit attention ('others don't understand') while ensuring no genuine relief occurs through the implicit rejection embedded in the complaint itself."
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 23,
+    "raw_text": "Didyouexperiencestrongfeelingstowardsomeone,thinkingthattheotherpersonintendedtomakeyoufeelthatway?",
+    "clean_text": "Did you experience strong feelings towards someone, thinking that the other person intended to make you feel that way?",
+    "primary_defense": "Projective Identification",
+    "secondary_defense": null,
+    "reasoning": "This item captures the core of projective identification: experiencing strong feelings while maintaining certainty about the other's intentions to induce those feelings, creating the characteristic 'self-fulfilling prophecy' quality where the person both projects internal states and exerts interpersonal pressure on the target to confirm the projection."
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 24,
+    "raw_text": "Didyoufeelconfused,“spacedout,”orunabletotalkaboutadistressingtopic?",
+    "clean_text": "Did you feel confused, \"spaced out,\" or unable to talk about a distressing topic?",
+    "primary_defense": "Dissociation",
+    "secondary_defense": null,
+    "reasoning": "The item directly targets alterations in consciousness characteristic of dissociation: feeling \"spaced out\" maps to retreat into altered states, while being unable to talk about distressing topics indicates compartmentalization of traumatic material through discontinuities in integrated awareness—core definitional features of dissociative defense."
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 25,
+    "raw_text": "Didyouengageinverbalorphysicalfights?",
+    "clean_text": "Did you engage in verbal or physical fights?",
+    "primary_defense": "Acting Out",
+    "secondary_defense": "Passive Aggression",
+    "reasoning": "The item directly assesses behavioral discharge of aggressive impulses through fighting without reference to conscious emotional processing or deliberation, matching Acting Out's 'direct expression of an unconscious wish or impulse in action' to 'avoid being conscious of the affect.' Secondary Passive Aggression possible if fighting targets the actual source of conflict as current suffering inflicted on another."
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 26,
+    "raw_text": "Didyouhavetroublerememberingsimplethings?",
+    "clean_text": "Did you have trouble remembering simple things?",
+    "primary_defense": "Repression",
+    "secondary_defense": null,
+    "reasoning": "The item directly assesses motivated forgetting of emotionally charged material, a core feature of repression. The focus on 'simple things' that should be easily recalled but are not maps to repression's dynamic where evidence exists that material has become inaccessible specifically because of its power to upset."
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 27,
+    "raw_text": "Didyouavoidthinkingaboutpersonalproblemsorfeelings?",
+    "clean_text": "Did you avoid thinking about personal problems or feelings?",
+    "primary_defense": "Suppression",
+    "secondary_defense": null,
+    "reasoning": "The item measures conscious, deliberate postponement of attention to unwanted thoughts or affects ('avoid thinking about'), which is the defining feature of suppression—a semiconscious decision to defer rather than eliminate awareness. Unlike repression (unconscious, motivated forgetting), this involves voluntary control over what enters awareness while maintaining the capacity to return to the material later."
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 28,
+    "raw_text": "Didyouperceiveyourselfasverystrong,powerful,untouchable?",
+    "clean_text": "Did you perceive yourself as very strong, powerful, untouchable?",
+    "primary_defense": "Omnipotence",
+    "secondary_defense": null,
+    "reasoning": "This item directly taps the conviction of possessing unlimited power and being beyond ordinary human constraints ('untouchable'), which are core linguistic signals of Omnipotence. The codebook explicitly includes 'I have special powers that others don't possess' and 'No one's limits apply to me' as characteristic expressions."
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 29,
+    "raw_text": "Didyouhavecontradictoryorconflictualideasaboutatopicthatmakesyouanxious?",
+    "clean_text": "Did you have contradictory or conflictual ideas about a topic that makes you anxious?",
+    "primary_defense": "Isolation of Affect",
+    "secondary_defense": null,
+    "reasoning": "The item assesses cognitive awareness of contradictory ideas about anxiety-provoking topics while maintaining intellectual distance from the emotional significance—the person recognizes conflicting thoughts but experiences them as cognitive rather than affective phenomena. This matches isolation of affect's core feature of sequestering cognitive content from its emotional dimension, allowing awareness of conflict without corresponding emotional engagement."
+  },
+  {
+    "source": "DMRS-SR-30",
+    "item_id": 30,
+    "raw_text": "Didyoudevalueyourselforothersforyour/theirpersonalcharacteristics?",
+    "clean_text": "Did you devalue yourself or others for your/their personal characteristics?",
+    "primary_defense": "Devaluation",
+    "secondary_defense": null,
+    "reasoning": "The item directly assesses the defense mechanism of devaluation by asking about diminishing the worth or qualities of self or others based on personal characteristics. This maps precisely to the codebook definition of devaluation as an operation that protects self-esteem by reducing the perceived value, competence, or power of self or others, typically involving global dismissive characterizations and focus on defects or limitations."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 5,
+    "raw_text": "I often change my opinion about people; at one time I think highly of them, at another time I think they're worthless",
+    "clean_text": "I often change my opinion about people; at one time I think highly of them, at another time I think they're worthless",
+    "primary_defense": "Splitting",
+    "secondary_defense": null,
+    "reasoning": "The item directly captures the temporal oscillation between all-good ('think highly') and all-bad ('worthless') valuations of the same person without integration, matching the codebook's description of splitting as alternating idealization and devaluation without blending contradictory affects toward the same object."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 36,
+    "raw_text": "As far as I'm concerned, people are either good or bad",
+    "clean_text": "As far as I'm concerned, people are either good or bad",
+    "primary_defense": "Splitting",
+    "secondary_defense": null,
+    "reasoning": "The item directly operationalizes the core cognitive feature of splitting: segregation of experiences/people into all-good or all-bad categories without integration or ambivalence. The dichotomous 'either good or bad' structure matches the codebook's linguistic signals for categorical assignments and all-or-nothing formulations that characterize this psychotic-level defense."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 42,
+    "raw_text": "I'm usually able to see the funny side of an otherwise painful predicament",
+    "clean_text": "I'm usually able to see the funny side of an otherwise painful predicament",
+    "primary_defense": "Humor",
+    "secondary_defense": null,
+    "reasoning": "The item directly measures the capacity to look at painful reality while responding as if it were a game, maintaining full awareness of the distress while finding cathartic pleasure—the core definition of mature humor. The phrase 'funny side of an otherwise painful predicament' captures humor's ability to hold paradox (pain and pleasure) simultaneously without denial or displacement."
+  },
+  {
+    "source": "DSQ-60",
+    "item_id": 44,
+    "raw_text": "There's no such thing as 'finding a little good in everyone,' if you're bad, you're all bad",
+    "clean_text": "There's no such thing as 'finding a little good in everyone,' if you're bad, you're all bad",
+    "primary_defense": "Splitting",
+    "secondary_defense": null,
+    "reasoning": "The item directly operationalizes splitting's core mechanism: the inability to integrate positive and negative qualities in the same person, expressed through the all-or-nothing formulation 'if you're bad, you're all bad' and explicit rejection of ambivalence ('no such thing as finding a little good'). This reflects the defense's segregation of experiences into categorical good/bad without acknowledging complexity or allowing contradictory affects to blend."
+  }
+]

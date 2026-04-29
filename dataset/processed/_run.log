@@ -1,0 +1,652 @@
+/Users/jayce/conda/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.3.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.1) doesn't match a supported version!
+  warnings.warn(
+Total 445 films to process
+
+Loaded 140 previous results. Continuing.
+
+[52/445] Sympathy for Lady Vengeance - Humor
+  No wiki found, skipping
+[93/445] Spring, Summer, Fall, Winter… and Spring - Sublimation
+  No wiki found, skipping
+[143/445] 3-Iron - Dissociation
+  Done (confidence: 0.92)
+[144/445] Mother - Dissociation
+  Done (confidence: 0.85)
+[145/445] The Yellow Sea - Dissociation
+  Done (confidence: 0.92)
+[146/445] Good Will Hunting - Intellectualization
+  Done (confidence: 0.95)
+[147/445] A Beautiful Mind - Intellectualization
+  Done (confidence: 0.95)
+[148/445] The Imitation Game - Intellectualization
+  Done (confidence: 0.92)
+[149/445] Dr. Strangelove - Intellectualization
+  Done (confidence: 0.95)
+[150/445] The Theory of Everything - Intellectualization
+  Done (confidence: 0.95)
+[151/445] Annie Hall - Intellectualization
+  Done (confidence: 0.95)
+[152/445] The Squid and the Whale - Intellectualization
+  Done (confidence: 0.95)
+  [Saved 150 so far]
+[153/445] Margin Call - Intellectualization
+  Done (confidence: 0.92)
+[154/445] Rope - Intellectualization
+  Done (confidence: 0.75)
+[155/445] The Master - Intellectualization
+  Done (confidence: 0.92)
+[156/445] My Dinner with Andre - Intellectualization
+  Done (confidence: 0.95)
+[157/445] The Lives of Others - Intellectualization
+  Done (confidence: 0.92)
+[158/445] The Ice Storm - Intellectualization
+  Done (confidence: 0.92)
+[159/445] Crimes and Misdemeanors - Intellectualization
+  Done (confidence: 0.95)
+[160/445] Eyes Wide Shut - Intellectualization
+  Done (confidence: 0.92)
+[161/445] Decision to Leave - Intellectualization
+  Done (confidence: 0.92)
+[162/445] The Handmaiden - Intellectualization
+  Done (confidence: 0.95)
+  [Saved 160 so far]
+[163/445] Memoir of a Murderer - Intellectualization
+  Done (confidence: 0.92)
+[164/445] American Psycho - Isolation of Affect
+  Done (confidence: 0.92)
+[165/445] No Country for Old Men - Isolation of Affect
+  Done (confidence: 0.92)
+[166/445] Drive - Isolation of Affect
+  Done (confidence: 0.92)
+[167/445] The Day of the Jackal - Isolation of Affect
+  Done (confidence: 0.92)
+[168/445] Le Samouraï - Isolation of Affect
+  Done (confidence: 0.95)
+[169/445] Zodiac - Isolation of Affect
+  Done (confidence: 0.92)
+[170/445] The Killing of a Sacred Deer - Isolation of Affect
+  Done (confidence: 0.95)
+[171/445] The Conformist - Isolation of Affect
+  Done (confidence: 0.95)
+[172/445] The Trial of Adolf Eichmann (Specialist) - Isolation of Affect
+  Done (confidence: 0.85)
+  [Saved 170 so far]
+[173/445] The Lobster - Isolation of Affect
+  Done (confidence: 0.92)
+[174/445] Wall Street - Isolation of Affect
+  Done (confidence: 0.85)
+[175/445] Michael Clayton - Isolation of Affect
+  Done (confidence: 0.92)
+[176/445] The Stranger - Isolation of Affect
+  Done (confidence: 0.75)
+[177/445] The Master - Isolation of Affect
+  Done (confidence: 0.85)
+[178/445] Caché - Isolation of Affect
+  Done (confidence: 0.92)
+[179/445] Poetry - Isolation of Affect
+  Done (confidence: 0.85)
+[180/445] Memories of Murder - Isolation of Affect
+  Done (confidence: 0.92)
+[181/445] Christmas in August - Isolation of Affect
+  Done (confidence: 0.95)
+[182/445] American Beauty - Reaction Formation
+  Done (confidence: 0.95)
+  [Saved 180 so far]
+[183/445] Taxi Driver - Reaction Formation
+  Done (confidence: 0.92)
+[184/445] American History X - Reaction Formation
+  Done (confidence: 0.92)
+[185/445] The Crucible - Reaction Formation
+  Done (confidence: 0.95)
+[186/445] Carrie - Reaction Formation
+  Done (confidence: 0.92)
+[187/445] Far From Heaven - Reaction Formation
+  Done (confidence: 0.92)
+[188/445] The Servant - Reaction Formation
+  Done (confidence: 0.92)
+[189/445] Election - Reaction Formation
+  Done (confidence: 0.85)
+[190/445] Doubt - Reaction Formation
+  Done (confidence: 0.92)
+[191/445] Footloose - Reaction Formation
+  Done (confidence: 0.95)
+[192/445] The Talented Mr. Ripley - Reaction Formation
+  Done (confidence: 0.92)
+  [Saved 190 so far]
+[193/445] Black Narcissus - Reaction Formation
+  Done (confidence: 0.92)
+[194/445] The White Ribbon - Reaction Formation
+  Done (confidence: 0.92)
+[195/445] Capote - Reaction Formation
+  Done (confidence: 0.95)
+[196/445] The Magdalene Sisters - Reaction Formation
+  Done (confidence: 0.95)
+[197/445] The Housemaid - Reaction Formation
+  Done (confidence: 0.92)
+[198/445] Portrait of a Beauty - Reaction Formation
+  Done (confidence: 0.92)
+[199/445] Thirst - Reaction Formation
+  Done (confidence: 0.92)
+[200/445] Manchester by the Sea - Repression
+  Done (confidence: 0.95)
+[201/445] Mulholland Drive - Repression
+  Done (confidence: 0.95)
+[202/445] Eternal Sunshine of the Spotless Mind - Repression
+  Done (confidence: 0.92)
+  [Saved 200 so far]
+[203/445] Memento - Repression
+  Done (confidence: 0.92)
+[204/445] A Single Man - Repression
+  Done (confidence: 0.92)
+[205/445] Star Wars: Revenge of the Sith - Repression
+  Done (confidence: 0.92)
+[206/445] Hiroshima mon amour - Repression
+  Done (confidence: 0.92)
+[207/445] Spellbound - Repression
+  Done (confidence: 0.95)
+[208/445] Ordinary People - Repression
+  Done (confidence: 0.95)
+[209/445] The Remains of the Day - Repression
+  Done (confidence: 0.95)
+[210/445] Wild Strawberries - Repression
+  Done (confidence: 0.95)
+[211/445] Caché - Repression
+  Done (confidence: 0.95)
+[212/445] Marnie - Repression
+  Done (confidence: 0.95)
+  [Saved 210 so far]
+[213/445] Three Colors: Blue - Repression
+  Done (confidence: 0.92)
+[214/445] The Browning Version - Repression
+  Done (confidence: 0.95)
+[215/445] Secret Sunshine - Repression
+  Done (confidence: 0.95)
+[216/445] Peppermint Candy - Repression
+  Done (confidence: 0.95)
+[217/445] The Machinist - Undoing
+  Done (confidence: 0.92)
+[218/445] Atonement - Undoing
+  Done (confidence: 0.92)
+[219/445] Vertigo - Undoing
+  Done (confidence: 0.95)
+[220/445] The Sweet Hereafter - Undoing
+  Done (confidence: 0.92)
+[221/445] Schindler's List - Undoing
+  Done (confidence: 0.95)
+[222/445] In Bruges - Undoing
+  Done (confidence: 0.92)
+  [Saved 220 so far]
+[223/445] Crimes and Misdemeanors - Undoing
+  Done (confidence: 0.95)
+[224/445] Throne of Blood - Undoing
+  Done (confidence: 0.95)
+[225/445] Macbeth - Undoing
+  Done (confidence: 0.95)
+[226/445] Crime and Punishment - Undoing
+  Done (confidence: 0.92)
+[227/445] Mystic River - Undoing
+  Done (confidence: 0.85)
+[228/445] Through a Glass Darkly - Undoing
+  Done (confidence: 0.92)
+[229/445] The Five Obstructions - Undoing
+  Done (confidence: 0.92)
+[230/445] The Remains of the Day - Undoing
+  Done (confidence: 0.95)
+[231/445] The Hours - Undoing
+  Done (confidence: 0.88)
+[232/445] Sympathy for Lady Vengeance - Undoing
+  No wiki found, skipping
+[233/445] Spring, Summer, Fall, Winter… and Spring - Undoing
+  No wiki found, skipping
+[234/445] Oasis - Undoing
+  Done (confidence: 0.85)
+  [Saved 230 so far]
+[235/445] The Devil Wears Prada - Devaluation
+  Done (confidence: 0.85)
+[236/445] Whiplash - Devaluation
+  Done (confidence: 0.92)
+[237/445] The Social Network - Devaluation
+  Done (confidence: 0.95)
+[238/445] There Will Be Blood - Devaluation
+  Done (confidence: 0.95)
+[239/445] Mommie Dearest - Devaluation
+  Done (confidence: 0.92)
+[240/445] Phantom Thread - Devaluation
+  Done (confidence: 0.95)
+[241/445] August: Osage County - Devaluation
+  Done (confidence: 0.92)
+[242/445] Tár - Devaluation
+  Done (confidence: 0.92)
+[243/445] Sunset Boulevard - Devaluation
+  Done (confidence: 0.95)
+[244/445] The Bridge on the River Kwai - Devaluation
+  Done (confidence: 0.95)
+  [Saved 240 so far]
+[245/445] The Celebration - Devaluation
+  Done (confidence: 0.92)
+[246/445] The Master - Devaluation
+  Done (confidence: 0.85)
+[247/445] Anatomy of a Fall - Devaluation
+  Done (confidence: 0.92)
+[248/445] Burnt by the Sun - Devaluation
+  Done (confidence: 0.92)
+[249/445] Force Majeure - Devaluation
+  Done (confidence: 0.95)
+[250/445] Parasite - Devaluation
+  Done (confidence: 0.92)
+[251/445] The Housemaid - Devaluation
+  Done (confidence: 0.92)
+[252/445] Vertigo - Idealization
+  Done (confidence: 0.92)
+[253/445] (500) Days of Summer - Idealization
+  Done (confidence: 0.85)
+[254/445] The Great Gatsby - Idealization
+  Done (confidence: 0.95)
+  [Saved 250 so far]
+[255/445] La La Land - Idealization
+  Done (confidence: 0.92)
+[256/445] Lost in Translation - Idealization
+  Done (confidence: 0.95)
+[257/445] The Phantom of the Opera - Idealization
+  Done (confidence: 0.92)
+[258/445] Punch-Drunk Love - Idealization
+  Done (confidence: 0.92)
+[259/445] Her - Idealization
+  Done (confidence: 0.95)
+[260/445] Cinema Paradiso - Idealization
+  Done (confidence: 0.92)
+[261/445] In the Mood for Love - Idealization
+  Done (confidence: 0.92)
+[262/445] Amélie - Idealization
+  Done (confidence: 0.92)
+[263/445] Eternal Sunshine of the Spotless Mind - Idealization
+  Done (confidence: 0.95)
+[264/445] Annie Hall - Idealization
+  Done (confidence: 0.92)
+  [Saved 260 so far]
+[265/445] Call Me by Your Name - Idealization
+  Done (confidence: 0.92)
+[266/445] Y Tu Mamá También - Idealization
+  No wiki found, skipping
+[267/445] Decision to Leave - Idealization
+  Done (confidence: 0.92)
+[268/445] Christmas in August - Idealization
+  Done (confidence: 0.95)
+[269/445] Bungee Jumping of Their Own - Idealization
+  Done (confidence: 0.95)
+[270/445] Citizen Kane - Omnipotence
+  Done (confidence: 0.92)
+[271/445] The Wolf of Wall Street - Omnipotence
+  Done (confidence: 0.92)
+[272/445] Scarface - Omnipotence
+  Done (confidence: 0.92)
+[273/445] There Will Be Blood - Omnipotence
+  Done (confidence: 0.92)
+[274/445] Aguirre, the Wrath of God - Omnipotence
+  Done (confidence: 0.95)
+[275/445] Apocalypse Now - Omnipotence
+  Done (confidence: 0.92)
+  [Saved 270 so far]
+[276/445] Network - Omnipotence
+  Done (confidence: 0.92)
+[277/445] The Last King of Scotland - Omnipotence
+  Done (confidence: 0.92)
+[278/445] Downfall - Omnipotence
+  Done (confidence: 0.95)
+[279/445] The Fountainhead - Omnipotence
+  Done (confidence: 0.95)
+[280/445] The Devil's Advocate - Omnipotence
+  Done (confidence: 0.95)
+[281/445] New World - Omnipotence
+  Done (confidence: 0.85)
+[282/445] Inside Men - Omnipotence
+  Done (confidence: 0.92)
+[283/445] A Dirty Carnival - Omnipotence
+  Done (confidence: 0.92)
+[284/445] Manchester by the Sea - Denial
+  Done (confidence: 0.95)
+[285/445] Ordinary People - Denial
+  Done (confidence: 0.95)
+  [Saved 280 so far]
+[286/445] The Father - Denial
+  Done (confidence: 0.95)
+[287/445] Leaving Las Vegas - Denial
+  Done (confidence: 0.92)
+[288/445] The Lost Weekend - Denial
+  Done (confidence: 0.95)
+[289/445] Still Alice - Denial
+  Done (confidence: 0.95)
+[290/445] Requiem for a Dream - Denial
+  Done (confidence: 0.95)
+[291/445] Melancholia - Denial
+  Done (confidence: 0.95)
+[292/445] Amour - Denial
+  Done (confidence: 0.85)
+[293/445] A Separation - Denial
+  Done (confidence: 0.95)
+[294/445] Caché (Hidden) - Denial
+  Done (confidence: 0.95)
+[295/445] The Hunt (Jagten) - Denial
+  Done (confidence: 0.92)
+  [Saved 290 so far]
+[296/445] Volver - Denial
+  Done (confidence: 0.95)
+[297/445] Shame - Denial
+  Done (confidence: 0.95)
+[298/445] Pan's Labyrinth (El laberinto del fauno) - Denial
+  No wiki found, skipping
+[299/445] Secret Sunshine - Denial
+  Done (confidence: 0.95)
+[300/445] Mother - Denial
+  Done (confidence: 0.85)
+[301/445] Peppermint Candy - Denial
+  Done (confidence: 0.92)
+[302/445] Carrie - Projection
+  Done (confidence: 0.95)
+[303/445] Black Swan - Projection
+  Done (confidence: 0.95)
+[304/445] Taxi Driver - Projection
+  Done (confidence: 0.95)
+[305/445] American History X - Projection
+  Done (confidence: 0.95)
+[306/445] 12 Angry Men - Projection
+  Done (confidence: 0.95)
+  [Saved 300 so far]
+[307/445] Gone Girl - Projection
+  Done (confidence: 0.95)
+[308/445] The Godfather Part II - Projection
+  Done (confidence: 0.92)
+[309/445] Persona - Projection
+  Done (confidence: 0.92)
+[310/445] The Piano Teacher (La Pianiste) - Projection
+  Done (confidence: 0.92)
+[311/445] Caché (Hidden) - Projection
+  Done (confidence: 0.95)
+[312/445] Cure (Kyua) - Projection
+  Done (confidence: 0.92)
+[313/445] Othello - Projection
+  Done (confidence: 0.92)
+[314/445] Whiplash - Projection
+  Done (confidence: 0.85)
+[315/445] Blue Velvet - Projection
+  Done (confidence: 0.92)
+[316/445] The Hunt (Jagten) - Projection
+  Done (confidence: 0.92)
+  [Saved 310 so far]
+[317/445] The Wailing - Projection
+  Done (confidence: 0.92)
+[318/445] Memories of Murder - Projection
+  Done (confidence: 0.92)
+[319/445] The Chaser - Projection
+  Done (confidence: 0.85)
+[320/445] A Few Good Men - Rationalization
+  Done (confidence: 0.95)
+[321/445] The Wolf of Wall Street - Rationalization
+  Done (confidence: 0.92)
+[322/445] Crimes and Misdemeanors - Rationalization
+  Done (confidence: 0.95)
+[323/445] Match Point - Rationalization
+  Done (confidence: 0.95)
+[324/445] Thank You for Smoking - Rationalization
+  Done (confidence: 0.95)
+[325/445] The Reader - Rationalization
+  Done (confidence: 0.92)
+[326/445] Margin Call - Rationalization
+  Done (confidence: 0.95)
+  [Saved 320 so far]
+[327/445] The Big Short - Rationalization
+  Done (confidence: 0.92)
+[328/445] A Clockwork Orange - Rationalization
+  Done (confidence: 0.92)
+[329/445] Compliance - Rationalization
+  Done (confidence: 0.92)
+[330/445] Michael Clayton - Rationalization
+  Done (confidence: 0.95)
+[331/445] Z - Rationalization
+  Done (confidence: 0.92)
+[332/445] Election - Rationalization
+  Done (confidence: 0.85)
+[333/445] Pan's Labyrinth - Autistic Fantasy
+  Done (confidence: 0.95)
+[334/445] Bridge to Terabithia - Autistic Fantasy
+  Done (confidence: 0.85)
+[335/445] Lars and the Real Girl - Autistic Fantasy
+  Done (confidence: 0.95)
+[336/445] The Science of Sleep - Autistic Fantasy
+  Done (confidence: 0.95)
+  [Saved 330 so far]
+[337/445] The Spirit of the Beehive - Autistic Fantasy
+  Done (confidence: 0.95)
+[338/445] Heavenly Creatures - Autistic Fantasy
+  Done (confidence: 0.95)
+[339/445] Where the Wild Things Are - Autistic Fantasy
+  Done (confidence: 0.92)
+[340/445] Amélie - Autistic Fantasy
+  Done (confidence: 0.92)
+[341/445] The Secret Life of Walter Mitty - Autistic Fantasy
+  Done (confidence: 0.95)
+[342/445] Tideland - Autistic Fantasy
+  Done (confidence: 0.92)
+[343/445] The Fall - Autistic Fantasy
+  Done (confidence: 0.75)
+[344/445] Donnie Darko - Autistic Fantasy
+  Done (confidence: 0.92)
+[345/445] Synecdoche, New York - Autistic Fantasy
+  Done (confidence: 0.95)
+[346/445] Inception - Autistic Fantasy
+  Done (confidence: 0.92)
+  [Saved 340 so far]
+[347/445] Eternal Sunshine of the Spotless Mind - Autistic Fantasy
+  Done (confidence: 0.95)
+[348/445] 3-Iron - Autistic Fantasy
+  Done (confidence: 0.92)
+[349/445] Save the Green Planet! - Autistic Fantasy
+  Done (confidence: 0.95)
+[350/445] Castaway on the Moon - Autistic Fantasy
+  Done (confidence: 0.92)
+[351/445] Black Swan - Projective Identification
+  Done (confidence: 0.95)
+[352/445] Persona - Projective Identification
+  Done (confidence: 0.92)
+[353/445] Notes on a Scandal - Projective Identification
+  Done (confidence: 0.92)
+[354/445] Whiplash - Projective Identification
+  Done (confidence: 0.92)
+[355/445] Phantom Thread - Projective Identification
+  Done (confidence: 0.95)
+[356/445] Mother! - Projective Identification
+  Done (confidence: 0.92)
+  [Saved 350 so far]
+[357/445] The Piano Teacher - Projective Identification
+  Done (confidence: 0.92)
+[358/445] Carrie - Projective Identification
+  Done (confidence: 0.92)
+[359/445] Force Majeure - Projective Identification
+  Done (confidence: 0.92)
+[360/445] The Master - Projective Identification
+  Done (confidence: 0.85)
+[361/445] Single White Female - Projective Identification
+  Done (confidence: 0.95)
+[362/445] Enough Said - Projective Identification
+  Done (confidence: 0.92)
+[363/445] Gone Girl - Projective Identification
+  Done (confidence: 0.92)
+[364/445] The Servant - Projective Identification
+  Done (confidence: 0.92)
+[365/445] The Hand That Rocks the Cradle - Projective Identification
+  Done (confidence: 0.92)
+[366/445] Mother - Projective Identification
+  Done (confidence: 0.85)
+  [Saved 360 so far]
+[367/445] Silenced - Projective Identification
+  Done (confidence: 0.92)
+[368/445] Fight Club - Splitting
+  Done (confidence: 0.95)
+[369/445] Black Swan - Splitting
+  Done (confidence: 0.95)
+[370/445] Psycho - Splitting
+  Done (confidence: 0.92)
+[371/445] Mulholland Drive - Splitting
+  Done (confidence: 0.95)
+[372/445] Joker - Splitting
+  Done (confidence: 0.92)
+[373/445] Gone Girl - Splitting
+  Done (confidence: 0.95)
+[374/445] Fatal Attraction - Splitting
+  Done (confidence: 0.92)
+[375/445] The Three Faces of Eve - Splitting
+  Done (confidence: 0.95)
+[376/445] Persona - Splitting
+  Done (confidence: 0.92)
+  [Saved 370 so far]
+[377/445] Raging Bull - Splitting
+  Done (confidence: 0.92)
+[378/445] Repulsion - Splitting
+  Done (confidence: 0.92)
+[379/445] Sympathy for Lady Vengeance - Splitting
+  No wiki found, skipping
+[380/445] Thirst - Splitting
+  Done (confidence: 0.92)
+[381/445] Taxi Driver - Acting Out
+  Done (confidence: 0.95)
+[382/445] A Clockwork Orange - Acting Out
+  Done (confidence: 0.95)
+[383/445] We Need to Talk About Kevin - Acting Out
+  Done (confidence: 0.92)
+[384/445] The 400 Blows - Acting Out
+  Done (confidence: 0.92)
+[385/445] Trainspotting - Acting Out
+  Done (confidence: 0.95)
+[386/445] Joker - Acting Out
+  Done (confidence: 0.95)
+[387/445] Funny Games - Acting Out
+  Done (confidence: 0.92)
+  [Saved 380 so far]
+[388/445] Natural Born Killers - Acting Out
+  Done (confidence: 0.95)
+[389/445] Mean Streets - Acting Out
+  Done (confidence: 0.95)
+[390/445] Rebel Without a Cause - Acting Out
+  Done (confidence: 0.95)
+[391/445] Kids - Acting Out
+  Done (confidence: 0.92)
+[392/445] Bad Lieutenant - Acting Out
+  Done (confidence: 0.95)
+[393/445] Bedevilled - Acting Out
+  Done (confidence: 0.95)
+[394/445] Breathless - Acting Out
+  Done (confidence: 0.95)
+[395/445] Manchester by the Sea - Apathetic Withdrawal
+  Done (confidence: 0.92)
+[396/445] Lost in Translation - Apathetic Withdrawal
+  Done (confidence: 0.92)
+[397/445] Melancholia - Apathetic Withdrawal
+  Done (confidence: 0.92)
+  [Saved 390 so far]
+[398/445] Taxi Driver - Apathetic Withdrawal
+  Done (confidence: 0.95)
+[399/445] Burning - Apathetic Withdrawal
+  Done (confidence: 0.92)
+[400/445] Synecdoche, New York - Apathetic Withdrawal
+  Done (confidence: 0.92)
+[401/445] Repulsion - Apathetic Withdrawal
+  Done (confidence: 0.95)
+[402/445] L'Avventura - Apathetic Withdrawal
+  Done (confidence: 0.95)
+[403/445] Vivre sa vie - Apathetic Withdrawal
+  Done (confidence: 0.92)
+[404/445] The Lighthouse - Apathetic Withdrawal
+  Done (confidence: 0.92)
+[405/445] A Few Days from the Life of I.I. Oblomov - Apathetic Withdrawal
+  Done (confidence: 0.92)
+[406/445] The Graduate - Apathetic Withdrawal
+  Done (confidence: 0.95)
+[407/445] Stalker - Apathetic Withdrawal
+  Done (confidence: 0.92)
+  [Saved 400 so far]
+[408/445] A Woman Under the Influence - Apathetic Withdrawal
+  Done (confidence: 0.92)
+[409/445] Poetry - Apathetic Withdrawal
+  Done (confidence: 0.3)
+[410/445] Christmas in August - Apathetic Withdrawal
+  Done (confidence: 0.95)
+[411/445] Treeless Mountain - Apathetic Withdrawal
+  Done (confidence: 0.92)
+[412/445] Good Will Hunting - Help-Rejecting Complaining
+  Done (confidence: 0.95)
+[413/445] As Good as It Gets - Help-Rejecting Complaining
+  Done (confidence: 0.92)
+[414/445] Manchester by the Sea - Help-Rejecting Complaining
+  Done (confidence: 0.95)
+[415/445] Punch-Drunk Love - Help-Rejecting Complaining
+  Done (confidence: 0.92)
+[416/445] Rain Man - Help-Rejecting Complaining
+  Done (confidence: 0.85)
+[417/445] The Squid and the Whale - Help-Rejecting Complaining
+  Done (confidence: 0.92)
+  [Saved 410 so far]
+[418/445] Frances Ha - Help-Rejecting Complaining
+  Done (confidence: 0.92)
+[419/445] What About Bob? - Help-Rejecting Complaining
+  Done (confidence: 0.92)
+[420/445] Annie Hall - Help-Rejecting Complaining
+  Done (confidence: 0.92)
+[421/445] Ordinary People - Help-Rejecting Complaining
+  Done (confidence: 0.85)
+[422/445] The 400 Blows - Help-Rejecting Complaining
+  Done (confidence: 0.85)
+[423/445] Wild Strawberries - Help-Rejecting Complaining
+  Done (confidence: 0.92)
+[424/445] The Father - Help-Rejecting Complaining
+  Done (confidence: 0.92)
+[425/445] Five Easy Pieces - Help-Rejecting Complaining
+  Done (confidence: 0.92)
+[426/445] Withnail & I - Help-Rejecting Complaining
+  Done (confidence: 0.85)
+[427/445] Peppermint Candy - Help-Rejecting Complaining
+  Done (confidence: 0.92)
+  [Saved 420 so far]
+[428/445] Office Space - Passive Aggression
+  Done (confidence: 0.95)
+[429/445] The Remains of the Day - Passive Aggression
+  Done (confidence: 0.92)
+[430/445] Revolutionary Road - Passive Aggression
+  Done (confidence: 0.92)
+[431/445] August: Osage County - Passive Aggression
+  Done (confidence: 0.95)
+[432/445] Carnage - Passive Aggression
+  Done (confidence: 0.92)
+[433/445] Marriage Story - Passive Aggression
+  Done (confidence: 0.92)
+[434/445] Punch-Drunk Love - Passive Aggression
+  Done (confidence: 0.92)
+[435/445] Force Majeure - Passive Aggression
+  Done (confidence: 0.95)
+[436/445] The Celebration - Passive Aggression
+  Done (confidence: 0.95)
+[437/445] Who's Afraid of Virginia Woolf? - Passive Aggression
+  Done (confidence: 0.95)
+  [Saved 430 so far]
+[438/445] The Squid and the Whale - Passive Aggression
+  Done (confidence: 0.92)
+[439/445] Toni Erdmann - Passive Aggression
+  Done (confidence: 0.95)
+[440/445] A Separation - Passive Aggression
+  Done (confidence: 0.92)
+[441/445] The Lobster - Passive Aggression
+  Done (confidence: 0.92)
+[442/445] Happiness - Passive Aggression
+  Done (confidence: 0.85)
+[443/445] The Housemaid - Passive Aggression
+  Done (confidence: 0.85)
+[444/445] House of Hummingbird - Passive Aggression
+  Done (confidence: 0.92)
+[445/445] Aloners - Passive Aggression
+  Done (confidence: 0.95)
+
+==================================================
+Total generated: 438 stimuli
+Skipped (no wiki): 7
+Skipped (error): 0
+Saved to: ../processed/stimuli_full.json
+Skip log: ../processed/stimuli_skipped.json

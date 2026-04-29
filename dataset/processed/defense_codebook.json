@@ -1,0 +1,1069 @@
+{
+  "Acting Out": {
+    "name": "Acting Out",
+    "vaillant_level": "immature",
+    "definition": "The direct expression of an unconscious wish or impulse in action in order to avoid being conscious of the affect and ideation that accompany it, transforming passive helplessness into active agency through behavior driven by unformulated or unremembered painful states. The behavior is compulsive and automatic, typically directed toward nonspecific or anonymous objects rather than the person with whom one is most attached or angry, allowing the instinct full sway while conscience is temporarily and absolutely removed.",
+    "linguistic_signals": [
+      "\"I don't know why I did that\"",
+      "\"It just happened\"",
+      "\"I wasn't thinking\"",
+      "\"Before I knew it, I was...\"",
+      "\"Something came over me\"",
+      "Absence of guilty ideation or affective awareness during description",
+      "Rapid temporal compression: \"suddenly,\" \"all at once,\" \"next thing I knew\"",
+      "Disconnection between action and emotion: \"I felt nothing at the time\"",
+      "References to strangers or anonymous figures as targets",
+      "Description of behavior occurring \"with such rapidity\" that passion was unaware"
+    ],
+    "narrative_patterns": [
+      "Recounts behavior without linking it to precipitating emotional states or conflicts",
+      "Describes actions toward strangers or uninvolved parties while sparing those closest or most relevant to the underlying conflict",
+      "Presents impulsive or destructive acts as spontaneous rather than complexly driven",
+      "Omits or minimizes awareness of the conflict-laden affect during the enacted behavior",
+      "Narrative shows temporal discontinuity—action occurs without conscious deliberation or felt emotion",
+      "May acknowledge the behavior was inappropriate but cannot articulate what feeling it expressed"
+    ],
+    "example_dsq_items": [],
+    "differentiation": {
+      "vs_Displacement": "Displacement attenuates the impulse and redirects it toward a less threatening but still specific object with awareness of the affect (\"murder father on tennis court six-love\"), whereas acting out gives the impulse direct, unattenuated expression toward anonymous objects without conscious awareness of the feeling.",
+      "vs_Isolation_of_Affect": "Isolation of affect keeps the ideation conscious while removing the feeling (worries incessantly about homicidal thoughts but does not act), whereas acting out removes both affect and ideation from consciousness while giving direct behavioral expression to the impulse (murders without worry before or during).",
+      "vs_Dissociation": "Dissociation transforms the affect into play and charms the observer while altering the subject but not ignoring the object (prostitute becomes courtesan), whereas acting out treats objects as wooden dolls in destructive scenarios and does not spare the displaced target, producing behavior that calls attention through its destructiveness rather than its entertainment value."
+    },
+    "literary_cues": "The narrative voice exhibits temporal rupture and agency collapse—events unfold with cinematic velocity while the narrating consciousness remains oddly peripheral, a witness rather than author. Syntax tends toward parataxis and abrupt scene shifts that mirror the unintegrated quality of the enacted behavior itself. Imagery often features anonymous crowds, strangers, or faceless targets, while significant attachment figures are conspicuously absent or idealized in starkly disconnected passages (\"Mom tattooed inside a heart\"), creating uncanny emotional geography where rage finds discharge everywhere except its true object.",
+    "primary_sources_cited": [
+      "WisdomoftheEgo",
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli"
+    ]
+  },
+  "Affiliation": {
+    "name": "Affiliation",
+    "vaillant_level": "mature",
+    "definition": "Affiliation involves turning to others for support, connection, and collaborative problem-solving in times of stress, without distorting the nature of those relationships or rendering oneself helpless. It represents a conscious, adaptive effort to engage social resources while maintaining both self-agency and realistic perception of others. In Vaillant's hierarchical model, it occupies the mature level alongside humor, sublimation, and anticipation, reflecting high adaptive functioning.",
+    "linguistic_signals": [
+      "\"I reached out to [friend/colleague/family] to talk it through\"",
+      "\"We worked on it together\"",
+      "\"I wanted someone else's perspective\"",
+      "\"It helped to share what I was feeling\"",
+      "\"I needed to connect with people who understand\"",
+      "Collaborative pronouns: \"we,\" \"us,\" \"together\"",
+      "Active verbs of mutual engagement: \"discussed,\" \"consulted,\" \"collaborated\"",
+      "Acknowledgment of reciprocity: \"they also needed...\"",
+      "Recognition of boundaries: \"I asked if they had time\""
+    ],
+    "narrative_patterns": [
+      "Describes seeking others' company or input without abdication of personal responsibility",
+      "Frames relationships as sources of strength rather than rescue",
+      "Maintains realistic appraisal of others' limitations and separate needs",
+      "Integrates social support into problem-solving without dependency themes",
+      "Expresses genuine interest in others' experiences as well as one's own",
+      "Narrates mutual benefit or reciprocal support in relationships"
+    ],
+    "example_dsq_items": [],
+    "differentiation": {
+      "vs_help_rejecting_complaining": "Affiliation involves genuine receptivity to others' input and collaborative engagement, whereas help-rejecting complaining seeks attention while systematically rejecting offered solutions and maintaining a posture of dissatisfaction.",
+      "vs_idealization": "Affiliation maintains realistic perception of others' strengths and limitations while seeking connection, whereas idealization requires inflating the other's qualities and creates an unrealistic, need-based distortion of their characteristics.",
+      "vs_passive_aggression": "Affiliation pursues direct, collaborative engagement with authentic expression of needs, whereas passive aggression masks hostility through indirect complaints and covert non-compliance while maintaining surface connection."
+    },
+    "literary_cues": "Affiliation manifests in narrative as a democratic syntax—sentences that distribute agency across multiple actors rather than centering a solitary \"I.\" The voice carries a quality of porousness, allowing others' perspectives to enter and reshape the speaker's stance without dissolving their boundary. Imagery tends toward scenes of conversation, shared activity, or parallel experience rather than merger or isolation; the spatial grammar positions self and other as distinct but proximate.",
+    "primary_sources_cited": [
+      "Preliminary-Reliability-and Validity-of-the DMRS-SR-30 p.3",
+      "The Defense Style Questionnaire 60 (DSQ-60) p.25",
+      "The Defense Style Questionnaire 60 (DSQ-60) p.30",
+      "The Defense Style Questionnaire 60 (DSQ-60) p.60"
+    ]
+  },
+  "Altruism": {
+    "name": "Altruism",
+    "vaillant_level": "mature",
+    "definition": "Vicarious gratification obtained through giving to others what the self desires, wherein the subject's own needs are correctly attributed to the object through empathic accuracy. The defense leaves both self partly gratified and object genuinely blessed, transforming personal desire into constructive service that attracts rather than repels others. Unlike its developmental precursors, altruism involves no distortion of reality or confusion of self with object.",
+    "linguistic_signals": [
+      "\"I spent my time comforting [another person]\"",
+      "\"caring for another person\"",
+      "\"doing for others while serving her own instinctual needs\"",
+      "\"helps the poor and gains comfort by viewing herself as more fortunate\"",
+      "\"generosity, respect for the other, sense of altruism\"",
+      "\"meeting the emotional needs of [others]\"",
+      "Expressions of gratitude rather than envy",
+      "Self-descriptions emphasizing service during personal crisis",
+      "Matter-of-fact tone when describing self-sacrifice"
+    ],
+    "narrative_patterns": [
+      "Describes helping others during periods of personal distress or loss without acknowledging own need",
+      "Frames own desires as correctly perceived needs of the recipient",
+      "Presents service to others as natural response rather than compensatory strategy",
+      "Attributes satisfaction to the fortune of being able to give rather than to receiving gratitude",
+      "Integrates personal instinctual needs seamlessly with acts of generosity",
+      "Objects appear genuinely blessed rather than burdened by the help received"
+    ],
+    "example_dsq_items": [],
+    "differentiation": {
+      "vs_reaction_formation": "Altruism tempers asceticism with pleasure and leaves the self partly gratified, whereas reaction formation involves complete reversal (black becomes white) and the user believes themselves endangered from without by their own cherished desires.",
+      "vs_projection": "Altruism involves empathically correct attribution of the subject's needs to the object (the altruist is right about how others feel), whereas projection wrongly attributes the subject's sins or desires to the object, making the user a helpless victim of self-loathing rather than gaining self-efficacy.",
+      "vs_passive_aggression": "Altruism allows the object to feel blessed and attracts people to the user, whereas passive aggression and martyrdom afflict the object and repel people even while holding them close in chains."
+    },
+    "literary_cues": "Altruistic voice adopts a stance of fortunate witness—imagery centers on the suffering or need of others observed with clear-eyed accuracy, while the speaker's parallel distress remains peripheralized but subtly present. Syntax flows naturally from self to other without the rigid reversals of reaction formation or the projective distortions that contaminate the object; the gaze rests steadily outward yet satisfaction quietly accrues inward. The tone conveys grace and gratitude rather than compulsion or complaint, as if giving were discovered rather than constructed.",
+    "primary_sources_cited": [
+      "WisdomoftheEgo p.194",
+      "WisdomoftheEgo p.133",
+      "WisdomoftheEgo p.104",
+      "WisdomoftheEgo p.107",
+      "WisdomoftheEgo p.54"
+    ]
+  },
+  "Anticipation": {
+    "name": "Anticipation",
+    "vaillant_level": "mature",
+    "definition": "Realistic, affect-laden planning for future discomfort in which the subject experiences modest affective distress during worrying, spreading anxiety out over time through self-inoculation with small anticipatory doses of emotional pain. Unlike other mature defenses, anticipation rearranges outer and inner reality the least, instead keeping idea, affect, and object in conscious mind while paying dues of anxiety and depression in advance. This defense involves both thinking and feeling about affective issues, preparing the self to avoid being overwhelmed when the anticipated event occurs.",
+    "linguistic_signals": [
+      "\"I'm worried that [future event] might...\"",
+      "\"I've been thinking about what could happen when...\"",
+      "\"I need to prepare myself for...\"",
+      "\"It might be difficult, but...\"",
+      "\"I'm planning for the possibility that...\"",
+      "\"I know this will be hard, so...\"",
+      "\"I'm bracing myself for...\"",
+      "\"I'm trying to get ready emotionally for...\"",
+      "Verb phrases combining cognitive planning with affective acknowledgment"
+    ],
+    "narrative_patterns": [
+      "Acknowledges specific future stressors with accompanying emotional distress in the present",
+      "Describes active mental rehearsal of difficult scenarios while experiencing proportionate anxiety",
+      "Articulates concrete preparations for anticipated challenges without magical thinking",
+      "References previous anticipatory work when describing successful navigation of feared events",
+      "Demonstrates capacity to hold both planning cognitions and corresponding affects simultaneously"
+    ],
+    "example_dsq_items": [
+      "anticipation"
+    ],
+    "differentiation": {
+      "vs_intellectualization_and_isolation": "Anticipation involves both thinking and feeling about affective issues, whereas intellectualization and isolation perform only the busywork of cognitive planning and making lists, severing affect from idea.",
+      "vs_fantasy": "Anticipation produces modest affective distress during realistic worrying about actual future events, whereas fantasy involves autistically bland daydreams of disasters and/or wish-fulfillment without proportionate emotional engagement.",
+      "vs_dissociation": "Anticipation produces the capacity to remain calm under stress through prior emotional preparation and realistic planning (like Lindbergh and Yeager's wariness), whereas dissociation leads to 'laid back' behavior of cockeyed optimists and Pollyannas who avoid reality rather than prepare for it."
+    },
+    "literary_cues": "The voice employs future-oriented conditional structures that carry emotional weight rather than remaining affectively flat—syntax balances acknowledgment of difficulty with active preparation, creating a forward-leaning stance grounded in present distress. Imagery tends toward gradual, incremental processes (doses, building tolerance, spreading over time) rather than sudden transformation or avoidance. The tone conveys measured anxiety without catastrophizing, suggesting a self who can hold discomfort without collapse or flight.",
+    "primary_sources_cited": [
+      "WisdomoftheEgo p.202",
+      "WisdomoftheEgo p.205",
+      "WisdomoftheEgo p.207",
+      "The Defense Style Questionnaire 60 (DSQ-60) p.19",
+      "The Defense Style Questionnaire 60 (DSQ-60) p.54"
+    ]
+  },
+  "Apathetic Withdrawal": {
+    "name": "Apathetic Withdrawal",
+    "vaillant_level": "immature",
+    "definition": "The retreat into internal fantasy life and autistic reverie that severs emotional investment in real relationships, producing observable detachment, mechanical functioning, and indifference toward available others despite potential functional capacity. Unlike simple daydreaming, this withdrawal creates a subjective immunity to loneliness and grief while appearing to others as eccentric aloofness, frigidity, or social disengagement. The defense peoples the inner mind with imaginary relationships that remain strictly internal, never acted upon or externalized.",
+    "linguistic_signals": [
+      "\"feeling nothing\" or \"no internal consequences\" when describing significant separations or losses",
+      "detailed description of rich fantasy life followed by denial of emotional impact",
+      "\"I don't really feel lonely\" when circumstances objectively isolate",
+      "mechanical or detached quality in describing intimate experiences",
+      "emphasis on maintaining distance: \"I need space,\" \"it's too much,\" \"I prefer being alone\"",
+      "vague indifference toward available people contrasted with passion for abstract pursuits",
+      "\"it doesn't bother me\" regarding situations that would distress others",
+      "references to secret inner worlds: \"in my mind,\" \"I imagine,\" without bridge to action"
+    ],
+    "narrative_patterns": [
+      "Accounts of social withdrawal framed as preference rather than defense, with no acknowledgment of underlying conflict",
+      "Descriptions of relationships that emphasize their imagined or idealized qualities rather than actual interactions",
+      "Narrative gaps where expected emotional responses (grief, guilt, anxiety) are absent or bypassed",
+      "Recounting of potentially intimate scenarios in curiously affectless, observational tones",
+      "Stories of retreat that express no subjective distress despite objective isolation or dysfunction",
+      "Pattern of brief connection followed by unexplained withdrawal, narrated without linking affect"
+    ],
+    "example_dsq_items": [],
+    "differentiation": {
+      "vs_Schizoid_Fantasy": "While both involve withdrawal into internal imagination, schizoid fantasy actively peoples the mind with elaborate imaginary relationships and scenarios (conquests, rapes, murders at traffic lights), whereas apathetic withdrawal emphasizes the affective deadening and mechanical detachment in actual functioning—the observable indifference and immunity to loneliness rather than the richness of inner content.",
+      "vs_Isolation_of_Affect": "Isolation keeps ideas in consciousness while severing their associated feelings; apathetic withdrawal excludes contact with real others entirely, replacing relationship investment with fantasy. Isolation limits affect while maintaining external engagement; withdrawal abandons the external field altogether.",
+      "vs_Dissociation": "Dissociation involves discontinuity of consciousness and fragmentation of self-experience during overwhelming situations; apathetic withdrawal is a stable characterological retreat into fantasy that maintains continuity of consciousness while severing emotional cathexis to real relationships—the person remains aware but systematically uninvested."
+    },
+    "literary_cues": "Prose marked by conspicuous absence of relational verbs and emotional connectives; sentences structured to place the self as observer rather than participant, with syntactic gaps where affective bridges would naturally occur. Imagery tends toward glass barriers, viewing platforms, or enclosed spaces (automobiles, rooms) that literalize the insulation from consequence. The stance is that of curator rather than inhabitant of one's own life—describing experiences with the curious flatness of museum labels, maintaining grammatical connection to events while evacuating their emotional weight through persistent use of distancing constructions and passive observation.",
+    "primary_sources_cited": [
+      "WisdomoftheEgo p.134",
+      "WisdomoftheEgo p.136",
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli p.185",
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli p.195"
+    ]
+  },
+  "Autistic Fantasy": {
+    "name": "Autistic Fantasy",
+    "vaillant_level": "immature",
+    "definition": "Withdrawal from external reality into an elaborate internal fantasy world that substitutes for interpersonal engagement and problem-solving. The person retreats from the stresses of relating to others, relying on self-generated internal stimulation rather than active participation in social or relational life. Unlike mature sublimation, these daydreams remain private and do not become socially productive or communicable.",
+    "linguistic_signals": [
+      "References to rich inner life or interior world as refuge",
+      "Descriptions of external world as impoverished, problematic, or overwhelming",
+      "Mentions of retreating, withdrawing, or needing to escape into one's own thoughts",
+      "Statements about preferring imagination to real interaction",
+      "References to private fantasies or daydreams that consume attention",
+      "Expressions of social or interpersonal situations as intrusive or overstimulating",
+      "Vague, absent quality when discussing concrete relationships",
+      "Passive verb constructions suggesting removal from action ('I found myself...', 'It happened that...')"
+    ],
+    "narrative_patterns": [
+      "Shifts focus from interpersonal conflict to internal imaginal solutions or scenarios",
+      "Describes elaborate fantasy sequences in response to relational stress",
+      "Recounts withdrawal from social participation without active problem-solving",
+      "Presents internal world as more vivid or meaningful than external events",
+      "Avoids concrete details of relationships in favor of abstract or imagined alternatives",
+      "Narrates experiences of overstimulation followed by retreat into altered consciousness or fantasy"
+    ],
+    "example_dsq_items": [
+      "Items measuring autistic fantasy loaded at .48 on immature factor (DSQ-82)",
+      "Three items created to measure autistic fantasy in DSQ-40 development",
+      "Autistic fantasy consistently grouped with immature defenses across DSQ versions"
+    ],
+    "differentiation": {
+      "vs_Sublimation": "Sublimation transforms fantasy into socially valued creative output that engages others, while autistic fantasy remains private and substitutes for rather than enhances social connection.",
+      "vs_Dissociation": "Dissociation involves disconnection from immediate conscious experience or fragmentation of awareness, while autistic fantasy is an active retreat into a coherent, elaborated internal world.",
+      "vs_Withdrawal": "While withdrawal describes the general movement away from contact, autistic fantasy specifically emphasizes the rich compensatory internal fantasy life that replaces interpersonal engagement."
+    },
+    "literary_cues": "The voice exhibits a dreamy, distanced quality with imagery that privileges internal landscapes over concrete sensory detail of the present. Syntax may drift into subjunctive constructions ('as if', 'might have been') and hypothetical scenarios that feel more invested than the actual narrative moment. The speaker's stance is that of an observer from elsewhere, describing the social world with the affective flatness of someone watching through glass while inhabiting a more vivid interior realm.",
+    "primary_sources_cited": [
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli p.103",
+      "WisdomoftheEgo p.617",
+      "WisdomoftheEgo p.716",
+      "The Defense Style Questionnaire 60 (DSQ-60) p.31",
+      "Psychotherapy Using_the_Defense_Mechanism_Rating_Scales p.5"
+    ]
+  },
+  "Denial": {
+    "name": "Denial",
+    "vaillant_level": "psychotic",
+    "definition": "The automatic refusal to acknowledge external reality that is unpleasant or threatening, rooted in the prelogical conviction that 'If I don't acknowledge it, it isn't happening.' Unlike repression (which affects internal reality), denial obliterates perception of external facts; the psychotically blind walk into things while the hysterically blind walk around them. Distinguished from dissociation (neurotic denial) which transforms subjective interpretation of internal emotions, denial ignores external painful stimuli entirely—leaving the schizophrenic with a painless heart attack noticed by no one.",
+    "linguistic_signals": [
+      "Oh, no!",
+      "Everything is always fine and for the best",
+      "I didn't break it [when clearly responsible]",
+      "It represents the will of God, who knew what was best",
+      "There is no problem",
+      "This isn't happening",
+      "Everything is perfect/wonderful [when circumstances suggest otherwise]",
+      "Unprompted disavowal of obvious facts",
+      "Expression of rapture or overwhelming exhilaration in objectively negative circumstances",
+      "Pollyanna-like insistence on positive interpretation"
+    ],
+    "narrative_patterns": [
+      "Initial catastrophic reflex: immediate 'no' response to bad news before processing",
+      "Treating factual dangers or limitations as nonexistent (empty cages with large animals, denying need for sleep or financial constraints)",
+      "Refusing to mourn or acknowledge loss; ignoring suffering in self or others",
+      "Resisting advice or information that would require acknowledging negative reality",
+      "Maintaining exhilarated or elevated mood while material circumstances deteriorate",
+      "Puzzled or sincere presentation when denying obvious responsibility"
+    ],
+    "example_dsq_items": [],
+    "differentiation": {
+      "vs_Repression": "Repression affects perception of internal reality and memories; denial obliterates perception of external reality. The hysterically blind (repression) walk around objects they 'cannot see'; the psychotically blind (denial) walk into them.",
+      "vs_Dissociation": "Dissociation transforms subjective interpretation of painful internal emotions (the coronary patient who propositions nurses); denial ignores external painful stimuli entirely (the schizophrenic with painless heart attack noticed by no one).",
+      "vs_Reaction_Formation": "Reaction formation includes denial of a feeling plus the more complex transformation into its opposite (hatred into love); denial is the simpler refusal to acknowledge the emotion or fact without additional transformation."
+    },
+    "literary_cues": "Denial produces a voice of bewildering brightness or blankness—syntax stripped of conditional or negative markers, a declarative simplicity that refuses subjunctive doubt. Imagery favors light, ascent, divine plan, empty space where obstacles should appear; the stance is not argumentative but puzzled when challenged, as if the speaker genuinely cannot perceive what others see. The poetic footprint is absence itself: the reflex 'no,' the missing stanza where grief belongs, the radiant line that hovers untethered above its material circumstances.",
+    "primary_sources_cited": [
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli p.104",
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli p.105",
+      "WisdomoftheEgo p.122",
+      "Cramer-Understanding-Defense-Mechanisms (1) p.20",
+      "Defenses in Everyday Life p.6"
+    ]
+  },
+  "Devaluation": {
+    "name": "Devaluation",
+    "vaillant_level": "neurotic",
+    "definition": "An unconscious operation that protects self-esteem by diminishing the worth, competence, or power of others, typically to avoid feelings of vulnerability, neediness, or shame associated with acknowledging dependency or deficiency. Devaluation functions as the inevitable downside of idealization: when archaic idealizations are disappointed, the more extreme the prior idealization, the more radical the subsequent devaluation. This defense is differentiated as 'primitive devaluation' when it operates in a global, image-distorting manner characteristic of borderline and narcissistic organization, versus more modulated neurotic-level devaluation.",
+    "linguistic_signals": [
+      "You certainly love to cherish all my defects",
+      "Just a regular [person], I guess",
+      "An alcoholic. That's all.",
+      "Global, dismissive descriptions",
+      "Cannot walk and chew gum at the same time",
+      "Putting me down / being put down",
+      "Reflects badly on the family",
+      "Ranking process evaluating comparative worth",
+      "Contemptuous or scornful dismissal of another's value"
+    ],
+    "narrative_patterns": [
+      "Gives one-dimensional, dismissive characterizations when asked to describe important people",
+      "Focuses persistently on defects, flaws, or limitations of others (especially helpers or attachment figures)",
+      "Oscillates between extreme praise and extreme contempt for the same person or institution",
+      "Minimizes others' competence or contribution to preserve sense of self-sufficiency",
+      "Employs constant comparative ranking of people, institutions, or qualities according to prestige hierarchy",
+      "Suddenly ruptures relationships when disenchantment follows idealization"
+    ],
+    "example_dsq_items": [],
+    "differentiation": {
+      "vs_Idealization": "Devaluation is the defensive collapse following failed idealization; whereas idealization defensively inflates the object's worth to maintain hope of perfection through merger, devaluation deflates worth to manage disappointment and preserve self-esteem when perfection proves impossible.",
+      "vs_Projection": "Devaluation attributes diminished worth or competence to the object while keeping negative judgment ego-syntonic as one's own assessment; projection expels unacceptable internal content and attributes it to the other as if it originates there, often without conscious awareness of the evaluative judgment.",
+      "vs_Splitting": "Devaluation is the 'all-bad' pole that may result from splitting, but splitting is the more fundamental operation that prevents integration of good and bad aspects of self or other; devaluation can occur without splitting when it targets specific attributes rather than the whole object representation."
+    },
+    "literary_cues": "Devaluation manifests poetically through diminishing imagery—others shrink, flatten into caricature, or dissolve into single damning attributes. Syntax becomes reductive and totalizing ('just a,' 'nothing but,' 'all he is'), stripping dimensionality from human portraits. The stance oscillates between dismissive superiority and implicit vulnerability: the speaker's need to diminish suggests the threat posed by the object's actual power or value, creating a defensive distance through contemptuous tone even as the intensity of focus reveals underlying preoccupation.",
+    "primary_sources_cited": [
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli p.71",
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli p.108",
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli p.179",
+      "Cramer-Understanding-Defense-Mechanisms (1) p.14"
+    ]
+  },
+  "Displacement": {
+    "name": "Displacement",
+    "vaillant_level": "neurotic",
+    "definition": "The redirection of a drive, emotion, preoccupation, or behavior from its initial or natural object to another, less anxiety-provoking target, while the affect itself remains in consciousness but is reattached to a substitute object. The original direction is blocked because it is fraught with anxiety, so the impulse finds safer expression through symbolic or less significant channels (McWilliams, Vaillant). Unlike more primitive defenses, displacement preserves the affect's basic quality while altering only its target.",
+    "linguistic_signals": [
+      "\"taking it out on [substitute object]\"",
+      "\"that [other person/thing] is the real problem\"",
+      "\"I'm not angry at [primary object], but [displaced object] really bothers me\"",
+      "triangulation language: \"because of [third party], we...\"",
+      "disproportionate focus on secondary figures rather than central relationships",
+      "\"the home wrecker\" / \"the other woman/man\" rhetoric that diverts from partner",
+      "specific phobic naming: \"I can't stand [symbolic object]\"",
+      "\"I was fine until [safer target] came along\"",
+      "obsessional preoccupation with substitute concerns",
+      "\"anyway, what really matters is [displaced concern]\""
+    ],
+    "narrative_patterns": [
+      "Narrative energy concentrates on less central figures while primary relationships remain unexamined",
+      "Speaker demonstrates heightened affect toward symbols or substitutes (pets, objects, third parties) following frustration with primary objects",
+      "Story structure follows chain reactions: boss→self→spouse→children→dog cascade pattern",
+      "Fetishistic or phobic elaborations appear where specific objects carry disproportionate emotional weight relative to their ostensible significance",
+      "Therapeutic narrative reveals displacement through dream associations, wordplay, and metaphor that reconnect affect to original objects",
+      "Speaker attributes relationship damage to external parties rather than dyadic dynamics"
+    ],
+    "example_dsq_items": [],
+    "differentiation": {
+      "vs_Projection": "Displacement alters only the object of an affect while preserving insight that the feeling originates from within; projection externalizes the affect's origin entirely, attributing internal states to others. Displacement maintains 'I am angry (at wrong target)'; projection generates 'They are angry (at me)'.",
+      "vs_Sublimation": "Displacement redirects affect to a less significant or symbolically related object without transformation of the impulse itself; sublimation channels the impulse into socially valued, creative activity with real consequences. Displacement to a pull toy remains destructive; sublimation into New Yorker poetry becomes generative.",
+      "vs_Isolation": "Displacement keeps affect in consciousness but reattaches it elsewhere; isolation removes affect from the ideation entirely while preserving the thought. Isolation plus displacement combine to create obsessions, where affect-drained preoccupations attach to substitute concerns."
+    },
+    "literary_cues": "Displacement produces narrative swerves where emotional intensity suddenly adheres to minor characters, tangential objects, or symbolic substitutes—the dog, the shoes, the nose—that carry covert cargo from primary relationships. Syntactically, sentences pivot from central figures toward elaborate descriptions of peripheral concerns, creating lopsided emphasis patterns. The voice often adopts an obsessional fixation on stand-ins (fetishes, phobias, 'that home wrecker') that signals the reader to triangulate back toward the true, anxiety-laden source the speaker cannot directly confront.",
+    "primary_sources_cited": [
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli p.133",
+      "WisdomoftheEgo p.173",
+      "WisdomoftheEgo p.179",
+      "Preliminary-Reliability-and Validity-of-the DMRS-SR-30 p.3"
+    ]
+  },
+  "Dissociation": {
+    "name": "Dissociation",
+    "vaillant_level": "neurotic",
+    "definition": "A defense involving alterations in consciousness that isolate traumatic or overwhelming experiences from integrated awareness, ranging from minor lapses to discrete self-states with separate memories, affects, and behaviors. The individual with dissociative capacity possesses constitutional talent for autohypnosis that enables retreat into altered states when confronted with unbearable pain, terror, or emotional flooding. Unlike other defenses that modify or displace affect, dissociation creates discontinuities in the integration of behavior, affect, sensation, and knowledge (BASK model), transforming dangerous material into something playful or compartmentalized rather than directly confronted.",
+    "linguistic_signals": [
+      "\"I don't remember saying that\" or \"That doesn't sound like me\" (referring to own recent statements)",
+      "Sudden shifts in vocabulary, speech register, or verbal sophistication mid-conversation",
+      "References to \"going away\" or \"leaving\" during stressful moments without physical movement",
+      "\"It happened to someone else\" or \"I watched it from outside my body\"",
+      "Evasive fabrications or vague answers covering amnesia (\"covering for lapses\")",
+      "\"I lost time\" or \"I came to and...\"",
+      "Describing self in third person or as multiple entities",
+      "\"Part of me feels X, but another part...\" (when referring to discrete, non-integrated states)",
+      "Dreamlike or theatrical quality to descriptions of traumatic events",
+      "Reports of out-of-body experiences or watching self from distance"
+    ],
+    "narrative_patterns": [
+      "Accounts with unexplained temporal gaps or inconsistencies that the narrator seems unaware of",
+      "Transformation of traumatic material into playful, charming, or entertaining narratives that deflect emotional impact",
+      "Reports of behaving in ways that contradict the narrator's self-concept, with genuine surprise or confusion",
+      "Switching between conflicting emotional states or perspectives without apparent awareness of the contradiction",
+      "Theatrical or dissociated quality to trauma narratives, as if describing someone else's experience",
+      "Lingering, chatty behavior at session boundaries, seeking extra support while appearing detached from urgency"
+    ],
+    "example_dsq_items": [],
+    "differentiation": {
+      "vs_repression": "Repression banishes painful ideas while leaving the self integrated; dissociation fragments consciousness itself, creating separate compartments or self-states with their own affects and memories, often with amnesia between states.",
+      "vs_splitting": "Splitting divides previously integrated representations of self and others into all-good and all-bad; dissociation keeps experiences that were never integrated separate from the beginning, creating parallel consciousness streams rather than polarized evaluations.",
+      "vs_acting_out": "Acting out discharges affect through behavior that ignores conscience and often harms the object; dissociation transforms dangerous affect into play or altered states while maintaining distance from both the affect and the object, charming rather than harming observers.",
+      "vs_reaction_formation": "Reaction formation transforms impulses into their earnest opposite while remaining conscious; dissociation denies both desire and conscience by creating discontinuous states of awareness, turning conflict into something different and playful rather than reversed."
+    },
+    "literary_cues": "Dissociative voice exhibits sudden tonal or stylistic ruptures—mid-passage shifts from sophisticated to childlike diction, or from earnest confession to theatrical detachment—that suggest multiple authorial presences within a single text. The syntax may display dreamlike fluidity or cinematic distance (\"watching from above,\" \"it happened to her\"), with trauma narratives acquiring an entertaining or seductive quality that charms while deflecting emotional contact. Imagery oscillates between embodied sensation and out-of-body observation, creating a poetics of fragmentation where experience is rendered as kaleidoscopic rather than integrated.",
+    "primary_sources_cited": [
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli p.119",
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli p.297",
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli p.301",
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli p.303",
+      "WisdomoftheEgo p.162",
+      "WisdomoftheEgo p.163"
+    ]
+  },
+  "Help-Rejecting Complaining": {
+    "name": "Help-Rejecting Complaining",
+    "vaillant_level": "immature",
+    "definition": "A defense mechanism in which the individual repeatedly solicits suggestions, advice, or help from others but subsequently rejects or devalues every offered solution through persistent complaining, thereby maintaining a stance of aggrieved helplessness while covertly expressing hostility toward would-be helpers. The DSQ-60 operationalizes this defense through two items measuring the conscious derivatives of this pattern, wherein complaints serve simultaneously to solicit attention and to ensure that no genuine relief or change occurs.",
+    "linguistic_signals": [
+      "\"Yes, but...\" followed by rejection of proposed solution",
+      "Repetitive complaints about the same unchanging problem",
+      "\"I've already tried that and it didn't work\"",
+      "Soliciting advice through rhetorical complaints (\"What am I supposed to do when...?\")",
+      "\"Nobody understands how hard this is\"",
+      "Dismissive or devaluing responses to helpers' suggestions",
+      "\"That won't work because...\" followed by preemptive obstacle",
+      "Complaints framed as questions that deflect rather than invite genuine problem-solving",
+      "Circular return to original complaint after dismissing interventions",
+      "Emphasizing uniqueness or impossibility of one's predicament"
+    ],
+    "narrative_patterns": [
+      "Establishes self as victim of circumstances beyond control while simultaneously thwarting efforts at change",
+      "Cycles through solicitation of help, rejection of specific suggestions, and renewal of original complaint",
+      "Maintains focus on grievance rather than resolution, ensuring ongoing attention from others",
+      "Implicitly devalues helpers by rendering their efforts ineffective while maintaining surface request for assistance",
+      "Presents obstacles or reasons for failure preemptively when solutions are offered",
+      "Preserves dependent relationship through chronic complaints while avoiding actual dependence on any particular solution"
+    ],
+    "example_dsq_items": [],
+    "differentiation": {
+      "vs_Passive_Aggressive": "Passive-aggressive defense expresses hostility through indirect opposition, sabotage, or procrastination in response to demands, whereas help-rejecting complaining specifically centers on the solicitation-rejection cycle around complaints, maintaining the help-seeker role while ensuring helpers fail.",
+      "vs_Projection": "Projection attributes one's own unacceptable feelings or impulses to others, whereas help-rejecting complaining keeps the problem located in external circumstances while rejecting others' attempts to address it, thereby expressing hostility through frustrating helpers rather than through attribution.",
+      "vs_Devaluation_of_Other": "Devaluation of other involves global dismissal or contempt for others to manage anxiety about dependency or inadequacy, whereas help-rejecting complaining specifically uses the mechanism of soliciting and then rejecting help to maintain a particular relational stance—the devaluation is tactical and sequential rather than global."
+    },
+    "literary_cues": "This defense produces a rhetorical structure of recursive return—the voice circles back obsessively to a wound that simultaneously seeks and refuses witness. Syntax often features aborted movements toward resolution (subordinate clauses beginning with \"but,\" \"although,\" \"however\" that undo what precedes them), creating a self-canceling rhythm. The stance oscillates between supplication and dismissal, generating dramatic irony in which the reader perceives the speaker's covert investment in remaining stuck while the speaker maintains surface posture of seeking change.",
+    "primary_sources_cited": [
+      "The Defense Style Questionnaire 60 (DSQ-60) p.50"
+    ]
+  },
+  "Humor": {
+    "name": "Humor",
+    "vaillant_level": "mature",
+    "definition": "An involuntary defensive process that permits overt expression of distressing feelings without individual discomfort or unpleasant effect on others, allowing one to look directly at what is painful and respond as if it were a game while maintaining full awareness and an observing ego. Unlike displacement or wit, humor keeps idea, affect, and object in conscious awareness, requires timing and sophistication, and typically makes oneself rather than others the butt of the joke. It reconciles paradox (love and hate, pain and pleasure), allows pleasure to both user and observer, and only comes with maturity, often emerging from the intrapsychic reconciliation of severe childhood suffering.",
+    "linguistic_signals": [
+      "Self-mocking statements that acknowledge painful reality while deflating its power",
+      "Gallows humor that names terrible circumstances with wry detachment",
+      "Jokes that make the speaker's own foibles the target rather than deflecting onto others",
+      "Paradoxical observations that hold contradictory truths simultaneously (e.g., 'rejoice at a christening and weep at a funeral? We are not the ones involved!')",
+      "Playful reframings that preserve the full truth of distressing situations while enabling catharsis",
+      "Whimsical admissions of vulnerability that invite shared recognition rather than shame",
+      "Timing-dependent utterances that surprise by appearing 'where we least expect it'",
+      "Statements that 'deflate without destroying' and 'instruct while entertaining'",
+      "Self-deprecating observations about one's pretensions or limitations",
+      "Ironic acknowledgments of unavoidable suffering that scorn to withdraw attention from painful content"
+    ],
+    "narrative_patterns": [
+      "Directly confronts painful reality while simultaneously responding as if it were a game, without distraction or looking away",
+      "Makes oneself the protagonist of embarrassing or difficult situations rather than displacing onto others",
+      "Maintains full observing ego awareness of timing, audience, and context even while appearing spontaneous",
+      "Transforms sadomasochistic conflict into catharsis rather than cruelty, with pleasure for both observer and user",
+      "Acknowledges rather than minimizes distressing affects, finding ways to bear what is 'too terrible to be borne'",
+      "Demonstrates sophistication and social maturity in the construction of the humorous frame, requiring the observer to 'get' complex irony"
+    ],
+    "example_dsq_items": [],
+    "differentiation": {
+      "vs_displacement_wit": "Humor calls a spade a spade and keeps the dangerous object in focus, whereas wit and caricature displace idea and affect away from the dangerous object onto a more neutral target; humor allows you to look directly at pain while wit deflects attention elsewhere.",
+      "vs_passive_aggression": "Humor allows pleasure to both observer and user with the joke on oneself, whereas passive aggression (clowning, practical jokes) creates discomfort in others with someone else as the butt of the joke; humor requires an observing ego and timing, while passive aggression lacks this self-awareness.",
+      "vs_dissociation_hysterical_laughter": "Humor can never be deployed without an observing ego and maintains conscious awareness of reality (timing is everything), whereas hysterical laughter involves mindless dissociation that distracts us to look in another direction and withdraws the distressing content from conscious attention."
+    },
+    "literary_cues": "Humor manifests in a voice that holds space for both gravity and lightness simultaneously, with syntax that pivots on paradox—affirming painful truth while introducing a ludic frame through unexpected juxtaposition or self-implicating irony. The stance is neither detached nor overwhelmed but maintains parallax vision, seeing from two positions at once (participant and observer), often with cataplectic stillness beneath apparent spontaneity. Imagery tends toward the concrete and embodied, grounding abstract suffering in physical or social absurdity that invites recognition rather than distance, with a rhythm that surprises through its timing—the beat that lands where logic doesn't expect it.",
+    "primary_sources_cited": [
+      "WisdomoftheEgo p.207",
+      "WisdomoftheEgo p.208",
+      "WisdomoftheEgo p.209",
+      "WisdomoftheEgo p.210",
+      "WisdomoftheEgo p.931",
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli p.140"
+    ]
+  },
+  "Idealization": {
+    "name": "Idealization",
+    "vaillant_level": "neurotic",
+    "definition": "The attribution of exaggerated positive qualities, omnipotence, or perfection to others (or the self) in order to maintain emotional safety, regulate self-esteem, or manage attachment anxiety. While normal idealization is an essential component of mature love and adolescent identity development, pathological idealization involves archaic convictions of merger with an omnipotent, omniscient, omnibenevolent figure to counteract internal terror. The defense involves duty less and gratitude more than internalization, and represents a process of assimilation that comes closer to achieving synthesis of other people.",
+    "linguistic_signals": [
+      "\"wonderful\" or \"the best in the field\" applied to attachment figures",
+      "Superlatives and absolute positive attributions (\"extraordinary,\" \"brilliant\")",
+      "Language of perfection and omnipotence (\"can walk on water\")",
+      "Enthusiastic tone of voice accompanying positive descriptions",
+      "Expressions of total trust and conviction in another's special powers",
+      "Descriptions emphasizing the need to merge with or be close to idealized figures",
+      "Minimization or absence of any negative qualities in the idealized object",
+      "Language suggesting protection from dangers through connection to idealized other"
+    ],
+    "narrative_patterns": [
+      "Attributing superhuman capabilities to caregivers, authority figures, or therapists (e.g., expecting them to control uncontrollable circumstances)",
+      "Organizing life narrative around search for perfection through merger with idealized objects",
+      "Sudden narrative reversals when idealized figures disappoint, leading to relationship rupture",
+      "Recounting experiences that emphasize vulnerability alongside descriptions of powerful protective figures",
+      "Presenting relationships in terms of rankings and comparative value assessments",
+      "Fresh, intimate friendships that leave the person with new skills and capacities (healthy idealization)"
+    ],
+    "example_dsq_items": [],
+    "differentiation": {
+      "vs_primitive_idealization": "Neurotic idealization maintains greater reality testing and allows for ambivalence, whereas primitive idealization involves total, all-good categorizations with no room for the object's flaws and inevitably collapses into devaluation through splitting mechanisms.",
+      "vs_internalization": "Idealization involves looking outward to an admired other for self-regulation and comes closer to complete synthesis of the other person, while internalization is the more basic process of taking qualities of others inside to build ego structure and skills.",
+      "vs_altruism": "Idealization focuses on attributing exaggerated positive qualities to others to manage one's own anxiety or self-esteem needs, while altruism involves vicarious pleasure in giving to others and constructive service with less emphasis on the other's perfection."
+    },
+    "literary_cues": "The voice adopts a reverential, awe-struck stance toward its subjects, with syntax that elevates and enlarges through accumulated superlatives and expansive claims. Imagery tends toward the celestial, monumental, or untouchable—pedestals, halos, heights—creating vertical distance between speaker and idealized object. The rhythm may accelerate with enthusiasm or become breathless with wonder, while semantic fields cluster around power, protection, and transcendence, betraying the underlying terror that necessitates such perfect guardians.",
+    "primary_sources_cited": [
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli",
+      "WisdomoftheEgo",
+      "Preliminary-Reliability-and Validity-of-the DMRS-SR-30"
+    ]
+  },
+  "Intellectualization": {
+    "name": "Intellectualization",
+    "vaillant_level": "neurotic",
+    "definition": "A higher-order version of isolation in which affective content is acknowledged cognitively but stripped of emotional resonance; the person talks about feelings in a detached, theoretical manner that strikes listeners as emotionless despite topical accuracy. Unlike isolation (where the person reports having no feelings), intellectualization involves summarizing emotional experiences in tones resembling 'weather reports on the psyche'—conceptually correct but devoid of gut-level engagement.",
+    "linguistic_signals": [
+      "\"Well, naturally I have some anger about that\" (delivered in casual, detached tone)",
+      "\"Theoretically speaking, one would expect to feel...\"",
+      "Summarizing experiences \"like a weather report on their psyche\"",
+      "\"From a psychological standpoint, my reaction was...\"",
+      "Frequent use of abstract terminology in place of direct emotional disclosure",
+      "\"The concept of [emotion] is clear in my mind\"",
+      "\"I understand that people typically feel [X] in this situation\"",
+      "Wooden, perseverative lectures about emotional material"
+    ],
+    "narrative_patterns": [
+      "Describing emotional events as theoretical constructs rather than lived experiences",
+      "Maintaining detached, observational stance when recounting personally charged material",
+      "Converting affective disclosures into intellectual analyses or generalizations",
+      "Discussing feelings in third-person or conditional framings",
+      "Performing emotional content mechanically without pleasure or anxiety"
+    ],
+    "example_dsq_items": [],
+    "differentiation": {
+      "vs_isolation": "Isolation reports absence of feelings entirely; intellectualization acknowledges the idea of feelings but delivers them in an affectively flat, theoretical manner—the feeling is conceptually present but emotionally evacuated.",
+      "vs_rationalization": "Rationalization constructs plausible explanations to justify behavior or avoid blame; intellectualization focuses on abstract, detached processing of affect itself without necessarily defending against criticism or guilt.",
+      "vs_sublimation": "Sublimation channels impulses into socially valued activities with genuine engagement; intellectualization merely translates emotional material into cognitive form while maintaining defensive distance from the affect."
+    },
+    "literary_cues": "Intellectualization produces prose characterized by subordinate clauses that defer emotional contact, conditional mood ('one might feel'), and abstract diction that holds experience at arm's length. The syntax often mirrors academic discourse—periodic sentences, passive constructions, nominalizations—creating rhythmic distance between speaker and subject. Imagery, when present, tends toward the schematic or diagrammatic rather than sensory, as though the poem were mapping rather than inhabiting its emotional terrain.",
+    "primary_sources_cited": [
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli p.127",
+      "WisdomoftheEgo p.175",
+      "Cramer-Understanding-Defense-Mechanisms (1) p.2"
+    ]
+  },
+  "Isolation of Affect": {
+    "name": "Isolation of Affect",
+    "vaillant_level": "neurotic",
+    "definition": "The sequestration of the affective aspect of an experience or idea from its cognitive dimension, permitting the person to know something intellectually while remaining disconnected from its emotional significance. Individuals report having no feelings about emotionally charged material, or discuss feelings in a manner that strikes listeners as emotionless. This defense allows professionals (surgeons, generals, police) to function effectively in disturbing situations but becomes maladaptive when generalized as a core defensive style that undervalues feeling and overvalues thinking.",
+    "linguistic_signals": [
+      "\"I have no emotional responses to that\"",
+      "\"Well, naturally I have some anger about that\" (delivered in casual, detached tone)",
+      "\"Theoretically I accept that I might feel X\"",
+      "Responding to \"How do you feel?\" with \"I think...\"",
+      "Weather-report tone when describing personal experiences",
+      "\"It's just rational/logical that...\" (when discussing potentially emotional topics)",
+      "Excessive use of technical or abstract language for personal matters",
+      "\"I understand intellectually that this should be upsetting\"",
+      "Claims of having \"only rational concerns\"",
+      "Summarizing emotional experiences as if reporting data"
+    ],
+    "narrative_patterns": [
+      "Describes traumatic or significant events without corresponding emotional coloring",
+      "Reports feelings as abstract concepts rather than lived experiences",
+      "Provides detailed factual accounts while omitting personal reactions",
+      "Maintains consistent affective flatness across varied content",
+      "Focuses on procedural or technical aspects of emotionally charged situations",
+      "Acknowledges feelings exist 'in theory' but does not access or express them directly"
+    ],
+    "example_dsq_items": [],
+    "differentiation": {
+      "vs_Intellectualization": "Isolation of affect involves claiming to have no feelings at all, whereas intellectualization discusses feelings in an emotionless, theoretical way—the person acknowledges affect exists but keeps it at arm's length through abstract discourse.",
+      "vs_Dissociation": "Isolation creates a rift specifically between cognition and emotion within awareness, while dissociation involves a more global splitting of consciousness where entire experiences, memories, or aspects of self may be unavailable to awareness.",
+      "vs_Compartmentalization": "Isolation separates feeling from knowing within a single domain, whereas compartmentalization maintains two contradictory cognitions or behaviors in separate mental 'boxes' without recognizing their incompatibility."
+    },
+    "literary_cues": "The isolated voice adopts a forensic or clinical register even for intimate material, producing prose that reads like documentation rather than testimony. Syntax tends toward the declarative and impersonal, with passive constructions or third-person distance infiltrating first-person accounts. The characteristic absence is of sensory-affective imagery—metaphors remain purely conceptual, devoid of bodily resonance or emotional temperature.",
+    "primary_sources_cited": [
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli p.126",
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli p.127",
+      "Psychotherapy Using_the_Defense_Mechanism_Rating_Scales p.5",
+      "Psychotherapy Using_the_Defense_Mechanism_Rating_Scales p.6"
+    ]
+  },
+  "Omnipotence": {
+    "name": "Omnipotence",
+    "vaillant_level": "psychotic",
+    "definition": "A defense mechanism involving the fantasy or conviction that one possesses unlimited, magical control over reality, ranging from normal infantile grandiosity (primary omnipotence) to pathological maintenance of archaic beliefs in one's unfettered power over internal and external worlds. In psychotic-level functioning, omnipotence represents unmodified survival of preverbal convictions that wishes directly control outcomes, with no awareness of a locus of control in separate others outside the self. In borderline and antisocial presentations, omnipotence stabilizes fragile self-representations through grandiose self-investment when external objects fail, often coupled with image-distorting mechanisms.",
+    "linguistic_signals": [
+      "\"I can make [external event] happen by willing it\"",
+      "\"My thoughts/wishes control what occurs\"",
+      "\"I have special powers that others don't possess\"",
+      "\"No one's limits apply to me\"",
+      "\"I had a hunch and made it come true\"",
+      "\"Everything depends on my personal force/energy\"",
+      "\"I am beyond ordinary human constraints\"",
+      "References to magical causation between self and world events",
+      "Collapse of boundary between internal desire and external outcome",
+      "Attributing coincidence or luck to personal supernatural influence"
+    ],
+    "narrative_patterns": [
+      "Interpreting external successes as evidence of magical personal power rather than circumstance or others' contributions",
+      "Denying the separate agency or control of other people; treating others as extensions of self-will",
+      "Organizing life narrative around demonstrations of superior power and effectiveness",
+      "Becoming enraged when reality contradicts grandiose beliefs (e.g., tantrum when therapist cannot change weather)",
+      "Presenting self as having special insight, control, or influence that defies natural laws",
+      "Crime sprees or destructive acts following blows to grandiose self-image"
+    ],
+    "example_dsq_items": [],
+    "differentiation": {
+      "vs_Idealization": "Omnipotence locates magical, unlimited power within the self, whereas idealization attributes omnipotence to an external figure (caregiver, authority) with whom one may merge for derivative safety.",
+      "vs_Grandiosity": "Grandiosity (in antisocial contexts per Cramer) refers to inflated self-regard and superiority seeking; omnipotence specifically involves fantasies of magical control over reality and confusion of wish with outcome.",
+      "vs_Denial": "Denial involves refusing to acknowledge painful external reality; omnipotence actively asserts magical mastery over reality, believing one can alter facts through internal force rather than simply not seeing them."
+    },
+    "literary_cues": "The omnipotent voice exhibits syntactic collapse between subjunctive and indicative mood—wishes are narrated as accomplished facts without mediating agency. Imagery gravitates toward elemental forces (weather, cosmic events) yoked to personal will, and spatial metaphors erase boundaries between internal and external loci of control. The stance is one of solipsistic causality: a universe structured entirely around the emanations of the speaking self, with other persons rendered as permeable extensions rather than separate centers of action.",
+    "primary_sources_cited": [
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli p.106",
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli p.107",
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli p.154",
+      "Preliminary-Reliability-and Validity-of-the DMRS-SR-30 p.3",
+      "Cramer-Understanding-Defense-Mechanisms (1) p.14"
+    ]
+  },
+  "Passive Aggression": {
+    "name": "Passive Aggression",
+    "vaillant_level": "immature",
+    "definition": "The expression of aggression toward others through indirect suffering, self-sabotage, or failure that simultaneously punishes the real source of conflict and the self. The user directs behavior toward the actual object of hostility (boyfriend, supervisor, lover) that communicates \"Look what you made me suffer!\" or \"Look what you made me do!\" while maintaining plausible deniability of aggressive intent. Unlike hypochondriasis where the object receives covert reproach, the passive aggressive individual's woes are current and aimed at the genuine source of frustration.",
+    "linguistic_signals": [
+      "\"Look what you made me suffer!\"",
+      "\"Look what you made me do!\"",
+      "Disingenuous maternal reassurances (e.g., \"You shouldn't feel too bad about...\")",
+      "Oppressive nonverbal broadcasts that another's actions are wounding",
+      "References to current suffering directed at the actual source of conflict",
+      "Martyred complaints that attribute causation to the target",
+      "Statements that simultaneously reassure and reproach",
+      "Self-referential accounts of distress linked to another's behavior"
+    ],
+    "narrative_patterns": [
+      "Recounts current suffering while identifying the real perpetrator (recruit punishes tormenting sergeant, suicide attempt targets vacationing doctor)",
+      "Delivers complaints to the actual source of conflict rather than displaced recipients",
+      "Frames self-harm or failure as caused by the other's actions or choices",
+      "Maintains surface concern for the other's feelings while broadcasting injury",
+      "Presents suffering as fresh and ongoing, not old news",
+      "Offers reassurance that simultaneously communicates blame"
+    ],
+    "example_dsq_items": [],
+    "differentiation": {
+      "vs_Hypochondriasis": "Passive aggression punishes the real source of conflict through current suffering; hypochondriasis delivers complaints about old news to innocent third parties (e.g., Peggy punishes boyfriend with passive aggression but tells mother about migraines in hypochondriacal mode).",
+      "vs_Reaction_Formation": "Reaction formation leads the user to suffer but appeases the object; passive aggression makes both subject and object suffer—the subject gives away the biggest piece but ensures the object feels the cost.",
+      "vs_Acting_Out": "While both are action-level defenses, passive aggression expresses hostility through self-defeating behavior that indirectly punishes the other; acting out directly discharges impulses without regard to self-punishment."
+    },
+    "literary_cues": "The passive aggressive voice adopts a martyred, wounded syntax that binds self-injury to another's agency—sentences structured to make causation flow from the other while the speaker occupies the suffering object position. Imagery centers on fresh wounds, current deprivation, ongoing sacrifice, with temporal markers emphasizing the now (not the habitual complaints of hypochondriasis). The stance is simultaneously accusatory and self-abnegating: a poetic voice that manages to be both victim and prosecutor, offering the reader reassurance in one breath while ensuring the emotional bill is delivered.",
+    "primary_sources_cited": [
+      "WisdomoftheEgo",
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli",
+      "Psychotherapy Using_the_Defense_Mechanism_Rating_Scales",
+      "Cramer-Understanding-Defense-Mechanisms (1)"
+    ]
+  },
+  "Projection": {
+    "name": "Projection",
+    "vaillant_level": "immature",
+    "definition": "Projection is the process whereby internal states—especially disowned aggressive, critical, or negative aspects of the self—are misattributed as originating from outside the self and located in external objects. The subject turns into the object, perceiving others as possessing the feelings, impulses, or attitudes that actually belong to the self. This defense involves a permeable psychological boundary between self and world, resulting in serious distortion of external reality when projected contents are highly negative or ego-dystonic.",
+    "linguistic_signals": [
+      "\"You [therapist/other] are jealous/envious/critical of me\"",
+      "\"You shrinks all love to sit back and judge people\"",
+      "\"They have something against me\"",
+      "\"Others will criticize her\"",
+      "\"I can tell that [other] is [negative attribute]\"",
+      "Accusatory tone with attributions of malevolent intent to others",
+      "\"They did things to upset her\"",
+      "\"Transferring blame to others\"",
+      "References to being watched, mistreated, or persecuted by external agents",
+      "Statements attributing one's own disowned impulses to the environment"
+    ],
+    "narrative_patterns": [
+      "Converts self-reproach or self-criticism into accusations that others are reproachful or critical",
+      "Justifies internal fears by constructing an external threat that appears to validate the fear",
+      "Reinterprets sympathetic or neutral communications as evidence of the projected attribute (e.g., sympathy becomes evidence of envy)",
+      "Creates narratives in which the self is victim to others' negative intentions that mirror disowned aspects of self",
+      "Works to make the projection 'fit' the target through antagonistic behavior or selective attention",
+      "Maintains empathic connection with the projected feeling while externalizing its source"
+    ],
+    "example_dsq_items": [],
+    "differentiation": {
+      "vs_Displacement": "Displacement redirects affect from one object to another less threatening object while maintaining subject-object distinction; projection transforms the subject into the object, misattributing internal states as originating externally rather than merely redirecting them.",
+      "vs_Projective_Identification": "Mature projection involves ego-alien misattribution that the patient can potentially recognize as projection with an observing ego; projective identification (primitive form) involves pressure exerted on the object to actually behave congruently with the projection, fusing projective and introjective processes with no observing capacity and creating shared affect in both parties.",
+      "vs_Altruism": "Altruism involves correctly attributing one's own needs or feelings to the object through accurate empathy, leaving both self and object gratified; projection involves wrongly attributing the self's disowned sins or negative states to the object, creating distrust and interpersonal damage rather than connection."
+    },
+    "literary_cues": "Projection structures the poetic voice around a paranoid stance in which the lyric 'I' positions itself as witness to or victim of external malevolence that mirrors its own disavowed interior. The syntax enacts boundary confusion—images that should mark inner experience (self-reproach, aggression, envy) are grammatically repositioned as emanating from the environment, creating an uncanny reversal where the world becomes a persecutory reflection of the disowned self. The speaker's gaze is perpetually directed outward with hypervigilant intensity, yet what it observes is paradoxically the self's own shadow cast onto others, producing a recursive structure where every perception confirms the projection while denying its internal origin.",
+    "primary_sources_cited": [
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli p.109",
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli p.201",
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli p.111",
+      "Cramer-Understanding-Defense-Mechanisms (1) p.2",
+      "Cramer-Understanding-Defense-Mechanisms (1) p.19",
+      "WisdomoftheEgo p.133"
+    ]
+  },
+  "Projective Identification": {
+    "name": "Projective Identification",
+    "vaillant_level": "neurotic",
+    "definition": "A primitive defensive process wherein the patient both projects internal objects onto another person and exerts interpersonal pressure on that person to experience themselves and behave congruently with the projected content, while simultaneously maintaining empathy with what has been projected (thus retaining the troublesome feeling rather than achieving clean relief). This fusion of projection and introjection occurs at the primitive end of the continuum where boundaries between inside and outside are confused, creating a self-fulfilling prophecy quality as the patient induces in others the very feelings they are convinced the other already has.",
+    "linguistic_signals": [
+      "Accusatory tone combined with certainty about the other's internal state (e.g., 'You shrinks all love to sit back and judge people')",
+      "Statements that ascribe motives or feelings to the listener with no qualification or self-reflection",
+      "Dismissive additions that paradoxically reveal ongoing preoccupation ('I don't give a shit what you think')",
+      "Absence of hedge words or epistemic qualifiers ('I know I have no reason to believe...' is absent)",
+      "Pressure-laden language that corners the listener into a predetermined role",
+      "Persistent attributions despite evidence to the contrary",
+      "Communications that feel like accusations masquerading as observations",
+      "Language that conflates the speaker's conviction with objective reality"
+    ],
+    "narrative_patterns": [
+      "Maintains the distressing affect even while attributing it to the other (does not achieve relief through projection)",
+      "Creates narratives that compel the listener to feel exactly what the speaker predicts they feel",
+      "Struggles unrelentingly to confirm the appropriateness of the projection to maintain anchor in reality",
+      "Produces intense negative countertransference that matches the projected content",
+      "Tells stories in which others' malevolent intentions are presented as self-evident facts requiring no examination"
+    ],
+    "example_dsq_items": [
+      "Help rejecting complaining",
+      "Splitting - self/other",
+      "Projection"
+    ],
+    "differentiation": {
+      "vs_Projection": "In mature projection (e.g., Patient A), the person shows self-reflective capacity ('I know I have no reason to believe you're critical'), achieves some relief by externalizing the feeling, and does not induce strong countertransference; in projective identification (Patient B), there is no self-reflection, the feeling is both projected and retained, and the therapist is pressured to become the critical object.",
+      "vs_Splitting": "Splitting divides self or object representations into all-good and all-bad categories without interpersonal induction; projective identification actively enlists the other person to embody the split-off bad aspect through behavioral pressure and emotional contagion.",
+      "vs_Introjection": "Introjection involves taking in external objects and misunderstanding them as originating inside; projective identification reverses this direction—expelling internal objects outward—while uniquely maintaining an emotional connection to what has been expelled and coercing external confirmation."
+    },
+    "literary_cues": "The syntax becomes declarative and interpersonally coercive, with a prosecutorial certainty that forecloses alternate readings—the voice constructs a hermetically sealed reality where the other's subjectivity is already known and fixed. Imagery tends toward paranoid concreteness, lacking the metaphoric distance that would signal symbolic thought; the stance is one of embattled conviction that simultaneously seeks and dreads confirmation. The text feels less like communication and more like an interpersonal trap, with emotional pressure emanating from beneath seemingly descriptive statements.",
+    "primary_sources_cited": [
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli p.111",
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli p.112",
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli p.109",
+      "The Defense Style Questionnaire 60 (DSQ-60) p.53"
+    ]
+  },
+  "Rationalization": {
+    "name": "Rationalization",
+    "vaillant_level": "neurotic",
+    "definition": "The unconscious process of constructing plausible, socially acceptable reasons to justify behaviors, decisions, or outcomes that were actually driven by other motives (affect, desire, impulse) or simply occurred beyond one's control. As McWilliams notes via Franklin, it enables one to \"find or make a Reason for everything one has in mind to do,\" converting what one already wants into reasonable language. Includes both \"sour grapes\" rationalization (concluding the unattainable was undesirable anyway) and \"sweet lemon\" rationalization (deciding negative events were beneficial).",
+    "linguistic_signals": [
+      "\"It was for their own good\"",
+      "\"Well, it was a learning experience\"",
+      "\"It was too big for us anyway\"",
+      "\"It will benefit [someone's] self-esteem\"",
+      "\"It's my duty to...\" (when overlapping with moralization)",
+      "\"The reason I did X was...\" followed by acceptable justification",
+      "Appeals to health, education, or higher principles to mask vanity or self-interest",
+      "\"There were good reasons...\"",
+      "Retrospective reframing with logical connectives (\"since,\" \"because,\" \"therefore\")"
+    ],
+    "narrative_patterns": [
+      "Retrospective construction of reasonable motives for actions already taken",
+      "Conversion of affective or appetitive drives into cognitive, principled language",
+      "Post-hoc redefinition of outcomes to minimize resentment or disappointment",
+      "Surrounding impulsive or self-serving decisions with elaborate justifications",
+      "Presenting base motives (aggression, greed, vanity) as serving noble purposes",
+      "Selective emphasis on acceptable aspects while omitting true motivations"
+    ],
+    "example_dsq_items": [],
+    "differentiation": {
+      "vs_Intellectualization": "Rationalization provides plausible reasons for specific behaviors or outcomes already desired or enacted, whereas intellectualization maintains generalized emotional distance through abstract, detached analysis without necessarily justifying particular actions.",
+      "vs_Moralization": "Rationalization converts desires into reasonable language (\"it made sense to...\"), while moralization converts them into moral obligations (\"it was my duty to...\"); moralization appeals to ethical imperatives rather than logical justifications.",
+      "vs_Compartmentalization": "Rationalization constructs coherent explanations to make contradictions disappear from awareness, whereas compartmentalization permits contradictory cognitions to coexist simultaneously without recognizing the inconsistency or generating justifications for either position."
+    },
+    "literary_cues": "Rationalization produces a retrospective, explanatory voice marked by logical subordination and causal syntax that imposes coherence on messier emotional or volitional truths. The speaker adopts a tone of reasonableness, often with slightly pedagogical certitude, embedding desire within nested justifications. Imagery tends toward the architectural—building cases, constructing arguments—with rhetorical balance that smooths over the gap between true motivation and stated rationale.",
+    "primary_sources_cited": [
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli p.128",
+      "Cramer-Understanding-Defense-Mechanisms (1) p.4",
+      "Cramer-Understanding-Defense-Mechanisms (1) p.12",
+      "Preliminary-Reliability-and Validity-of-the DMRS-SR-30 p.3"
+    ]
+  },
+  "Reaction Formation": {
+    "name": "Reaction Formation",
+    "vaillant_level": "neurotic",
+    "definition": "The transformation of an impulse or affect into its polar opposite in order to render it less threatening, functioning primarily to deny ambivalence by converting one side of a conflict into consciousness while repressing the other. The defense maintains awareness of the original impulse's domain (sexuality, aggression, dependency) but reverses its value (sex becomes dirty rather than nonexistent; hatred becomes exaggerated love), often with discernible 'leakage' that reveals the defense's excessive or false quality to observers. Responsibility for the impulse remains with the user, distinguishing it from projection, though pleasure in the transformed position is minimal, distinguishing it from altruism.",
+    "linguistic_signals": [
+      "\"I love/adore [the thing I actually resent]\" with excessive intensity",
+      "\"X is absolutely bad/dirty/wrong precisely because it is so [appealing quality]\"",
+      "\"Cold showers are better for you than warm ones precisely because they make you suffer more\"",
+      "Moral declarations with hair-shirt quality (\"it's better for you because it hurts\")",
+      "\"I have only respect and appreciation for [authority figure]\" when context suggests resentment",
+      "\"The baby is so precious\" delivered with observable aggressive overflow (too loud, too hard, too much)",
+      "Self-condemnation of impulses with allegedly 'the best reasons in the world'",
+      "Statements pairing duty/virtue with visible strain or abrasiveness",
+      "\"I wish to be of service\" when dependency needs are prominent",
+      "Denial of ambivalence: \"I don't have mixed feelings—I only feel X\""
+    ],
+    "narrative_patterns": [
+      "Describes caring for others when context reveals wish to be cared for",
+      "Condemns in self what they might criticize in others (responsibility stays with user)",
+      "Presents one pole of an obvious conflict as if the other pole does not exist internally",
+      "Observers sense something excessive, false, or 'too much' in the expressed emotion",
+      "Accounts reveal leakage through behavioral overflow (hugging too hard, singing too loudly, bouncing too aggressively)",
+      "Narrates moral superiority regarding impulses while exhibiting signs of strain or abrasiveness in relationships"
+    ],
+    "example_dsq_items": [],
+    "differentiation": {
+      "vs_Altruism": "Reaction formation gives the user little pleasure and feels abrasive or strained to intimates, whereas altruism provides vicarious gratification and is experienced as generative; reaction formation wears a hair shirt, altruism experiences genuine satisfaction in the transformed impulse.",
+      "vs_Projection": "Reaction formation condemns the impulse but leaves responsibility with the user and always reverses affect value, while projection shifts responsibility for the impulse's origin from subject to object and may or may not reverse its value; the celibate ascetic condemning his own sexuality (reaction formation) sleeps well, the inquisitor burning witches for their sexuality (projection) is assailed by succubi at night.",
+      "vs_Dissociation": "Dissociation distracts from and ignores internal feelings, treating them as if they don't exist, while reaction formation notices everything but reverses the value; dissociation says 'I don't feel angry,' reaction formation says 'I feel only love (and anger is completely absent)' with observable strain.",
+      "vs_Psychotic_Denial": "Reaction formation acknowledges external reality but reverses its value ('sex exists but is dirty'), whereas psychotic denial eliminates aspects of external reality itself ('sex does not exist'); nothing in the external world is ignored in reaction formation, only revalued."
+    },
+    "literary_cues": "Voice carries a split harmonic—the declared note rings with conspicuous purity while undertones betray strain, an audible pressure system. Syntax often deploys intensifiers and absolutes ('precisely because,' 'absolutely,' 'only') that protest too much, creating a rhetoric of over-determination. Imagery gravitates toward moral binaries rendered with excessive clarity (cleanliness/filth, virtue/vice, service/selfishness) yet the speaker's position feels rigid rather than easeful, as if maintaining altitude requires constant thrust against gravitational pull.",
+    "primary_sources_cited": [
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli",
+      "WisdomoftheEgo",
+      "Psychotherapy Using_the_Defense_Mechanism_Rating_Scales"
+    ]
+  },
+  "Repression": {
+    "name": "Repression",
+    "vaillant_level": "neurotic",
+    "definition": "Motivated forgetting or ignoring in which disturbing ideas, wishes, or memories are automatically and unconsciously excluded from awareness while the associated affect often remains conscious. The essence is turning something away and keeping it at a distance from consciousness; unlike organic memory deficits, evidence exists that the material has become inaccessible specifically because of its power to upset. This process targets internally generated ideas (oedipal wishes, forbidden strivings) rather than merely traumatic events, creating a dynamic where the person 'can hear the music but forgets the words.'",
+    "linguistic_signals": [
+      "\"I don't know why I feel this way\"",
+      "\"I can't remember\" (when affect suggests otherwise)",
+      "\"It never occurred to me\"",
+      "\"I just forgot\" (about emotionally charged material)",
+      "\"I have no idea what made me do that\"",
+      "Genuine surprise at own behavior: \"I didn't realize...\"",
+      "\"That's strange, I usually remember things\"",
+      "Telltale symbolic behavior without conscious awareness of meaning",
+      "Affect present without connected thought content",
+      "\"I feel anxious but nothing's wrong\""
+    ],
+    "narrative_patterns": [
+      "Gaps in narrative at emotionally significant moments with genuine puzzlement",
+      "Strong affect expressed without ability to connect it to specific ideas or wishes",
+      "Naive teasing or seductive behavior with sincere surprise at being misunderstood",
+      "Return of repressed material in intrusive flashbacks or symbolic acting out",
+      "Displacement of anxiety from forgotten source onto diffuse nervousness",
+      "Amnesia for developmentally significant conflicts while retaining emotional tone"
+    ],
+    "example_dsq_items": [],
+    "differentiation": {
+      "vs_Dissociation": "Repression keeps the honest affect in consciousness while excluding the idea ('knows she likes to look pretty'); dissociation splits off both idea and affect, producing 'airhead' giggles or complete disconnection without emotional awareness.",
+      "vs_Isolation": "Repression excludes idea while affect remains conscious (hysteric 'hears the music but forgets the words'); isolation excludes affect while idea remains conscious (obsessional 'thinks the words but recalls no melody').",
+      "vs_Suppression": "Repression involves unconscious, automatic inhibition to the point of losing cherished goals and genuine forgetting; suppression is deliberate, conscious postponement that minimizes but does not ignore (the stoic asks to postpone but is not surprised by passion evoked)."
+    },
+    "literary_cues": "The repressive voice produces affectively rich narrative with conspicuous cognitive gaps—emotion saturates the text while the triggering thoughts remain curiously absent, creating a dreamy, puzzled quality. Syntax may be fluid and associative around feelings but abruptly vague when approaching ideational content ('I felt such longing but I don't know for what'). The stance is one of sincere naiveté: the speaker charms rather than manipulates, their teasing or symbolic enactments appearing touchingly innocent rather than calculated, evoking bemusement rather than irritation in the listener.",
+    "primary_sources_cited": [
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli p.122",
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli p.123",
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli p.124",
+      "WisdomoftheEgo p.182",
+      "WisdomoftheEgo p.183",
+      "WisdomoftheEgo p.184"
+    ]
+  },
+  "Self-Assertion": {
+    "name": "Self-Assertion",
+    "vaillant_level": "mature",
+    "definition": "The mature capacity to express one's autonomy, competence, and legitimate needs directly and effectively without guilt or aggression, particularly in contexts where earlier developmental patterns had linked independence with shame or loss of connection. Distinguished from mere aggressive discharge, self-assertion involves harnessing instinctual energy toward creative and socially constructive ends while maintaining relational authenticity. It represents developmental achievement of separateness as empowering rather than threatening.",
+    "linguistic_signals": [
+      "\"I can tell you off when I make you angry\"",
+      "\"I'm glad to see you can [express disagreement/autonomy]\"",
+      "Forward-moving, adaptive manifestations",
+      "Expressions of legitimate needs without apologizing",
+      "Statements of competence or achievement without minimization",
+      "Direct requests or refusals without elaborate justification",
+      "\"I\" statements claiming agency or effectiveness",
+      "Owning creative or professional accomplishments",
+      "Setting boundaries with calm clarity"
+    ],
+    "narrative_patterns": [
+      "Describing autonomous action without framing it as harmful to others",
+      "Recounting moments of speaking up or claiming space with satisfaction rather than shame",
+      "Distinguishing between assertiveness and aggression in self-reflection",
+      "Narrating developmental progress from clinging to independent functioning",
+      "Celebrating personal effectiveness without needing to downplay it",
+      "Describing boundary-setting as self-respecting rather than selfish"
+    ],
+    "example_dsq_items": [],
+    "differentiation": {
+      "vs_Acting_Out": "Self-assertion involves verbalized, socially integrated expression of needs and autonomy with intact judgment, whereas acting out bypasses verbal processing through impulsive behavioral discharge that violates social norms or self-interest.",
+      "vs_Passive_Aggression": "Self-assertion expresses opposition or needs directly and openly, while passive-aggression conceals hostility behind ostensible compliance or indirect sabotage, avoiding direct confrontation.",
+      "vs_Omnipotence": "Self-assertion claims realistic competence and legitimate personal agency within acknowledged limits, whereas omnipotence inflates the self to grandiose proportions denying any vulnerability or dependence on others."
+    },
+    "literary_cues": "The voice is declarative and grounded, occupying space without apology or inflation—a centered \"I\" that neither shrinks nor swells. Syntax tends toward active constructions with clear agency; imagery of forward motion, emergence, or standing upright without the urgent propulsion of fight-or-flight. The stance is neither combative nor deferential but presents the self as legitimately present, often with an undertone of developmental triumph when contrasted implicitly with earlier inhibitions.",
+    "primary_sources_cited": [
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli p.94",
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli p.125",
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli p.253",
+      "WisdomoftheEgo p.517",
+      "Preliminary-Reliability-and Validity-of-the DMRS-SR-30 p.3"
+    ]
+  },
+  "Self-Observation": {
+    "name": "Self-Observation",
+    "vaillant_level": "mature",
+    "definition": "The capacity to reflect on one's own internal states, reactions, and mental processes with curiosity and objectivity, without excessive criticism or distortion. This mature defense enables awareness of psychological patterns and emotional dynamics as they occur, supporting insight and adaptive self-regulation. It is consistently classified at the high adaptive (mature) level across assessment systems including the DMRS and DSQ-60.",
+    "linguistic_signals": [
+      "\"I noticed that I...\"",
+      "\"I can see how I tend to...\"",
+      "\"Looking at my reaction, I...\"",
+      "\"I'm aware that when X happens, I...\"",
+      "\"I observe in myself...\"",
+      "\"It's interesting how I...\"",
+      "\"I realized I was...\"",
+      "Metacognitive markers about internal states",
+      "Present-tense awareness of ongoing psychological processes",
+      "Reflective distance without harsh judgment"
+    ],
+    "narrative_patterns": [
+      "Describes internal experiences from a dual perspective (experiencing and observing simultaneously)",
+      "Notes patterns in one's emotional reactions or behavioral tendencies without defensiveness",
+      "Articulates curiosity about one's own mental processes",
+      "Maintains psychological mindedness while recounting events",
+      "Integrates awareness of affect, cognition, and behavior in real-time",
+      "Reflects on dynamics without losing connection to immediate experience"
+    ],
+    "example_dsq_items": [],
+    "differentiation": {
+      "vs_Intellectualization": "Self-observation maintains emotional contact and curiosity about internal experience, whereas intellectualization detaches from affect through abstract reasoning and theory to avoid feeling.",
+      "vs_Anticipation": "Self-observation focuses on present awareness of current internal states and patterns, while anticipation involves realistic consideration of future emotional responses and planning accordingly.",
+      "vs_Suppression": "Self-observation involves active awareness and reflection on mental contents, whereas suppression deliberately postpones attention to distressing thoughts or feelings until a more appropriate time."
+    },
+    "literary_cues": "Self-observation manifests in narrative voice as a gentle bifurcation—the speaker simultaneously inhabits experience and watches it unfold, creating layered syntax with embedded clauses that mark dual awareness. The tone is exploratory rather than explanatory, often using present progressive tenses to capture ongoing internal process. Imagery tends toward mirrors, windows, or spatial metaphors that position the self as both subject and object of perception, without the dissociative fragmentation of splitting or the cold distance of isolation.",
+    "primary_sources_cited": [
+      "Preliminary-Reliability-and Validity-of-the DMRS-SR-30",
+      "Psychotherapy Using_the_Defense_Mechanism_Rating_Scales",
+      "The Defense Style Questionnaire 60 (DSQ-60)"
+    ]
+  },
+  "Splitting": {
+    "name": "Splitting",
+    "vaillant_level": "psychotic",
+    "definition": "The segregation of experiences, objects, or people into all-good and all-bad categories without integration, ambivalence, or acknowledgment of complexity. This defense derives from a preverbal developmental period before object constancy is achieved, when gratifying and frustrating experiences of the same caregiver are not recognized as emanating from a single, continuous person. In adults, splitting reduces anxiety by organizing confusing or threatening experiences into clear moral categories (good vs. evil, heroes vs. villains), though it always involves distortion and prevents the blending of contradictory affects toward the same object.",
+    "linguistic_signals": [
+      "All-or-nothing formulations: 'completely good' / 'totally bad' with no middle ground",
+      "Sharp moral dichotomies: 'good guys and bad guys,' 'good insiders vs. evil enemy'",
+      "Temporal oscillation without integration: 'I hate X... actually I love X' (stated as separate truths)",
+      "Categorical assignments: 'You understand, of course, that this is not what I really think'",
+      "Compartmentalized opposing affects: 'my love for him is gone' followed by '(I still love him as I used to)'",
+      "Mythological binaries: 'God versus the devil,' 'cowboys versus Indians,' 'free world against terrorists'",
+      "Staff division language: 'divides the staff into good guys and bad guys'",
+      "Assignment of valences: 'assigning good and bad valences to everything'",
+      "Manichean visions expressed as absolute truths",
+      "Alternating idealization and devaluation statements about the same object"
+    ],
+    "narrative_patterns": [
+      "Assigns all positive qualities to one person/group and all negative qualities to another, maintaining both positions simultaneously",
+      "Oscillates between contradictory emotional stances toward the same object without synthesizing them",
+      "Organizes complex relational experiences into simplified hero/villain narratives",
+      "Maintains 'double-entry bookkeeping' of affects—anger and love exist toward one person but never blend",
+      "Creates invasive interpersonal pressure on others to conform to the good/bad categorization",
+      "Divides surrounding people (staff, family, friends) into opposing camps that mirror the internal split"
+    ],
+    "example_dsq_items": [
+      "splitting - self/other",
+      "splitting of self-image",
+      "splitting of other's image"
+    ],
+    "differentiation": {
+      "vs_Reaction_Formation": "In reaction formation the user is oblivious to ambivalence and truly treats black as white, while in splitting a gray world is separated into all black and all white with the individual remaining consciously divided against themselves.",
+      "vs_Dissociation": "Dissociation involves alterations in consciousness where experiences are held separately and never integrated, whereas splitting involves the segregation of what has been or could be integrated into opposing affective categories without amnesia or switches in consciousness.",
+      "vs_Projective_Identification": "Projective identification involves ejecting unwanted aspects while inducing them in others and maintaining empathy with what is projected, whereas splitting assigns good and bad valences to different objects/people without the interpersonal induction or need to maintain connection with the disavowed content."
+    },
+    "literary_cues": "Splitting produces narrative architecture built on unresolvable antithesis—the syntax itself refuses synthesis, moving between idealization and denigration without transitional modulation or subordinate clauses that might acknowledge complexity. The voice oscillates between hagiography and demonization, with imagerial clusters that never contaminate one another; angels and demons occupy adjacent stanzas but never share metaphoric space. Temporal structure reflects affective compartmentalization: past and present versions of the same object are described as if they were different entities, and the speaker's stance shifts categorically rather than evolving, creating a fragmented autobiography in which contradictory truths coexist without irony or dialectical tension.",
+    "primary_sources_cited": [
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli",
+      "WisdomoftheEgo",
+      "The Defense Style Questionnaire 60 (DSQ-60)",
+      "Preliminary-Reliability-and Validity-of-the DMRS-SR-30"
+    ]
+  },
+  "Sublimation": {
+    "name": "Sublimation",
+    "vaillant_level": "mature",
+    "definition": "The indirect or attenuated expression of biologically based impulses and infantile conflicts through socially valuable, creative, or beneficial activity without adverse consequences or marked loss of pleasure. Primitive urges are channeled and harnessed into constructive forms rather than suppressed or dissipated, maintaining the intensity of feeling while transforming its mode of expression into work, art, relationships, or play with real consequences.",
+    "linguistic_signals": [
+      "\"I channel [impulse] into [creative/productive activity]\"",
+      "References to finding outlet or use in other fields",
+      "\"transforms [primitive urge] through [socially valuable form]\"",
+      "Language of artistic expression, performance, or creative production",
+      "Description of work as passionate, engrossing, or transporting",
+      "\"[Activity] allows me to express [feeling] without...\"",
+      "References to catharsis through creative means",
+      "Blending of opposing feelings (love/hate, desire/constraint) in productive activity",
+      "Language suggesting intensity is maintained but redirected rather than dampened",
+      "References to models, incentives, or identification with creative figures"
+    ],
+    "narrative_patterns": [
+      "Describes intense engagement in work, art, or socially valued activity that clearly relates to underlying conflicts",
+      "Presents creative or productive outlets as naturally arising solutions rather than forced compromises",
+      "Maintains emotional authenticity and pleasure while discussing transformed expression of impulses",
+      "Links current activities to primitive desires or conflicts without shame or complete disguise",
+      "Demonstrates real consequences and tangible products from psychological transformation",
+      "Shows identification with mentors or models who exemplify the sublimated activity"
+    ],
+    "example_dsq_items": [],
+    "differentiation": {
+      "vs_displacement": "Sublimation produces socially valuable outcomes and maintains more emotional intensity with real consequences, whereas displacement merely redirects feelings toward safer targets without creative transformation or social contribution; writing New Yorker poetry (sublimation) versus subway graffiti (displacement) may differ more in education than maturity.",
+      "vs_reaction_formation": "Sublimation channels and harnesses affects while allowing attenuated expression and pleasure, whereas reaction formation dams or completely reverses impulses, producing opposite behaviors without creative outlet or authentic emotional satisfaction.",
+      "vs_humor": "Sublimation is the broader category of creative transformation of impulses into socially valuable forms, while humor is a specific subtype that reconciles paradox and transforms sadomasochism into gentle self-mockery or clowning; both achieve catharsis but humor specifically uses comic reconciliation of opposites."
+    },
+    "literary_cues": "Sublimation produces writing marked by sustained passionate engagement with subject matter that simultaneously reveals and transforms primitive material—the voice maintains emotional authenticity while achieving aesthetic or intellectual distance through formal craft. Syntax tends toward complex integration rather than splitting, weaving together conflicting affects into unified creative statements. The stance is neither detached nor raw but alchemical, as if heat and pressure have produced a new compound from base elements without loss of energy.",
+    "primary_sources_cited": [
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli p.139",
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli p.140",
+      "WisdomoftheEgo p.196",
+      "WisdomoftheEgo p.197",
+      "WisdomoftheEgo p.931"
+    ]
+  },
+  "Suppression": {
+    "name": "Suppression",
+    "vaillant_level": "mature",
+    "definition": "A semiconscious decision to postpone—rather than eliminate—attention to a conscious impulse or conflict, maintaining awareness of all components (idea, affect, object) while waiting a finite time period. Unlike repression, the user remembers the conflict and does not lose cherished goals; unlike dissociation, gratification is genuinely deferred rather than optimistically assumed. The capacity requires delicate balance comparable to tightrope walking—voluntary yet requiring ego coordination that cannot simply be willed.",
+    "linguistic_signals": [
+      "\"I'll think about it tomorrow\" (with actual intention to do so)",
+      "\"I'm keeping [desire/worry] in mind while waiting\"",
+      "\"Progressing anxiously and slowly\"",
+      "\"Not now, but later\" (with finite timeframe)",
+      "\"Uncomplainingly waiting\"",
+      "\"The glass is half full\" (realistic acknowledgment)",
+      "\"Saving now for next summer\"",
+      "\"Postponing [specific impulse] until [concrete future event]\"",
+      "Minimizes without ignoring: \"I see the problem, but I'm setting it aside for now\"",
+      "\"Keeping both [attachment] and [limits] in mind\""
+    ],
+    "narrative_patterns": [
+      "Acknowledges conflict explicitly before stating intention to delay addressing it",
+      "Describes incremental progression through stages (handholding → kissing → petting) with temporal markers",
+      "Balances opposing forces in consciousness without resolution: notes both desire and constraint simultaneously",
+      "Frames waiting as active choice with endpoint rather than avoidance",
+      "Shows awareness of consequences and realistic planning for future action",
+      "Maintains connection to the conflicted object/person throughout the narrative"
+    ],
+    "example_dsq_items": [],
+    "differentiation": {
+      "vs_repression": "Suppression retains conscious memory of the conflict and all its components, whereas repression involves unconscious inhibition to the point of losing awareness and cherished goals, often accompanied by symbolic behavior revealing what has been forgotten.",
+      "vs_dissociation": "Suppression genuinely postpones gratification with realistic planning (saves now for later travel), while dissociation acts optimistically without real deferral (flies now assuming ability to pay later); the stoic notes the glass is half full, Pollyanna leaves her umbrella at home despite clouds.",
+      "vs_isolation": "Suppression keeps idea, affect, and object together in partial consciousness as an integrated whole, while isolation splits cognitive awareness from emotional experience, severing the connection between thought and feeling."
+    },
+    "literary_cues": "The voice of suppression balances on a syntactic tightrope, holding tension between opposing forces in compound constructions (\"both... and...\") without collapse into resolution. Temporal markers pervade the discourse—\"tomorrow,\" \"next summer,\" \"finite time\"—anchoring deferral in concrete futurity rather than indefinite postponement. The stance is stoic yet aware, acknowledging difficulty (\"anxiously,\" \"uncomplainingly\") while maintaining narrative forward motion through incremental stages, each step named and owned rather than glossed or forgotten.",
+    "primary_sources_cited": [
+      "WisdomoftheEgo p.200",
+      "WisdomoftheEgo p.198",
+      "WisdomoftheEgo p.201",
+      "WisdomoftheEgo p.183",
+      "WisdomoftheEgo p.199"
+    ]
+  },
+  "Undoing": {
+    "name": "Undoing",
+    "vaillant_level": "neurotic",
+    "definition": "The unconscious effort to counterbalance guilt or shame through a compensatory attitude or behavior that magically erases the transgressive thought, wish, or deed. The individual is unaware of the underlying affect being expiated and implicitly treats hostile or forbidden thoughts as tantamount to dangerous deeds, employing omnipotent fantasies that require ritualistic neutralization. This defense involves expressing a wish or affect and then ritually denying or atoning for it through symbolic reversals.",
+    "linguistic_signals": [
+      "Knocking on wood after boasting about health or good fortune",
+      "\"I guess they were really for your grave\" (recognizing gifts as atonement)",
+      "\"Step on a crack, break your mother's back\" (verbalized hostility stripped of affect)",
+      "Expressions of remorse for sins \"committed only in thought\"",
+      "References to making amends or compensating without conscious acknowledgment of transgression",
+      "Magical or superstitious phrasing accompanying assertions",
+      "Ritual verbal formulations that counterbalance preceding statements",
+      "Language of atonement, expiation, or balancing accounts"
+    ],
+    "narrative_patterns": [
+      "Bringing gifts or performing kind acts after unexpressed anger, with the connection remaining unconscious",
+      "Engaging in religious rituals or moral crusades to atone for past sins or failures, real or imagined",
+      "Childhood games and rituals designed to ward off feared consequences of hostile wishes (avoiding sidewalk cracks)",
+      "Dedicating oneself to causes that reverse earlier inadvertent transgressions (lifetime altruism following childhood insult)",
+      "Performing compensatory behaviors immediately after assertive or aggressive expressions",
+      "Ritualistic actions that follow forbidden thoughts without conscious awareness of the connection"
+    ],
+    "example_dsq_items": [
+      "Items assessing undoing appear in the Neurotic defense category (4 items) across DSQ studies",
+      "No specific item content was quoted in the provided passages"
+    ],
+    "differentiation": {
+      "vs_isolation_of_affect": "Undoing attempts to magically reverse or neutralize a thought/act through compensatory behavior, whereas isolation removes the emotional charge from the thought while retaining cognitive awareness; undoing is behavioral/ritualistic atonement, isolation is cognitive-affective disconnection.",
+      "vs_reaction_formation": "Undoing seeks to cancel out or counterbalance a forbidden impulse after it has been expressed (temporal sequence: transgression then atonement), while reaction formation prevents the impulse from emerging by replacing it with its opposite continuously; undoing is episodic compensation, reaction formation is sustained transformation.",
+      "vs_rationalization": "Undoing employs magical thinking and ritualistic behavior to negate guilt-inducing acts or thoughts, whereas rationalization uses logical-sounding explanations to justify behavior; undoing treats thoughts as dangerous deeds requiring symbolic reversal, rationalization reframes them as acceptable through pseudo-logic."
+    },
+    "literary_cues": "Undoing manifests in narrative voice through obsessive symmetries and compulsive balancing gestures—a speaker may pivot abruptly from assertion to superstitious qualification, creating couplets of claim and retraction. The syntax often contains ritual insertions (knocking-wood phrases) that function as verbal talismans. Imagery gravitates toward ledgers, graves covered with flowers, and childhood sidewalk games where each step carries cosmic weight, revealing an omnipotent universe where thoughts wound and gestures heal.",
+    "primary_sources_cited": [
+      "Psychoanalytic_Diagnosis_-_Nancy_McWilli",
+      "WisdomoftheEgo",
+      "The Defense Style Questionnaire 60 (DSQ-60)",
+      "Preliminary-Reliability-and Validity-of-the DMRS-SR-30"
+    ]
+  }
+}

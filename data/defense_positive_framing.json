@@ -1,0 +1,92 @@
+{
+  "_meta": {
+    "schema_version": "framing@1.0",
+    "purpose": "Positive, dignified protective framing for each defense — used as anchor text for AI image generation (talisman card). Keys mirror twr/data/defenses.ts exactly.",
+    "tone": "gentle, protective, dignified, quiet — never clinical, never deficit-framed",
+    "length_target": "5–12 words per English framing"
+  },
+
+  "Acting Out":                  { "framing_en": "letting truth move through the body when language is not yet ready",
+                                   "image_seed": "a single footprint left on warm sand, intent without explanation" },
+
+  "Affiliation":                 { "framing_en": "leaning toward others to bear what is heavy",
+                                   "image_seed": "two warm hands holding the same small lantern" },
+
+  "Altruism":                    { "framing_en": "turning private pain into care for others",
+                                   "image_seed": "a kettle pouring tea into another's cup, the kettle still half full" },
+
+  "Anticipation":                { "framing_en": "rehearsing tomorrow gently to soften its arrival",
+                                   "image_seed": "an open umbrella set down on a chair before the rain" },
+
+  "Apathetic Withdrawal":        { "framing_en": "saving small flame by stepping back from the wind",
+                                   "image_seed": "a hand cupped softly around a candle's flame" },
+
+  "Autistic Fantasy":            { "framing_en": "building an inner shelter when the outside is too loud",
+                                   "image_seed": "a paper boat folded carefully on a windowsill" },
+
+  "Denial":                      { "framing_en": "preserving the soft skin of what cannot yet be known",
+                                   "image_seed": "a closed envelope resting unopened on a clean table" },
+
+  "Devaluation":                 { "framing_en": "letting go of what cost too much to keep holding",
+                                   "image_seed": "a key set down at the edge of a wide flat stone" },
+
+  "Displacement":                { "framing_en": "moving heat to a place where it can land safely",
+                                   "image_seed": "a warm cup placed on a stone trivet, away from paper" },
+
+  "Dissociation":                { "framing_en": "stepping outside the body to survive an unbearable moment",
+                                   "image_seed": "a long shadow gently detached from its sleeping figure" },
+
+  "Help-Rejecting Complaining":  { "framing_en": "keeping pain visible while still learning to trust hands",
+                                   "image_seed": "a bandage left loose on the table beside the wound" },
+
+  "Humor":                       { "framing_en": "making weight portable through laughter",
+                                   "image_seed": "a feather balanced on a smooth grey stone" },
+
+  "Idealization":                { "framing_en": "holding goodness as a steady anchor in the storm",
+                                   "image_seed": "a small north star kept in a jar of dark water" },
+
+  "Intellectualization":         { "framing_en": "thinking as a way to feel from a safe distance",
+                                   "image_seed": "a folded map opened on a calm wooden floor" },
+
+  "Isolation of Affect":         { "framing_en": "creating quiet space between feeling and action",
+                                   "image_seed": "a single tea bowl in a wide, empty stone tray" },
+
+  "Omnipotence":                 { "framing_en": "claiming agency when smallness feels unbearable",
+                                   "image_seed": "a small seed held firmly in an open palm, sun on the wrist" },
+
+  "Passive Aggression":          { "framing_en": "speaking sideways when speaking straight is unsafe",
+                                   "image_seed": "a folded note slid quietly under a door" },
+
+  "Projection":                  { "framing_en": "recognizing in others what is not yet held alone",
+                                   "image_seed": "a mirror leaned against a wall, reflecting only soft light" },
+
+  "Projective Identification":   { "framing_en": "sharing inner weather until it becomes mutually felt",
+                                   "image_seed": "two cups holding the same drifting steam" },
+
+  "Rationalization":             { "framing_en": "building a path of reason when feeling has no path",
+                                   "image_seed": "stepping stones laid carefully across a still pond" },
+
+  "Reaction Formation":          { "framing_en": "turning hard feelings into careful tending of their opposite",
+                                   "image_seed": "a small plant watered with steady hands at dawn" },
+
+  "Repression":                  { "framing_en": "carrying what cannot yet be lifted into language",
+                                   "image_seed": "a closed wooden box resting under a soft cloth" },
+
+  "Self-Assertion":              { "framing_en": "claiming one's own ground without taking another's",
+                                   "image_seed": "a single footprint pressed clearly into wet sand" },
+
+  "Self-Observation":            { "framing_en": "turning attention inward as a form of tending",
+                                   "image_seed": "a still pool of water held in a stone basin" },
+
+  "Splitting":                   { "framing_en": "keeping good and difficult apart so something can stay whole",
+                                   "image_seed": "two folded cloths set on opposite ends of a long shelf" },
+
+  "Sublimation":                 { "framing_en": "transforming what hurts into something that can be given",
+                                   "image_seed": "a clay bowl shaped from rough earth, fired smooth" },
+
+  "Suppression":                 { "framing_en": "choosing not now, knowing it will return when ready",
+                                   "image_seed": "a lantern wick lowered, waiting for evening" },
+
+  "Undoing":                     { "framing_en": "returning to a moment with gentler hands",
+                                   "image_seed": "a hand smoothing a creased page back open on a table" }
+}

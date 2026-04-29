@@ -1,0 +1,13 @@
+/Users/jayce/conda/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.3.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.1) doesn't match a supported version!
+  warnings.warn(
+Model: text-embedding-3-large (3072d)
+Supabase: https://xxdyxtgrnjesbrtalybh.supabase.co
+
+이미 업로드됨: 421편
+총 421편 중 0편 처리 예정
+
+
+=====
+성공: 0
+스킵: 421
+실패: 0
