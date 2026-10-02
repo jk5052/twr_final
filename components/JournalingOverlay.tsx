@@ -2,9 +2,11 @@
 import { useEffect, useRef, useState } from 'react'
 import { getSupabase } from '@/lib/supabase'
 import { getPlayerId, getSessionId } from '@/lib/session'
+import { cardImagePath } from '@/data/readymadeCards'
 
-const MODEL_VERSION  = 'claude-sonnet-4-5'
-const SCHEMA_VERSION = 'vocab@1.0'
+// model/schema 는 서버 응답을 그대로 반영 — 클라이언트 상수는 fallback.
+const MODEL_VERSION_FALLBACK  = 'claude-sonnet-4-5'
+const SCHEMA_VERSION_FALLBACK = 'journaling@1.0'
 
 interface PromptResponse {
   prompt:         string
@@ -17,27 +19,39 @@ export interface JournalingOverlayProps {
   fromRoom: number
   toRoom:   number | null   // null이면 마지막 방 종료
   recentEvent: string | null  // 직전 이벤트 텍스트 — prompt seed (트리거)
-  seedWords: string[]         // 누적 오라클 단어 — 서버가 그 중 하나 픽
-  onComplete: () => void    // submit 또는 skip 후 부모가 phase 전환
+  seedCards: number[]         // 아직 사용하지 않은 카드 — pick 단계에서 2-3장 선택
+  onComplete: (usedCards: number[]) => void  // 사용한 카드를 넘기고 부모가 phase 전환
 }
 
 type Step = 'pick' | 'loading' | 'writing'
 
 export default function JournalingOverlay({
-  fromRoom, toRoom, recentEvent, seedWords, onComplete,
+  fromRoom, toRoom, recentEvent, seedCards, onComplete,
 }: JournalingOverlayProps) {
-  // 단어가 2개 미만이면 픽 단계 스킵 — 곧장 fetch.
-  const canPick = seedWords.length >= 2
+  // 카드가 2장 미만이면 픽 단계 스킵 — 곧장 fetch.
+  const canPick = seedCards.length >= 2
   const [step, setStep] = useState<Step>(canPick ? 'pick' : 'loading')
-  const [picked,  setPicked]  = useState<string[]>([])
+  const [picked,  setPicked]  = useState<number[]>([])
   const [prompt,   setPrompt]   = useState<string | null>(null)
   const [error,    setError]    = useState<string | null>(null)
   const [response, setResponse] = useState('')
   const [submitting, setSubmitting] = useState(false)
+  // 타로 덱 펼침 — 마운트 직후 deck(쌓인 상태) → fan(부채꼴) 로 transition.
+  // stagger delay 는 카드별 transitionDelay 로 i*60ms.
+  const [fanned, setFanned] = useState(false)
   const contextNRef = useRef<number>(0)
+  const modelVerRef = useRef<string>(MODEL_VERSION_FALLBACK)
+  const schemaVerRef = useRef<string>(SCHEMA_VERSION_FALLBACK)
   const fetchedRef  = useRef(false)
+  const usedCardsRef = useRef<number[]>([])
 
-  const fetchPrompt = async (words: string[]) => {
+  useEffect(() => {
+    if (step !== 'pick') return
+    const t = window.setTimeout(() => setFanned(true), 120)
+    return () => window.clearTimeout(t)
+  }, [step])
+
+  const fetchPrompt = async (cards: number[]) => {
     if (fetchedRef.current) return
     fetchedRef.current = true
     setStep('loading')
@@ -49,7 +63,9 @@ export default function JournalingOverlay({
           session_id: getSessionId(),
           from_room:  fromRoom,
           recent_event: recentEvent,
-          seed_words:   words,
+          // picked card id 들 — 라우트가 개수만 보고 LLM prompt 의 시작
+          // 신호로 사용한다 (이미지가 끌어당겼다는 사실만 전달).
+          seed_cards:   cards,
         }),
       })
       if (!r.ok) {
@@ -57,8 +73,12 @@ export default function JournalingOverlay({
         return
       }
       const j = await r.json() as PromptResponse
+      // 실제 요청에 사용한 카드만 기록. pick에서 skip하거나 생성이 실패하면 소모하지 않음.
+      usedCardsRef.current = [...cards]
       setPrompt(j.prompt)
       contextNRef.current = j.context_n
+      modelVerRef.current  = j.model_version  || MODEL_VERSION_FALLBACK
+      schemaVerRef.current = j.schema_version || SCHEMA_VERSION_FALLBACK
       setStep('writing')
     } catch (e) {
       setError(String(e).slice(0, 200))
@@ -67,15 +87,15 @@ export default function JournalingOverlay({
 
   // pick 단계 스킵 시 자동 fetch (마운트 1회).
   useEffect(() => {
-    if (!canPick) fetchPrompt(seedWords)
+    if (!canPick) fetchPrompt(seedCards)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
-  const togglePick = (w: string) => {
+  const togglePick = (id: number) => {
     setPicked((cur) =>
-      cur.includes(w)
-        ? cur.filter(x => x !== w)
-        : cur.length >= 3 ? cur : [...cur, w],
+      cur.includes(id)
+        ? cur.filter(x => x !== id)
+        : cur.length >= 3 ? cur : [...cur, id],
     )
   }
 
@@ -85,22 +105,23 @@ export default function JournalingOverlay({
     setSubmitting(true)
     try {
       if (prompt) {
-        await getSupabase().from('journals').insert({
-          session_id: getSessionId(),
+        const sessionId = getSessionId()
+        await getSupabase(sessionId).from('journals').insert({
+          session_id: sessionId,
           player_id:  getPlayerId() || null,
           from_room:  fromRoom,
           to_room:    toRoom,
           prompt,
           response:   writeResponse,
           context_n:  contextNRef.current,
-          model_version:  MODEL_VERSION,
-          schema_version: SCHEMA_VERSION,
+          model_version:  modelVerRef.current,
+          schema_version: schemaVerRef.current,
         })
       }
     } catch (e) {
       console.warn('[journals] insert failed:', e)
     } finally {
-      onComplete()
+      onComplete(usedCardsRef.current)
     }
   }
 
@@ -114,22 +135,75 @@ export default function JournalingOverlay({
 
         {step === 'pick' && (
           <>
-            <p className="text-white/60 text-base leading-relaxed text-center max-w-md">
-              Pick <span className="text-white/90">two or three</span> words that pull at you.
+            <p className="text-white/60 text-base leading-relaxed text-center max-w-md font-serif italic">
+              Pick <span className="text-white/90">two or three</span> cards that pull at you.
             </p>
-            <div className="flex flex-wrap gap-2 justify-center max-w-2xl">
-              {seedWords.map((w, i) => {
-                const on = picked.includes(w)
+            {/* 타로 덱 fan. 각 카드는 absolute 로 viewport 중앙 하단을 origin
+                으로 부채꼴 spread. 마운트 시 deck(0,0) → fan 으로 stagger
+                transition. transform-origin: bottom center 라 회전이 카드
+                밑변을 축으로 일어남 (실제 카드를 펼치는 손짓). */}
+            <div className="relative w-screen max-w-[1100px] h-[420px] flex items-end justify-center -mx-8 [perspective:1200px]">
+              {seedCards.map((id, i) => {
+                const n = seedCards.length
+                const maxAngle = Math.min(70, 14 + n * 5)
+                const spread   = Math.min(n * 90, 880)
+                const t        = n === 1 ? 0.5 : i / (n - 1)
+                const angle    = (t - 0.5) * maxAngle * 2
+                const tx       = (t - 0.5) * spread
+                const ty       = Math.abs(angle) * 1.4      // 호의 곡률
+                const on       = picked.includes(id)
                 return (
                   <button
-                    key={`${w}-${i}`}
-                    onClick={() => togglePick(w)}
-                    className={`text-xs tracking-wider px-3 py-1.5 border transition-all duration-300 ${
-                      on
-                        ? 'border-white/70 text-white bg-white/10'
-                        : 'border-white/15 text-white/45 hover:border-white/40 hover:text-white/80'
-                    }`}
-                  >{w}</button>
+                    key={id}
+                    type="button"
+                    aria-label={`Card ${id}`}
+                    aria-pressed={on}
+                    onClick={() => togglePick(id)}
+                    style={{
+                      transform: fanned
+                        ? `translate(${tx}px, ${ty}px) rotate(${angle}deg)`
+                        : `translate(0px, 60px) rotate(0deg) scale(0.92)`,
+                      transitionDelay: fanned ? `${i * 70}ms` : '0ms',
+                      transformOrigin: 'bottom center',
+                      ['--card-layer' as string]: on ? 60 : i,
+                      ['--rest-transform' as string]: on ? 'translateY(-40px)' : 'translateY(0)',
+                      ['--preview-transform' as string]:
+                        `rotate(${-angle}deg) translateY(${-ty - 48}px) scale(1.3)`,
+                    }}
+                    className="group absolute bottom-4 z-[var(--card-layer)]
+                      hover:z-[100] focus-visible:z-[100] focus-visible:outline-none
+                      transition-transform duration-[1100ms]
+                      ease-[cubic-bezier(0.22,1,0.36,1)]
+                      motion-reduce:transition-none will-change-transform"
+                  >
+                    {/* 버튼의 hit area는 고정하고 그림만 들어 올려 hover 깜빡임을 방지.
+                        fan 회전을 상쇄해 선택 전에도 카드 전체를 똑바로 볼 수 있게 한다. */}
+                    <div className="relative pointer-events-none origin-bottom
+                      transition-transform duration-300 ease-out motion-reduce:transition-none
+                      [transform:var(--rest-transform)]
+                      group-hover:[transform:var(--preview-transform)]
+                      group-focus-visible:[transform:var(--preview-transform)]">
+                      {/* glow halo — picked 일 때만 카드 뒤에서 발광 */}
+                      <div className={`absolute inset-0 rounded-sm transition-opacity duration-700
+                        ${on
+                          ? 'opacity-100 bg-white/10 shadow-[0_0_40px_8px_rgba(255,255,255,0.35),0_0_80px_20px_rgba(200,180,255,0.18)]'
+                          : 'opacity-0'}`} />
+                      <img
+                        src={cardImagePath(id)}
+                        alt=""
+                        draggable={false}
+                        className={`relative w-44 h-64 object-contain bg-black
+                          border transition-[border,filter,box-shadow] duration-300
+                          group-hover:border-white/90 group-hover:brightness-110
+                          group-focus-visible:border-white/90 group-focus-visible:brightness-110
+                          group-hover:shadow-[0_24px_60px_rgba(0,0,0,0.8)]
+                          group-focus-visible:shadow-[0_24px_60px_rgba(0,0,0,0.8)]
+                          ${on
+                            ? 'border-white/90 brightness-110'
+                            : 'border-white/25 brightness-90'}`}
+                      />
+                    </div>
+                  </button>
                 )
               })}
             </div>
@@ -163,20 +237,56 @@ export default function JournalingOverlay({
         {step === 'writing' && prompt && (
           <>
             {picked.length > 0 && (
-              <div className="flex flex-wrap gap-2 justify-center max-w-2xl
-                animate-[fadeIn_600ms_ease-out]">
-                {picked.map((w, i) => (
-                  <span key={`${w}-${i}`}
-                    className="text-[10px] tracking-[0.3em] uppercase
-                      px-3 py-1.5 border border-white/30 text-white/80
-                      bg-white/5">
-                    {w}
-                  </span>
-                ))}
+              // 가벼운 부채꼴(fan). pick step 의 큰 spread 와 달리 여기선 약하게 —
+              // 카드는 보조 시각자료이지 메인 액션이 아니라서. absolute + relative
+              // 컨테이너로 깔고, transform-origin: bottom center 라 회전축이 카드
+              // 아래쪽. translateY(-|angle|*k) 으로 호의 곡률.
+              <div className="relative w-full max-w-[640px] h-[340px]
+                flex items-end justify-center mb-4
+                animate-[fadeIn_900ms_ease-out]">
+                {picked.map((id, i) => {
+                  const n        = picked.length
+                  const t        = n === 1 ? 0.5 : i / (n - 1)
+                  const maxAngle = n === 1 ? 0 : 12          // 전체 spread ±12°
+                  const angle    = (t - 0.5) * maxAngle * 2
+                  const tx       = (t - 0.5) * (n * 100)     // 좌우 fan offset
+                  const ty       = Math.abs(angle) * 1.2     // 호의 곡률 위쪽으로
+                  const dur      = 4200 + i * 700            // 비동기 drift
+                  const delay    = i * 380
+                  return (
+                    // Wrapper 가 fan 위치 (absolute + translateX(-50%) 로 카드의
+                    // 가로 중앙 정렬). 내부 img 는 cardFloat 으로 drift — transform
+                    // 충돌 (utility -translate-x-1/2 가 keyframe transform 에
+                    // 덮어쓰이는 문제) 을 두 노드로 분리해서 회피.
+                    <div
+                      key={id}
+                      style={{
+                        left:   `calc(50% + ${tx}px)`,
+                        bottom: `${ty}px`,
+                        zIndex: i,
+                      }}
+                      className="absolute -translate-x-1/2"
+                    >
+                      <img
+                        src={cardImagePath(id)}
+                        alt=""
+                        style={{
+                          ['--tilt' as string]: `${angle}deg`,
+                          transformOrigin: 'bottom center',
+                          animation: `cardFloat ${dur}ms ease-in-out ${delay}ms infinite`,
+                        }}
+                        className="w-40 h-60 md:w-48 md:h-72 object-cover
+                          border border-white/40
+                          shadow-[0_14px_40px_-10px_rgba(0,0,0,0.75)]
+                          will-change-transform"
+                      />
+                    </div>
+                  )
+                })}
               </div>
             )}
             <p className="text-white/85 text-lg leading-relaxed text-center
-              animate-[fadeIn_600ms_ease-out]">
+              mt-4 animate-[fadeIn_700ms_ease-out]">
               {prompt}
             </p>
             <textarea

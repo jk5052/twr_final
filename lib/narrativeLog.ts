@@ -69,7 +69,7 @@ export async function logChoice(input: LogChoiceInput): Promise<void> {
     schema_version: SCHEMA_VERSION,
   }
 
-  const sup = getSupabase()
+  const sup = getSupabase(sessionId)
   const { error } = await sup
     .from('narrative_logs')
     .upsert(row, { onConflict: 'session_id,room,item_id,event_index,choice_index' })

@@ -29,7 +29,7 @@ export default function RoomIntro({ text, onComplete }: RoomIntroProps) {
       {/* 떠오르는 생각 */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
         <p
-          className="text-white/70 text-2xl tracking-[0.15em] font-light"
+          className="font-serif text-white/80 text-3xl tracking-[0.04em] italic"
           style={{ animation: `blinkIntroText ${DURATION_MS}ms ease-in-out forwards` }}
         >
           {text}

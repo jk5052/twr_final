@@ -8,7 +8,8 @@ import TalismanLabelPDF from '@/components/TalismanLabelPDF'
 // Talisman card phase — final overlay on finalroom.
 // Calls /api/card-bundle (idempotent), shows a PDF preview, and offers:
 //   - download pdf  (A6 keepsake)
-//   - print label   (50mm CZ-1005 label via AirPrint → Brother VC500W)
+//   - print card    (A6 keepsake via AirPrint → any A6/A5/A4 printer)
+//   - print label   (50mm CZ-1005 label via AirPrint → Brother VC-500W)
 //   - continue
 
 interface CardOverlayProps {
@@ -27,6 +28,8 @@ interface BundleRes {
   qr_url:           string | null
   qr_data_url:      string | null
   shared:           boolean
+  sealing_answers:  string[]
+  mood_words:       string[]
 }
 
 const PDFViewer = dynamic(
@@ -73,6 +76,9 @@ export default function CardOverlay({ onComplete }: CardOverlayProps) {
         imageUrl:       bundle.image_url,
         defenseFraming: bundle.positive_framing ?? null,
         defenseName:    bundle.primary_defense,
+        blankAnswer:    bundle.blank_answer,
+        sealingAnswers: bundle.sealing_answers ?? [],
+        moodWords:      bundle.mood_words ?? [],
         replyText:      bundle.reply_text,
         poem:           bundle.card_poem,
         poemTitle:      bundle.card_poem_title,
@@ -123,9 +129,15 @@ export default function CardOverlay({ onComplete }: CardOverlayProps) {
                 {({ loading: dlLoading }) => dlLoading ? 'preparing…' : 'download pdf'}
               </PDFDownloadLink>
 
+              <BlobProvider document={<TalismanPDF data={data} />}>
+                {({ url, loading: blobLoading }) => (
+                  <PrintBlobButton url={url} loading={blobLoading} label="print card" />
+                )}
+              </BlobProvider>
+
               <BlobProvider document={<TalismanLabelPDF data={data} />}>
                 {({ url, loading: blobLoading }) => (
-                  <PrintLabelButton url={url} loading={blobLoading} />
+                  <PrintBlobButton url={url} loading={blobLoading} label="print label" />
                 )}
               </BlobProvider>
 
@@ -136,6 +148,9 @@ export default function CardOverlay({ onComplete }: CardOverlayProps) {
                   bg-black/50 transition-colors"
               >continue ▸</button>
             </div>
+            <p className="text-white/30 text-[9px] tracking-[0.2em] uppercase">
+              destination → Brother VC-500W · or ⌥⌘P for system dialog
+            </p>
           </>
         )}
       </div>
@@ -144,10 +159,10 @@ export default function CardOverlay({ onComplete }: CardOverlayProps) {
 }
 
 
-// Hidden-iframe print: drops the label PDF blob into an offscreen iframe and
+// Hidden-iframe print: drops the PDF blob into an offscreen iframe and
 // calls contentWindow.print(), which surfaces the OS print dialog.
-// On macOS this picks up AirPrint targets (e.g. Brother VC500W) automatically.
-function PrintLabelButton({ url, loading }: { url: string | null; loading: boolean }) {
+// On macOS this picks up AirPrint targets (e.g. Brother VC-500W) automatically.
+function PrintBlobButton({ url, loading, label }: { url: string | null; loading: boolean; label: string }) {
   const iframeRef = useRef<HTMLIFrameElement | null>(null)
   const [frameReady, setFrameReady] = useState(false)
 
@@ -160,9 +175,9 @@ function PrintLabelButton({ url, loading }: { url: string | null; loading: boole
   }
 
   const disabled = loading || !url || !frameReady
-  const label = loading || !url ? 'preparing label…'
-              : !frameReady     ? 'loading…'
-              :                   'print label'
+  const text = loading || !url ? 'preparing…'
+             : !frameReady     ? 'loading…'
+             :                   label
 
   return (
     <>
@@ -172,7 +187,7 @@ function PrintLabelButton({ url, loading }: { url: string | null; loading: boole
         className="text-white text-xs tracking-[0.3em] uppercase
           px-5 py-3 border border-white/40 hover:border-white
           bg-black/50 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-      >{label}</button>
+      >{text}</button>
       {url && (
         <iframe
           ref={iframeRef}

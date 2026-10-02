@@ -41,7 +41,9 @@ yarn-error.log*
 next-env.d.ts
 
 # large 3D assets (hosted on Supabase Storage CDN; see lib/assets.ts)
-/public/models/*.glb
+/public/models/**/*.glb
+/public/models/compressed/
+/public/models/safe/
 
 # research raw corpora (kept locally, not for deploy)
 /dataset/raw/

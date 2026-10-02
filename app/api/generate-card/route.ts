@@ -65,30 +65,36 @@ export async function POST(request: Request) {
     .filter((w) => typeof w === 'string' && w.trim())
     .slice(0, 4)
 
-  // 1) prompt build — tarot-card aesthetic: black silhouette / ink illustration
-  // on warm ivory paper. single symbolic object, no faces, no text.
+  // 1) prompt build — Edward Gorey "Fantod Pack" oracle aesthetic: fine
+  // crosshatched pen-and-ink on aged cream paper, edge-to-edge so no white
+  // rectangle is visible against the card's cream frame in the PDF.
+  // Text/caption bans are stated first so Flux gives them more weight.
   const lines: string[] = [
-    `tarot-style talisman card illustration of a single symbolic object: ${framing.image_seed}`,
+    'absolutely no text, no captions, no labels, no titles, no nameplates, no inscriptions, no letters, no numerals, no logos, no watermarks,',
+    'no pure white background, no clean studio backdrop, no rectangular inner frame, no inner border, no margin band of different color around the illustration,',
+    `Edward Gorey-style vintage oracle card illustration: ${framing.image_seed}`,
     `quiet meaning: ${framing.framing_en}`,
   ]
   if (blank)         lines.push(`woven element: "${blank.slice(0, 120)}"`)
   if (words.length)  lines.push(`atmospheric anchors: ${words.map((w) => `"${w}"`).join(', ')}`)
   lines.push(
-    'style: solid black silhouette and fine ink linework on a clean off-white ivory paper background,',
-    'centered composition, generous negative space, subtle paper grain, vintage tarot card feel,',
-    'flat 2D vector-like shapes, high contrast, two-tone (black on ivory) with optional muted sepia accent only,',
-    'no humans, no faces, no figures, no text, no letters, no numerals, no logos, no threatening imagery,',
-    'dignified, quiet, contemplative mood',
+    'style: fine pen-and-ink crosshatching and stippling, solid black linework, vintage oracle deck in the spirit of the Fantod Pack,',
+    'single symbolic object, centered, dignified composition, generous negative space,',
+    'background is aged warm cream paper (#f4ede1) with subtle mottling, faint foxing, soft paper grain;',
+    'the cream paper texture fills the entire frame from edge to edge — corners and edges are the same warm cream tone, no lighter rectangle or border,',
+    'no humans, no faces, no figures, no threatening imagery,',
+    'quiet, mysterious, warm, contemplative, slightly antique mood',
   )
   const promptUsed = lines.join('\n')
 
-  // 2) Replicate 호출 (sync — Prefer: wait 로 결과 즉시 수신, 최대 60s)
+  // 2) Replicate 호출 (sync — Prefer: wait 로 결과 즉시 수신, 최대 60s).
+  // wait 가 만료되어 starting/processing 상태로 돌아오면 urls.get 을 polling.
   const replicateRes = await fetch(REPLICATE_URL, {
     method: 'POST',
     headers: {
       'authorization': `Bearer ${replicate}`,
       'content-type':  'application/json',
-      'prefer':        'wait',
+      'prefer':        'wait=30',
     },
     body: JSON.stringify({
       input: {
@@ -112,12 +118,36 @@ export async function POST(request: Request) {
     )
   }
 
-  const pred = await replicateRes.json() as {
-    id?: string; status?: string; output?: string[] | string; error?: string | null
+  type ReplicatePred = {
+    id?:     string
+    status?: string
+    output?: string[] | string
+    error?:  string | null
+    urls?:   { get?: string; cancel?: string }
   }
-  if (pred.status && pred.status !== 'succeeded') {
+  let pred = await replicateRes.json() as ReplicatePred
+
+  // Cold start fallback — Prefer:wait 가 starting/processing 으로 끊긴 경우
+  // route maxDuration 한도 안에서 짧은 간격으로 GET 폴링.
+  if (pred.status && pred.status !== 'succeeded' && pred.status !== 'failed' && pred.status !== 'canceled') {
+    const getUrl = pred.urls?.get
+    if (getUrl) {
+      const deadline = Date.now() + 25_000     // wait=30 후 남은 maxDuration(60s) 내 폴링
+      while (Date.now() < deadline) {
+        await new Promise((r) => setTimeout(r, 1500))
+        const pollRes = await fetch(getUrl, {
+          headers: { 'authorization': `Bearer ${replicate}` },
+        })
+        if (!pollRes.ok) break
+        pred = await pollRes.json() as ReplicatePred
+        if (pred.status === 'succeeded' || pred.status === 'failed' || pred.status === 'canceled') break
+      }
+    }
+  }
+
+  if (pred.status !== 'succeeded') {
     return Response.json(
-      { error: 'replicate not succeeded', status: pred.status, detail: pred.error ?? null },
+      { error: 'replicate not succeeded', status: pred.status ?? 'unknown', detail: pred.error ?? null },
       { status: 502 },
     )
   }

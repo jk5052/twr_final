@@ -7,6 +7,7 @@
 //     QR data URL ready for <Image src=…>.
 import { createClient, type SupabaseClient } from '@supabase/supabase-js'
 import QRCode from 'qrcode'
+import { extractMoodWords } from '@/lib/moodExtraction'
 
 export const dynamic = 'force-dynamic'
 export const maxDuration = 60
@@ -33,6 +34,12 @@ interface CardRow {
   qr_url:           string | null
   positive_framing: string | null
   primary_defense:  string | null
+  picked_words:     string[] | null
+}
+interface SealingRow {
+  template_id: number
+  answer_text: string
+  created_at:  string
 }
 
 function buildQrUrl(letterId: string, origin: string): string {
@@ -50,11 +57,22 @@ function isPdfSafeImage(u: string | null | undefined): boolean {
 
 async function readCard(sup: SupabaseClient, sid: string): Promise<CardRow | null> {
   const { data, error } = await sup.from('generated_cards')
-    .select('image_url, card_poem, card_poem_title, card_poem_author, qr_url, positive_framing, primary_defense')
+    .select('image_url, card_poem, card_poem_title, card_poem_author, qr_url, positive_framing, primary_defense, picked_words')
     .eq('session_id', sid)
     .maybeSingle()
   if (error) throw new Error('generated_cards read failed: ' + error.message)
   return (data as CardRow | null) ?? null
+}
+
+async function readSealing(sup: SupabaseClient, sid: string): Promise<SealingRow[]> {
+  // Order by created_at — preserves the player's actual submission order
+  // (kept stable across upserts, since insert sets created_at once).
+  const { data, error } = await sup.from('final_reflections')
+    .select('template_id, answer_text, created_at')
+    .eq('session_id', sid)
+    .order('created_at', { ascending: true })
+  if (error) throw new Error('final_reflections read failed: ' + error.message)
+  return (data as SealingRow[] | null) ?? []
 }
 
 export async function POST(request: Request) {
@@ -68,6 +86,7 @@ export async function POST(request: Request) {
   if (!body.session_id) return Response.json({ error: 'session_id required' }, { status: 400 })
 
   const sup = createClient(url, secret, { auth: { persistSession: false, autoRefreshToken: false } })
+  const anthropic = process.env.ANTHROPIC_API_KEY
   const origin = new URL(request.url).origin
 
   const { data: bfr, error: bfrErr } = await sup
@@ -88,13 +107,25 @@ export async function POST(request: Request) {
     .maybeSingle()
   const exch = (ex as ExRow | null) ?? null
 
+  // sealing answers — read once, used by mood extraction (input) and final
+  // response (PDF page 1). Ordered by created_at = the player's actual
+  // submission order across the 3 sealing prompts.
+  const sealing = await readSealing(sup, body.session_id)
+
   // 1) image — call /api/generate-card once if no row yet (or if the
   // existing image_url is a format the PDF renderer can't decode).
+  // Mood extraction runs sequentially before image gen so the phrases can
+  // flavor the Flux prompt and end up persisted in generated_cards.picked_words.
   let card = await readCard(sup, body.session_id)
   if (!card || !card.image_url || !isPdfSafeImage(card.image_url)) {
     if (card && card.image_url && !isPdfSafeImage(card.image_url)) {
       // wipe the stale row so generate-card can re-insert
       await sup.from('generated_cards').delete().eq('session_id', body.session_id)
+    }
+    let moodWords: string[] = []
+    if (anthropic) {
+      try { moodWords = await extractMoodWords(sup, anthropic, body.session_id, answer) }
+      catch (e) { console.warn('[card-bundle] mood extraction failed:', e) }
     }
     const gcRes = await fetch(`${origin}/api/generate-card`, {
       method: 'POST',
@@ -104,6 +135,7 @@ export async function POST(request: Request) {
         player_id:       body.player_id ?? null,
         primary_defense,
         blank_answer:    answer,
+        picked_words:    moodWords,
       }),
     })
     if (!gcRes.ok) {
@@ -159,6 +191,13 @@ export async function POST(request: Request) {
     qrDataUrl = await QRCode.toDataURL(qrUrl, { margin: 1, scale: 6, errorCorrectionLevel: 'M' })
   }
 
+  // sealing answers in submission order (already from readSealing). Filter
+  // empties defensively — POST validates non-empty, but a stale row could
+  // theoretically slip through.
+  const sealing_answers = sealing
+    .map((r) => r.answer_text)
+    .filter((a): a is string => !!a && !!a.trim())
+
   return Response.json({
     image_url:        card.image_url,
     primary_defense:  card.primary_defense ?? primary_defense,
@@ -171,5 +210,7 @@ export async function POST(request: Request) {
     qr_url:           qrUrl,
     qr_data_url:      qrDataUrl,
     shared:           !!exch?.reply_letter_id,
+    sealing_answers,
+    mood_words:       card.picked_words ?? [],
   })
 }

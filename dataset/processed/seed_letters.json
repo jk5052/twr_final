@@ -294,5 +294,245 @@
     "blank_template_id": 1,
     "blank_answer": "check every light I turned off, twice",
     "letter_text": "I went back to the kitchen three times tonight to make sure the stove was off. Each time it was. The checking isn't really about the stove. It's a small ritual that keeps something else at bay — I'm not sure what yet. I'm trying to ask the question instead of doing the loop."
+  },
+  {
+    "id": 100,
+    "primary_defense": "Suppression",
+    "author_pseudonym": "the one who locks the drawer",
+    "blank_template_id": 7,
+    "blank_answer": "what could not be carried",
+    "letter_text": "There is a drawer in my chest I keep closed. I know what is in it. I open it on Sundays for a moment, then close it again. People say I should write it down, but writing it would mean carrying it during the week, and the week is already long. I think you understand. I'll keep the drawer closed until next Sunday."
+  },
+  {
+    "id": 101,
+    "primary_defense": "Suppression",
+    "author_pseudonym": "the one with later",
+    "blank_template_id": 1,
+    "blank_answer": "put it down for later",
+    "letter_text": "I have a small box under my desk. Every time something hard happens I put it in the box and shut the lid. I tell myself I will open it on a quieter night. The box is full now. The night never gets quiet. I am still putting things in. Are you also waiting for a quieter night?"
+  },
+  {
+    "id": 102,
+    "primary_defense": "Intellectualization",
+    "author_pseudonym": "the one with notes",
+    "blank_template_id": 1,
+    "blank_answer": "make a flowchart of it",
+    "letter_text": "When my father called me last week, I wrote down what we said on a yellow pad. Afterward I underlined the parts that might matter and drew arrows between them. I have not looked at the pad since. The arrows tell me where the feeling is supposed to be. I am still finding the room with the feeling in it."
+  },
+  {
+    "id": 103,
+    "primary_defense": "Intellectualization",
+    "author_pseudonym": "the one who reads about it",
+    "blank_template_id": 5,
+    "blank_answer": "a book about grief",
+    "letter_text": "After my friend died I bought four books about grief. I underlined them. I can tell you the stages and the order. I cannot tell you what color her kitchen was. I keep underlining. I think I am writing a map around a country I will not enter. You don't have to enter it either. Just sit with me at the border."
+  },
+  {
+    "id": 104,
+    "primary_defense": "Affiliation",
+    "author_pseudonym": "the one at the kitchen table",
+    "blank_template_id": 3,
+    "blank_answer": "someone is in the kitchen with me",
+    "letter_text": "Today was a hard day, so I called my sister and asked her to stay on the line while I washed dishes. We didn't talk much. She did the crossword. Hearing her pen on the paper through the phone was enough. I think this is what people mean by leaning. I leaned. The dishes are done."
+  },
+  {
+    "id": 105,
+    "primary_defense": "Affiliation",
+    "author_pseudonym": "the one with the long thread",
+    "blank_template_id": 8,
+    "blank_answer": "the same group chat",
+    "letter_text": "There is a group chat from eleven years ago that still beeps almost every day. Most of what we say is nothing. Someone shares a song. Someone says they're at the dentist. I read every message. When I am most alone I scroll back to the beginning and read forward until I'm tired. We are still here, all of us. Are you somewhere reading too?"
+  },
+  {
+    "id": 106,
+    "primary_defense": "Altruism",
+    "author_pseudonym": "the one who pours water",
+    "blank_template_id": 1,
+    "blank_answer": "pour water for someone else",
+    "letter_text": "I had a heavy week, so on Saturday I cooked too much rice and brought a bowl to my neighbor. She is older and forgets to eat. We sat at her small table without speaking much. Watching her eat made my own week feel lighter, which embarrasses me a little. I do not know if that is honest care or if I'm using her. Maybe both can be true. I'll bring rice again next week."
+  },
+  {
+    "id": 107,
+    "primary_defense": "Altruism",
+    "author_pseudonym": "the one who listens",
+    "blank_template_id": 2,
+    "blank_answer": "the one who listens longer",
+    "letter_text": "A friend has been calling me late at night. She talks for an hour. I listen. After we hang up I notice I feel calmer, even when I had been crying earlier. I do not tell her that. It would be strange to thank her for letting me listen. I am writing it down here instead. Thank you, somebody, for letting me listen."
+  },
+  {
+    "id": 108,
+    "primary_defense": "Anticipation",
+    "author_pseudonym": "the one with a small bag",
+    "blank_template_id": 5,
+    "blank_answer": "a packed bag by the door",
+    "letter_text": "I have a small bag by the door with a phone charger, a sweater, my passport. Nothing is happening. I just like knowing the bag is there. My partner thinks it's strange. I think it means I can imagine the next thing without it crushing me. I am not running from anything. I am just less afraid because the bag is packed. Do you have a bag like that?"
+  },
+  {
+    "id": 109,
+    "primary_defense": "Anticipation",
+    "author_pseudonym": "the one who plans Tuesday",
+    "blank_template_id": 1,
+    "blank_answer": "rehearse the hard conversation",
+    "letter_text": "There is a conversation I have to have on Tuesday. I have already had it in my head four times. Each time I imagine it going a little worse so the real version cannot surprise me. This is not catastrophizing. It is a small homework. By Tuesday I think I will be tired but ready. If it goes badly I will already have a script for the next morning. That counts as kindness to myself, I think."
+  },
+  {
+    "id": 110,
+    "primary_defense": "Devaluation",
+    "author_pseudonym": "the one who calls it nothing",
+    "blank_template_id": 2,
+    "blank_answer": "the one who shrugs",
+    "letter_text": "I didn't get the job. Honestly, the company was bad anyway. The manager looked tired in the interview. The office had ugly chairs. I would not have stayed long. I tell my friends this and they laugh, but I notice my chest is still tight. Maybe I am protecting something soft by making the lost thing small. I'll let you decide."
+  },
+  {
+    "id": 111,
+    "primary_defense": "Devaluation",
+    "author_pseudonym": "the one who shrinks it",
+    "blank_template_id": 1,
+    "blank_answer": "make it smaller in my head",
+    "letter_text": "She stopped texting me back three weeks ago. I keep telling myself she was never that close. We only met a few times. The trip we planned was probably going to fall through anyway. The more I say this the smaller she gets in my head, until I almost cannot remember why I once liked her. I am writing this so I remember that I did."
+  },
+  {
+    "id": 112,
+    "primary_defense": "Displacement",
+    "author_pseudonym": "the one who slams the cupboard",
+    "blank_template_id": 1,
+    "blank_answer": "slam a cupboard door",
+    "letter_text": "I yelled at my partner today because the rice cooker beeped wrong. The rice cooker was not the problem. My boss had said something at noon that I could not say anything back to. By dinner the boss was nowhere and the rice cooker was right there. I'm sorry, rice cooker. I'm sorry, partner. I will try to say the boss's name out loud next time, even alone in the car."
+  },
+  {
+    "id": 113,
+    "primary_defense": "Displacement",
+    "author_pseudonym": "the one with the heavy bag",
+    "blank_template_id": 6,
+    "blank_answer": "the gym lights",
+    "letter_text": "After a fight with my mother I went to the gym. I hit the heavy bag for forty minutes. I am not a person who hits things. I sat on the floor afterward and my hands were shaking. The bag took what I could not give back to her. I do not know if that's healing or just rearranging. I left the gym lights on for the next person."
+  },
+  {
+    "id": 114,
+    "primary_defense": "Help-Rejecting Complaining",
+    "author_pseudonym": "the one who waves them off",
+    "blank_template_id": 1,
+    "blank_answer": "tell them it won't work",
+    "letter_text": "Everyone keeps offering me advice. Try therapy. Try a walk. Try writing it down. Each one feels like a small door closing. I say 'I've tried that' before they finish. Maybe I am not asking for solutions. Maybe I am asking someone to stand near me in the unfixed part. I don't know how to say that, so I keep complaining. I hope someone hears the real request underneath."
+  },
+  {
+    "id": 115,
+    "primary_defense": "Help-Rejecting Complaining",
+    "author_pseudonym": "the one with the unsolvable thing",
+    "blank_template_id": 1,
+    "blank_answer": "list everything I've already tried",
+    "letter_text": "When my friend asks how I am, I list the things I've already tried that did not work. She gets a little tired. I get a little safer. As long as nothing has worked, no one can take the problem from me, and the problem is the part I know best. I don't want to scare it away. Today I want to try, just once, to say 'I'm tired' without the list. I'll let you know how it goes."
+  },
+  {
+    "id": 116,
+    "primary_defense": "Humor",
+    "author_pseudonym": "the one who tells a joke at the funeral",
+    "blank_template_id": 1,
+    "blank_answer": "make a joke at the wrong moment",
+    "letter_text": "At my grandfather's funeral I told a joke about his terrible driving. People laughed. Then I cried. Then I laughed again. The joke was true and it was tender, and I could not have said the tender part without the joke first. I am not making light. I am building a small staircase down into the heavy place. Step, step."
+  },
+  {
+    "id": 117,
+    "primary_defense": "Humor",
+    "author_pseudonym": "the one who laughs at the doctor",
+    "blank_template_id": 1,
+    "blank_answer": "joke through the appointment",
+    "letter_text": "I made the nurse laugh today. The test results were not good. I cracked a joke about the gown opening in the back and she laughed and the doctor laughed and for a minute the room was a different room. Later, in the parking lot, I sat in the car and did not laugh. Both rooms were real. I am writing from the parking lot."
+  },
+  {
+    "id": 118,
+    "primary_defense": "Idealization",
+    "author_pseudonym": "the one who keeps the letter",
+    "blank_template_id": 8,
+    "blank_answer": "the version of her I loved",
+    "letter_text": "I keep one letter from my mother in a drawer. In it she is patient and clear and on my side. She wrote it in 1998. She has not been that person for a long time. I read the letter twice a year. I know I am loving a version that no longer lives in her, and maybe never fully did. I love the version anyway. It keeps me kinder to the woman who actually answers the phone now."
+  },
+  {
+    "id": 119,
+    "primary_defense": "Idealization",
+    "author_pseudonym": "the one who polishes him",
+    "blank_template_id": 1,
+    "blank_answer": "remember him at his best",
+    "letter_text": "Whenever I describe my old teacher to friends, he becomes better and better. By the third telling he is a saint. I know he had a temper. I know he forgot my name once for a whole semester. I do this because I needed someone to be that good when I was sixteen, and the polished version still does that work. I am only slowly letting him be a person again."
+  },
+  {
+    "id": 120,
+    "primary_defense": "Omnipotence",
+    "author_pseudonym": "the one who holds it all",
+    "blank_template_id": 1,
+    "blank_answer": "say I'll handle it",
+    "letter_text": "When my sister called crying I said, 'I'll handle it.' I always say that. By the end of the week I had called her landlord, fixed her resume, lent her money, and not slept. I felt enormous and useful and also slightly sick. I think part of me was afraid that if I let her handle even one thing, she would not need me at all. I am trying to give her back one small task this week. Just one."
+  },
+  {
+    "id": 121,
+    "primary_defense": "Omnipotence",
+    "author_pseudonym": "the one who carries everyone",
+    "blank_template_id": 5,
+    "blank_answer": "everyone's plans in my head",
+    "letter_text": "I keep everyone's schedules in my head. My mother's doctor appointments. My partner's deadlines. My friend's medication times. People say it's impressive. It is also how I make sure no one leaves. If I am the one who remembers, I am the one who is needed. I am trying to write things on paper instead of holding them in my chest. Paper is heavy too, but not in the same way."
+  },
+  {
+    "id": 122,
+    "primary_defense": "Passive Aggression",
+    "author_pseudonym": "the one with the late reply",
+    "blank_template_id": 1,
+    "blank_answer": "answer four days late",
+    "letter_text": "She asked a favor of me on Monday. I knew immediately that I did not want to do it. I could not say no, so I waited four days to reply. By then it was almost too late to help, which was the point. I felt clever and small at the same time. I am writing this to admit that 'too busy' was not the real answer. The real answer was 'I am tired of being the one you ask.'"
+  },
+  {
+    "id": 123,
+    "primary_defense": "Passive Aggression",
+    "author_pseudonym": "the one who forgets on purpose",
+    "blank_template_id": 1,
+    "blank_answer": "forget what they asked for",
+    "letter_text": "My partner asked me twice to pick up bread on the way home. I did not pick up bread. I told myself I forgot. I did not forget. I was angry about something else and I did not have words for it, so the bread became the message. I am trying to find the words. They are slow in coming. Until then, I owe somebody a loaf."
+  },
+  {
+    "id": 124,
+    "primary_defense": "Projective Identification",
+    "author_pseudonym": "the one who makes them angry",
+    "blank_template_id": 1,
+    "blank_answer": "wait for them to be the angry one",
+    "letter_text": "When I am angry I get very quiet. I say small careful things. Within an hour the other person is shouting and I am calm. They become the angry one and I become the patient one. It works every time. I know it is not honest. The anger does not leave me. It just rents a different body for the evening. I am trying to keep it in my own chest, even when it's loud there."
+  },
+  {
+    "id": 125,
+    "primary_defense": "Rationalization",
+    "author_pseudonym": "the one with reasons",
+    "blank_template_id": 1,
+    "blank_answer": "explain why it was for the best",
+    "letter_text": "I quit the band last year. I tell people I needed time to focus on my career, which is true. I also tell them the singer was difficult, which is true. I do not tell them I was scared to perform. That is also true. The first two reasons are good reasons. The third is the real reason. I keep the third in my pocket. I am taking it out a little today, just for you."
+  },
+  {
+    "id": 126,
+    "primary_defense": "Reaction Formation",
+    "author_pseudonym": "the one who smiles wider",
+    "blank_template_id": 2,
+    "blank_answer": "the most generous one",
+    "letter_text": "There is a coworker I cannot stand. When I see her I smile wider than I smile at anyone else. I send her thoughtful messages on her birthday. I bring her coffee. The kinder I am to her, the louder the other thing gets in private. I am tired. I do not want to wish her well anymore, and I do not want to wish her ill. I want to be allowed to feel something in the middle. I am practicing."
+  },
+  {
+    "id": 127,
+    "primary_defense": "Self-Assertion",
+    "author_pseudonym": "the one who said no on Tuesday",
+    "blank_template_id": 1,
+    "blank_answer": "say it without softening it",
+    "letter_text": "On Tuesday I told my boss I could not take on the new project. I did not apologize. I did not add 'sorry' or 'maybe later' or 'if you really need me.' I just said no, and then I let the room be quiet. My hands were shaking under the table. He nodded and we moved on. That sentence used three seconds. I have been recovering for two days. It was worth it."
+  },
+  {
+    "id": 128,
+    "primary_defense": "Self-Observation",
+    "author_pseudonym": "the one who watches herself",
+    "blank_template_id": 10,
+    "blank_answer": "the bus window at dusk",
+    "letter_text": "On the bus home I caught myself watching myself be tired. I noticed I was clenching my jaw. I noticed I was annoyed at a stranger for no reason. I noticed I noticed. It was a quiet kind of company. Nothing changed about the day. But I was, for a moment, two people instead of one, and the second one was patient with the first. I'll try to find her again tomorrow."
+  },
+  {
+    "id": 129,
+    "primary_defense": "Sublimation",
+    "author_pseudonym": "the one at the piano",
+    "blank_template_id": 1,
+    "blank_answer": "play it on the piano",
+    "letter_text": "After the fight with my brother I sat at the piano for an hour. I was not playing songs. I was just pressing the same three notes in different orders. By the end my chest was looser. I had not solved anything with him. But the thing inside me had been given somewhere to go that wasn't his face. The piano did not mind. I think this is what people mean by music. I am writing to you instead of playing tonight."
   }
 ]

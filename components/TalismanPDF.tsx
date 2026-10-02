@@ -2,14 +2,21 @@
 import { Document, Page, Text, View, Image, StyleSheet } from '@react-pdf/renderer'
 
 // Talisman card set — two A6 portrait pages (105×148mm).
-//   page 1 — own oracle: tarot-style AI image with title-below caption.
+//   page 1 — own oracle: tarot-style AI image + sealing-ritual phrases
+//            (visible authored text) + small extracted mood fragments.
 //   page 2 — matched poem (title/author/content) + reply + QR + brand.
+// blankAnswer / defenseName / defenseFraming remain as internal/seed fields
+// — they are not rendered on page 1 of the A6 talisman (Option X). The
+// label PDF (50mm) still consumes defenseName for its compact oracle half.
 // Pure presentational; CardOverlay assembles props from /api/card-bundle.
 
 export interface TalismanData {
   imageUrl:        string
   defenseFraming:  string | null
   defenseName:     string | null
+  blankAnswer:     string | null
+  sealingAnswers:  string[]
+  moodWords:       string[]
   replyText:       string | null
   poem:            string | null
   poemTitle:       string | null
@@ -40,12 +47,12 @@ const styles = StyleSheet.create({
     padding: 10,
     flexDirection: 'column',
     alignItems: 'center',
-    justifyContent: 'flex-start',
+    justifyContent: 'center',
   },
   oracleImageBox: {
     width: '100%',
-    height: 220,
-    backgroundColor: '#ffffff',
+    height: 190,
+    backgroundColor: PAPER,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -54,29 +61,39 @@ const styles = StyleSheet.create({
     height: '100%',
     objectFit: 'contain',
   },
-  oracleRule: {
-    width: 24,
-    height: 0.6,
-    backgroundColor: DIM,
-    marginTop: 18,
-    marginBottom: 10,
+  // Option X — three sealing-ritual phrases the player wrote on departure.
+  // Stacked italic serif, centered, larger weight than the mood fragments
+  // because these are the visible authored text of the card.
+  sealingBlock: {
+    flexDirection: 'column',
+    alignItems: 'center',
+    marginTop: 14,
+    paddingHorizontal: 8,
   },
-  oracleTitle: {
-    fontSize: 11,
+  sealingLine: {
+    fontSize: 10,
     color: INK,
-    fontFamily: 'Times-Roman',
-    textTransform: 'uppercase',
-    letterSpacing: 3,
-    textAlign: 'center',
-  },
-  oracleSubtitle: {
-    fontSize: 7,
-    color: DIM,
     fontFamily: 'Times-Italic',
-    marginTop: 8,
     textAlign: 'center',
-    lineHeight: 1.5,
-    paddingHorizontal: 14,
+    lineHeight: 1.45,
+    marginTop: 2,
+  },
+  // Mood fragments — symbolic vocabulary lifted from the session, rendered
+  // small and faint as atmospheric trace beneath the sealing lines.
+  moodRow: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+    marginTop: 12,
+    paddingHorizontal: 6,
+  },
+  moodWord: {
+    fontSize: 6.5,
+    color: FAINT,
+    fontFamily: 'Times-Italic',
+    letterSpacing: 0.6,
+    marginHorizontal: 4,
+    marginVertical: 1,
   },
   // ── card 2 (poem) ────────────────────────────────────────────────
   poemHeader: { flexDirection: 'column', alignItems: 'center', marginBottom: 10 },
@@ -153,18 +170,27 @@ const styles = StyleSheet.create({
 })
 
 function OraclePage({ data }: { data: TalismanData }) {
-  // title prefers the named defense (tarot-card feel); falls back to framing.
-  const title = (data.defenseName ?? data.defenseFraming ?? 'the talisman').trim()
+  const sealing = (data.sealingAnswers ?? []).filter((s) => !!s && !!s.trim())
+  const mood    = (data.moodWords ?? []).filter((w) => !!w && !!w.trim())
   return (
     <Page size="A6" style={styles.page}>
       <View style={styles.oracleFrame}>
         <View style={styles.oracleImageBox}>
           <Image src={data.imageUrl} style={styles.oracleImage} />
         </View>
-        <View style={styles.oracleRule} />
-        <Text style={styles.oracleTitle}>{title}</Text>
-        {data.defenseName && data.defenseFraming && (
-          <Text style={styles.oracleSubtitle}>{data.defenseFraming}</Text>
+        {sealing.length > 0 && (
+          <View style={styles.sealingBlock}>
+            {sealing.map((line, i) => (
+              <Text key={i} style={styles.sealingLine}>{line}</Text>
+            ))}
+          </View>
+        )}
+        {mood.length > 0 && (
+          <View style={styles.moodRow}>
+            {mood.map((w, i) => (
+              <Text key={i} style={styles.moodWord}>{w}</Text>
+            ))}
+          </View>
         )}
       </View>
     </Page>

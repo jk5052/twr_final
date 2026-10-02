@@ -1,11 +1,16 @@
 // /api/letter
 //   POST { session_id, player_id? }
-//     → idempotent fetch/create of one matched letter for this session.
-//       reads blank_fill_responses (embedding + defense), runs RPC
-//       match_letter_for_session, falls back to *_any when needed,
-//       and pins the choice in letter_exchanges.
-//   POST { session_id, reply_text }
-//     → save the player's reply onto the existing exchange row.
+//     → compose-first. Runs after the player has written their own
+//       letter (LetterComposeOverlay → /api/compose-letter), keying on
+//       letter_exchanges.composed_letter_embedding via
+//       match_letter_for_session_v2. Lane (primary_defense) still
+//       comes from blank_fill_responses (mirrored by SealingOverlay).
+//       Picks one matched seed letter, pins it onto
+//       letter_exchanges.received_letter_id, returns it for display.
+//   Idempotent: once received_letter_id is set, subsequent calls
+//   return the same letter.
+//   Returns 425 if letter_exchanges.composed_letter_embedding is not
+//   ready yet (compose-letter still in flight on advance).
 import { createClient, type SupabaseClient } from '@supabase/supabase-js'
 
 export const dynamic = 'force-dynamic'
@@ -20,30 +25,18 @@ interface MatchRow {
   similarity:       number
 }
 
-interface ExchangeRow {
-  received_letter_id: string
-  reply_text:         string | null
-}
-
 interface PostBody {
   session_id: string
   player_id?: string | null
-  reply_text?: string
-  let_it_be?: boolean        // true → save sentinel '·' in reply_text (silent ack)
 }
 
-// Single middle-dot — sentinel for "let it be" / silent acknowledgement.
-// Distinct from NULL (= not yet replied) and from any real prose.
-const LET_IT_BE = '\u00b7'
-
 async function fetchMatch(sup: SupabaseClient, sessionId: string): Promise<MatchRow | null> {
-  const { data, error } = await sup.rpc('match_letter_for_session', { p_session_id: sessionId })
-  if (error) throw new Error('match_letter_for_session failed: ' + error.message)
+  const { data, error } = await sup.rpc('match_letter_for_session_v2', { p_session_id: sessionId })
+  if (error) throw new Error('match_letter_for_session_v2 failed: ' + error.message)
   const rows = (data ?? []) as MatchRow[]
   if (rows.length > 0) return rows[0]
-  // fallback — no candidate in same defense lane
-  const { data: anyData, error: anyErr } = await sup.rpc('match_letter_for_session_any', { p_session_id: sessionId })
-  if (anyErr) throw new Error('match_letter_for_session_any failed: ' + anyErr.message)
+  const { data: anyData, error: anyErr } = await sup.rpc('match_letter_for_session_v2_any', { p_session_id: sessionId })
+  if (anyErr) throw new Error('match_letter_for_session_v2_any failed: ' + anyErr.message)
   const anyRows = (anyData ?? []) as MatchRow[]
   return anyRows[0] ?? null
 }
@@ -81,41 +74,16 @@ export async function POST(request: Request) {
 
   const sup = createClient(url, secret, { auth: { persistSession: false, autoRefreshToken: false } })
 
-  // ── reply path ────────────────────────────────────────────────
-  if (typeof body.reply_text === 'string' || body.let_it_be === true) {
-    const reply = body.let_it_be === true
-      ? LET_IT_BE
-      : (body.reply_text ?? '').trim().slice(0, 4000)
-    if (!reply) return Response.json({ error: 'reply_text empty' }, { status: 400 })
-
-    const { data: ex, error: exErr } = await sup
-      .from('letter_exchanges')
-      .select('received_letter_id')
-      .eq('session_id', body.session_id)
-      .maybeSingle()
-    if (exErr)  return Response.json({ error: 'letter_exchanges read failed: ' + exErr.message }, { status: 500 })
-    if (!ex)    return Response.json({ error: 'no letter to reply to (call POST without reply_text first)' }, { status: 409 })
-
-    const { error: upErr } = await sup
-      .from('letter_exchanges')
-      .update({ reply_text: reply, player_id: body.player_id ?? null })
-      .eq('session_id', body.session_id)
-    if (upErr) return Response.json({ error: 'reply save failed: ' + upErr.message }, { status: 500 })
-
-    return Response.json({ ok: true, received_letter_id: ex.received_letter_id, let_it_be: reply === LET_IT_BE })
-  }
-
-  // ── match path (idempotent) ───────────────────────────────────
-  const { data: existing, error: exErr } = await sup
+  // Idempotent: if a match was already pinned, return the same letter.
+  const { data: ex, error: exErr } = await sup
     .from('letter_exchanges')
-    .select('received_letter_id, reply_text')
+    .select('received_letter_id, composed_letter_embedding')
     .eq('session_id', body.session_id)
     .maybeSingle()
   if (exErr) return Response.json({ error: 'letter_exchanges read failed: ' + exErr.message }, { status: 500 })
 
-  if (existing) {
-    const ex = existing as ExchangeRow
-    const letter = await loadLetterById(sup, ex.received_letter_id)
+  if (ex && ex.received_letter_id) {
+    const letter = await loadLetterById(sup, ex.received_letter_id as string)
     if (!letter) return Response.json({ error: 'pinned letter missing' }, { status: 500 })
     return Response.json({
       letter_id:        letter.letter_id,
@@ -124,9 +92,15 @@ export async function POST(request: Request) {
       author_pseudonym: letter.author_pseudonym,
       source:           letter.source,
       similarity:       null,
-      reply_text:       ex.reply_text ?? null,
-      already_replied:  !!ex.reply_text,
     })
+  }
+
+  // Pre-flight: composed_letter_embedding must be present. The compose
+  // submit is awaited on the client, but mirror this guard defensively
+  // so the player gets a retryable 425 rather than a confusing 404
+  // if the row is somehow incomplete.
+  if (!ex || !ex.composed_letter_embedding) {
+    return Response.json({ error: 'composed letter embedding not ready' }, { status: 425 })
   }
 
   let match: MatchRow | null
@@ -134,12 +108,13 @@ export async function POST(request: Request) {
   catch (e) { return Response.json({ error: String(e) }, { status: 500 }) }
   if (!match) return Response.json({ error: 'no candidate letter in pool' }, { status: 404 })
 
-  const { error: insErr } = await sup.from('letter_exchanges').insert({
-    session_id:         body.session_id,
-    player_id:          body.player_id ?? null,
-    received_letter_id: match.letter_id,
-  })
-  if (insErr) return Response.json({ error: 'letter_exchanges insert failed: ' + insErr.message }, { status: 500 })
+  // Row already exists from /api/compose-letter — update in place so
+  // composed_letter / embedding / share_choice / player_id are preserved.
+  const { error: upErr } = await sup
+    .from('letter_exchanges')
+    .update({ received_letter_id: match.letter_id })
+    .eq('session_id', body.session_id)
+  if (upErr) return Response.json({ error: 'letter_exchanges update failed: ' + upErr.message }, { status: 500 })
 
   return Response.json({
     letter_id:        match.letter_id,
@@ -148,7 +123,5 @@ export async function POST(request: Request) {
     author_pseudonym: match.author_pseudonym,
     source:           match.source,
     similarity:       match.similarity,
-    reply_text:       null,
-    already_replied:  false,
   })
 }

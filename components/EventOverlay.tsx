@@ -74,19 +74,19 @@ export default function EventOverlay({ event, onChoose, onCancel }: EventOverlay
   return (
     <div
       className="absolute inset-0 z-10 bg-black/60 backdrop-blur-sm
-        transition-all duration-700 flex flex-col items-center justify-end pb-16"
+        transition-all duration-700 flex flex-col items-center justify-center"
       onClick={(e) => {
         if (!narration && e.target === e.currentTarget) onCancel()
       }}
     >
       {narration ? (
-        <p className="text-white/80 text-lg mb-10 max-w-md text-center leading-relaxed
+        <p className="font-serif text-white/85 text-2xl mb-10 max-w-xl text-center leading-relaxed
           animate-[fadeIn_400ms_ease-out]">
           {narration}
         </p>
       ) : (
         <>
-          <p className="text-white/80 text-lg mb-10 max-w-md text-center leading-relaxed">
+          <p className="font-serif text-white/85 text-2xl mb-10 max-w-xl text-center leading-relaxed">
             {event.text}
           </p>
           <div className="flex flex-col gap-3 items-center">

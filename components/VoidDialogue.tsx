@@ -79,10 +79,10 @@ export default function VoidDialogue({ onComplete }: VoidDialogueProps) {
 
   return (
     <div className="absolute inset-0 z-30 flex flex-col items-center justify-end pb-10 px-6 pointer-events-none">
-      {/* 흰 Void 배경에 흰 텍스트가 묻히지 않도록 하단 어두운 그라데이션 scrim.
-          상단은 완전 투명 → 하단으로 갈수록 어두워져 채팅 영역만 가독성 확보. */}
+      {/* 텍스트 가독성용 하단 그라데이션 scrim. finalroom 의 컬러 씬이 비치도록
+          투명도를 낮춰 (85→55, 55→25) 채팅 영역만 살짝 어둡게. */}
       <div className="absolute inset-x-0 bottom-0 h-2/3 pointer-events-none
-        bg-gradient-to-t from-black/85 via-black/55 to-transparent" />
+        bg-gradient-to-t from-black/55 via-black/25 to-transparent" />
 
       {/* 메시지 thread */}
       <div

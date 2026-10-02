@@ -28,6 +28,7 @@ export default function LetterDetailCard({ letter, isFocused, onClose }: Props) 
   const [sent, setSent] = useState(false)
   const [letItBe, setLetItBe] = useState(false)
   const [error, setError] = useState<string | null>(null)
+  const [imgFailed, setImgFailed] = useState(false)
   const fetchedInbox = useRef(false)
 
   useEffect(() => {
@@ -79,49 +80,46 @@ export default function LetterDetailCard({ letter, isFocused, onClose }: Props) 
   return (
     <div className="fixed inset-0 z-40 flex items-start justify-center
       px-4 pt-16 pb-8 overflow-y-auto" onClick={onClose}>
-      <div className="absolute inset-0 bg-stone-900/8 backdrop-blur-[0.5px]" />
+      <div className="absolute inset-0 bg-black/75 backdrop-blur-[2px]" />
       <div onClick={(e) => e.stopPropagation()}
-        className="relative w-full max-w-md bg-[#fbf7ee] shadow-[0_30px_80px_-20px_rgba(0,0,0,0.45)]
-          border border-stone-200 flex flex-col">
+        className="relative w-full max-w-lg bg-[#0a0a0a] shadow-[0_30px_80px_-20px_rgba(0,0,0,0.85)]
+          border border-white/15 flex flex-col font-sans">
         <button onClick={onClose} aria-label="close"
           className="absolute top-2 right-2 z-10 w-7 h-7 flex items-center justify-center
-            text-stone-500 hover:text-stone-900 transition-colors text-base leading-none">×</button>
+            text-white/45 hover:text-white transition-colors text-base leading-none">×</button>
 
-        {letter.imageUrl ? (
+        {letter.imageUrl && !imgFailed ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img src={letter.imageUrl} alt=""
-            className="w-full h-44 object-cover bg-stone-200" />
+            className="w-full h-44 object-cover bg-stone-900"
+            onError={() => setImgFailed(true)} />
         ) : (
-          <div className="w-full h-20 bg-[#ede4d2] border-b border-stone-200
+          <div className="w-full h-20 bg-[#141414] border-b border-white/10
             flex items-center justify-center">
-            <span className="text-stone-400 text-[10px] tracking-[0.3em] uppercase">
+            <span className="text-white/35 text-[10px] tracking-[0.3em] uppercase">
               an unsent letter
             </span>
           </div>
         )}
 
-        <div className="px-5 pt-4 pb-3 border-b border-stone-200">
-          <p className="text-stone-900 text-base font-serif italic">{author}</p>
-          <p className="text-stone-500 text-xs mt-0.5">
+        <div className="px-6 pt-5 pb-4 border-b border-white/10">
+          <p className="text-white text-xl font-serif italic leading-tight">{author}</p>
+          <p className="text-white/55 text-sm font-serif italic mt-1">
             {letter.blankAnswer ? `“${letter.blankAnswer}”` : 'undefined'}
           </p>
-          <p className="text-stone-400 text-[11px] mt-0.5">{date}</p>
+          <p className="text-white/35 text-[11px] tracking-[0.2em] uppercase mt-2">{date}</p>
         </div>
 
-        <div className="px-5 py-4 border-b border-stone-200">
-          <p className="text-stone-800 text-sm leading-relaxed font-serif whitespace-pre-wrap">
+        <div className="px-6 py-6 border-b border-white/10">
+          <p className="text-white/90 text-lg leading-[1.75] font-serif whitespace-pre-wrap">
             {letter.letterText}
           </p>
         </div>
 
-        <dl className="px-5 py-3 grid grid-cols-[88px_1fr] gap-y-1.5 gap-x-3
-          text-[11px] border-b border-stone-200">
-          <dt className="text-stone-400 uppercase tracking-[0.15em]">Classification</dt>
-          <dd className="text-stone-700">{letter.primaryDefense}</dd>
-          <dt className="text-stone-400 uppercase tracking-[0.15em]">Source</dt>
-          <dd className="text-stone-700">{letter.source === 'player' ? 'player letter' : 'seed letter'}</dd>
-          <dt className="text-stone-400 uppercase tracking-[0.15em]">Sent</dt>
-          <dd className="text-stone-700">{date}</dd>
+        <dl className="px-6 py-4 grid grid-cols-[88px_1fr] gap-y-1.5 gap-x-3
+          text-[11px] border-b border-white/10">
+          <dt className="text-white/35 uppercase tracking-[0.15em]">Source</dt>
+          <dd className="text-white/80">{letter.source === 'player' ? 'player letter' : 'seed letter'}</dd>
         </dl>
 
         {isFocused && (
@@ -155,22 +153,22 @@ function FocusedActions(p: ActionsProps) {
 
   if (p.mode === 'author') {
     return (
-      <section className="px-5 py-4 flex flex-col gap-3">
-        <h3 className="text-stone-400 text-[10px] tracking-[0.3em] uppercase">your inbox</h3>
+      <section className="px-6 py-5 flex flex-col gap-3">
+        <h3 className="text-white/40 text-[10px] tracking-[0.3em] uppercase">your inbox</h3>
         {p.inbox === null && !p.error && (
-          <p className="text-stone-400 text-xs italic animate-pulse">opening…</p>
+          <p className="text-white/40 text-xs italic animate-pulse">opening…</p>
         )}
         {p.inbox && p.inbox.length === 0 && (
-          <p className="text-stone-400 text-xs italic">no replies yet.</p>
+          <p className="text-white/40 text-xs italic">no replies yet.</p>
         )}
         {p.inbox && p.inbox.length > 0 && (
-          <ul className="flex flex-col gap-4">
+          <ul className="flex flex-col gap-5">
             {p.inbox.map((r) => (
-              <li key={r.id} className="flex flex-col gap-1">
-                <p className="text-stone-800 text-sm font-serif leading-relaxed whitespace-pre-wrap">
+              <li key={r.id} className="flex flex-col gap-1.5">
+                <p className="text-white/90 text-lg font-serif leading-[1.75] whitespace-pre-wrap">
                   {r.reply_text}
                 </p>
-                <p className="text-stone-400 text-[10px] tracking-widest uppercase">
+                <p className="text-white/35 text-[10px] tracking-widest uppercase">
                   {new Date(r.created_at).toLocaleString()}
                   {!r.delivered && ' · new'}
                 </p>
@@ -178,7 +176,7 @@ function FocusedActions(p: ActionsProps) {
             ))}
           </ul>
         )}
-        {p.error && <p className="text-red-700/70 text-xs">failed: {p.error}</p>}
+        {p.error && <p className="text-red-400/80 text-xs">failed: {p.error}</p>}
       </section>
     )
   }
@@ -187,9 +185,9 @@ function FocusedActions(p: ActionsProps) {
   // inbox stays uncluttered, and silence is held privately.
   if (p.letItBe) {
     return (
-      <section className="px-5 py-6 flex flex-col items-center gap-3">
-        <p className="text-stone-500 text-2xl font-serif italic select-none">·</p>
-        <p className="text-stone-400 text-[10px] tracking-[0.3em] uppercase text-center">
+      <section className="px-6 py-7 flex flex-col items-center gap-3">
+        <p className="text-white/55 text-2xl font-serif italic select-none">·</p>
+        <p className="text-white/40 text-[10px] tracking-[0.3em] uppercase text-center">
           your silence has been kept.
         </p>
       </section>
@@ -197,37 +195,37 @@ function FocusedActions(p: ActionsProps) {
   }
 
   return (
-    <section className="px-5 py-4 flex flex-col gap-3">
-      <h3 className="text-stone-400 text-[10px] tracking-[0.3em] uppercase">if this were you.</h3>
+    <section className="px-6 py-5 flex flex-col gap-3">
+      <h3 className="text-white/40 text-[10px] tracking-[0.3em] uppercase">if this were you.</h3>
       {p.sent ? (
-        <p className="text-stone-700 text-sm italic font-serif">your reply has been sent.</p>
+        <p className="text-white/85 text-lg italic font-serif leading-relaxed">your reply has been sent.</p>
       ) : (
         <>
           <textarea value={p.reply} onChange={(e) => p.onChange(e.target.value)}
             placeholder="write back, or let it be."
             rows={4} disabled={p.submitting}
-            className="w-full bg-[#fffaf0] border border-stone-300 text-stone-800
-              text-sm font-serif leading-relaxed p-3 outline-none
-              focus:border-stone-600 transition-colors resize-none
-              placeholder:text-stone-400 disabled:opacity-40" />
+            className="w-full bg-[#111] border border-white/20 text-white/90
+              text-base font-serif leading-[1.7] p-3.5 outline-none
+              focus:border-white/60 transition-colors resize-none
+              placeholder:text-white/30 disabled:opacity-40" />
           <div className="flex justify-end gap-2">
             <button onClick={p.onLetItBe}
               disabled={p.submitting || !!p.reply.trim()}
               title="leave the letter as it is — no reply"
-              className="text-stone-500 text-[10px] tracking-[0.3em] uppercase
-                px-4 py-2 border border-stone-300 hover:border-stone-600
-                hover:text-stone-800 bg-transparent transition-colors
+              className="text-white/55 text-[10px] tracking-[0.3em] uppercase
+                px-4 py-2 border border-white/20 hover:border-white/60
+                hover:text-white bg-transparent transition-colors
                 disabled:opacity-25 disabled:cursor-not-allowed">let it be</button>
             <button onClick={p.onSend}
               disabled={p.submitting || !p.reply.trim()}
-              className="text-stone-700 text-[10px] tracking-[0.3em] uppercase
-                px-5 py-2 border border-stone-400 hover:border-stone-700
+              className="text-white/85 text-[10px] tracking-[0.3em] uppercase
+                px-5 py-2 border border-white/40 hover:border-white
                 bg-transparent transition-colors
                 disabled:opacity-30 disabled:cursor-not-allowed">send</button>
           </div>
         </>
       )}
-      {p.error && <p className="text-red-700/70 text-xs">failed: {p.error}</p>}
+      {p.error && <p className="text-red-400/80 text-xs">failed: {p.error}</p>}
     </section>
   )
 }

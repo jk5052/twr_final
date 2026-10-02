@@ -2,14 +2,16 @@
 import { Document, Page, Text, View, Image, StyleSheet } from '@react-pdf/renderer'
 import type { TalismanData } from '@/components/TalismanPDF'
 
-// Talisman label set — Brother VC500W with CZ-1005 (50mm continuous roll).
-//   page 1 — oracle (image + name + framing)
-//   page 2 — matched poem (compact) + reply + tiny QR
-// Two physical labels emerge per print job (auto-cut between pages).
+// Talisman label — Brother VC500W with CZ-1005 (50mm continuous roll).
+// Single tall page sized to the macOS custom paper "CZ 50x190 combined"
+// (2in × 7.5in). Oracle (top) + poem/reply (bottom), separated by a dashed
+// cut guide. One PDF page = one print job; the printer auto-cuts at end of
+// job and the user snips the strip in half at the guide. Matching PDF
+// height to paper height avoids the driver dropping pages on size mismatch.
 
-// 50 × 76 mm in PDF points (1pt = 1/72in, 25.4mm = 1in).
-const W = 141.73   // 50mm
-const H = 215.43   // 76mm
+// 50 × 190 mm in PDF points (1pt = 1/72in, 25.4mm = 1in).
+const W = 141.73   // 50mm  (printable tape width)
+const H = 540      // 7.5in (paper height — matches "CZ 50x190 combined")
 
 const PAPER = '#f4ede1'
 const INK   = '#1a1a1a'
@@ -88,12 +90,23 @@ const styles = StyleSheet.create({
     fontSize: 3.5, color: DIM, textTransform: 'uppercase', letterSpacing: 1,
   },
   qr: { width: 42, height: 42 },
+
+  half: { flexGrow: 1, flexBasis: 0, padding: 0, flexDirection: 'column' },
+  cutGuide: {
+    flexDirection: 'row', alignItems: 'center', justifyContent: 'center',
+    height: 16, marginVertical: 0,
+  },
+  cutDash: { flexGrow: 1, height: 0.4, backgroundColor: FAINT, opacity: 0.5 },
+  cutHint: {
+    fontSize: 3.5, color: FAINT, textTransform: 'uppercase', letterSpacing: 2,
+    paddingHorizontal: 6,
+  },
 })
 
-function OracleLabel({ data }: { data: TalismanData }) {
+function OracleHalf({ data }: { data: TalismanData }) {
   const title = (data.defenseName ?? data.defenseFraming ?? 'the talisman').trim()
   return (
-    <Page size={[W, H]} style={styles.page}>
+    <View style={styles.half}>
       <View style={styles.oracleFrame}>
         <View style={styles.oracleImageBox}>
           <Image src={data.imageUrl} style={styles.oracleImage} />
@@ -104,16 +117,16 @@ function OracleLabel({ data }: { data: TalismanData }) {
           <Text style={styles.oracleSubtitle}>{data.defenseFraming}</Text>
         )}
       </View>
-    </Page>
+    </View>
   )
 }
 
-function PoemLabel({ data }: { data: TalismanData }) {
-  // Cap to keep it on one 50×76mm label; longer texts read poorly anyway.
+function PoemHalf({ data }: { data: TalismanData }) {
+  // Cap to keep it on one 50×76mm half; longer texts read poorly anyway.
   const poem  = (data.poem ?? '').slice(0, 280)
   const reply = (data.replyText ?? '').slice(0, 200)
   return (
-    <Page size={[W, H]} style={styles.page}>
+    <View style={styles.half}>
       {(data.poemTitle || poem) && (
         <View style={styles.poemHeader}>
           {data.poemTitle && <Text style={styles.poemTitle}>{data.poemTitle}</Text>}
@@ -137,15 +150,22 @@ function PoemLabel({ data }: { data: TalismanData }) {
         </View>
         {data.qrDataUrl && <Image src={data.qrDataUrl} style={styles.qr} />}
       </View>
-    </Page>
+    </View>
   )
 }
 
 export default function TalismanLabelPDF({ data }: { data: TalismanData }) {
   return (
     <Document>
-      <OracleLabel data={data} />
-      <PoemLabel data={data} />
+      <Page size={[W, H]} style={styles.page}>
+        <OracleHalf data={data} />
+        <View style={styles.cutGuide}>
+          <View style={styles.cutDash} />
+          <Text style={styles.cutHint}>cut</Text>
+          <View style={styles.cutDash} />
+        </View>
+        <PoemHalf data={data} />
+      </Page>
     </Document>
   )
 }

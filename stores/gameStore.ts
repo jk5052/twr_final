@@ -27,15 +27,19 @@ interface RoomLog {
 }
 
 interface GameState {
-  phase: 'landing' | 'intro' | 'room1' | 'room2' | 'room3' | 'room4' | 'room5' | 'conversation' | 'blank_fill' | 'letter' | 'card'
+  phase: 'landing' | 'intro' | 'room1' | 'room2' | 'room3' | 'room4' | 'room5' | 'sealing' | 'conversation' | 'letter' | 'letter-reply' | 'letter-compose' | 'card'
   choices: Choice[]
   tags: Record<Tag, number>
   roomLogs: Record<number, RoomLog>
-  collectedWords: string[]    // 누적 오라클 단어 — choice마다 3개씩 append
+  collectedWords: string[]    // legacy 오라클 단어 — 더 이상 채워지지 않음 (CardToast 로 대체)
+  collectedCards: number[]    // 누적 readymade card id — choice마다 1개 append
+  usedCards: number[]         // 저널에 사용한 카드 — 다음 방의 pick 목록에서 제외
 
   setPhase: (phase: GameState['phase']) => void
   addChoice: (choice: Omit<Choice, 'timestamp'>) => void
   addOracleWords: (words: string[]) => void
+  addCard: (id: number) => void
+  markCardsUsed: (ids: number[]) => void
   startRoom: (room: number) => void
   addCancellation: (room: number) => void
   addIdleBout: (room: number, duration_ms: number) => void
@@ -54,6 +58,8 @@ export const useGameStore = create<GameState>((set) => ({
   tags: { AV: 0, EX: 0, CG: 0, SP: 0, AD: 0 },
   roomLogs: {},
   collectedWords: [],
+  collectedCards: [],
+  usedCards: [],
 
   setPhase: (phase) => set({ phase }),
 
@@ -67,6 +73,17 @@ export const useGameStore = create<GameState>((set) => ({
 
   addOracleWords: (words) => set((state) => ({
     collectedWords: [...state.collectedWords, ...words],
+  })),
+
+  addCard: (id) => set((state) =>
+    state.collectedCards.includes(id)
+      ? state                                    // 중복 보호 — pickReadymadeCard 가 이미 차단하지만 방어적으로
+      : { collectedCards: [...state.collectedCards, id] }
+  ),
+
+  // 수집 이력은 유지해 사용한 카드가 새 카드로 다시 뽑히지 않게 한다.
+  markCardsUsed: (ids) => set((state) => ({
+    usedCards: [...new Set([...state.usedCards, ...ids])],
   })),
 
   startRoom: (room) => set((state) =>
@@ -100,5 +117,7 @@ export const useGameStore = create<GameState>((set) => ({
     tags: { AV: 0, EX: 0, CG: 0, SP: 0, AD: 0 },
     roomLogs: {},
     collectedWords: [],
+    collectedCards: [],
+    usedCards: [],
   }),
 }))

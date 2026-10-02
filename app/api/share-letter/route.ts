@@ -1,9 +1,12 @@
 // /api/share-letter
 //   POST { session_id, share: boolean, player_id? }
-//     share=true  → ingest the player's reply into seed_letters
-//                   (source='player', reuses blank_answer embedding)
-//                   via share_player_letter RPC; returns qr_url.
-//     share=false → no-op; returns { shared:false }.
+//     Records the player's archive decision for the composed letter.
+//     share=true  → set share_choice=true, then run share_player_letter
+//                   RPC which inserts the composed letter into
+//                   seed_letters (source='player'). Returns qr_url.
+//     share=false → set share_choice=false; no insert into seed_letters,
+//                   nothing enters the future matching pool.
+//   Returns 409 if /api/compose-letter has not been called yet.
 //   Idempotent — re-calling with share=true returns the existing
 //   shared_letter_id (RPC handles this).
 import { createClient } from '@supabase/supabase-js'
@@ -38,25 +41,37 @@ export async function POST(request: Request) {
   const sup = createClient(url, secret, { auth: { persistSession: false, autoRefreshToken: false } })
   const origin = new URL(request.url).origin
 
-  // confirm a reply exists for this session
+  // Gate: composed_letter must exist before a share decision can be recorded.
   const { data: ex, error: exErr } = await sup
     .from('letter_exchanges')
-    .select('reply_text, reply_letter_id')
+    .select('composed_letter, reply_letter_id')
     .eq('session_id', body.session_id)
     .maybeSingle()
   if (exErr) return Response.json({ error: 'letter_exchanges read failed: ' + exErr.message }, { status: 500 })
-  if (!ex || !ex.reply_text) {
-    return Response.json({ error: 'no reply on file (POST /api/letter with reply_text first)' }, { status: 409 })
+  if (!ex || !ex.composed_letter) {
+    return Response.json({ error: 'compose-letter required first' }, { status: 409 })
   }
 
-  // let-it-be sentinel — never shareable, returns clean no-op.
-  if (ex.reply_text === '\u00b7' || !body.share) {
+  // share=false → record the choice, no insert into seed_letters.
+  if (!body.share) {
+    const { error: upErr } = await sup
+      .from('letter_exchanges')
+      .update({ share_choice: false, player_id: body.player_id ?? null })
+      .eq('session_id', body.session_id)
+    if (upErr) return Response.json({ error: 'share_choice update failed: ' + upErr.message }, { status: 500 })
     return Response.json({
       shared:           false,
       shared_letter_id: null,
       qr_url:           null,
     })
   }
+
+  // share=true → flip share_choice first so the RPC's guard passes.
+  const { error: scErr } = await sup
+    .from('letter_exchanges')
+    .update({ share_choice: true, player_id: body.player_id ?? null })
+    .eq('session_id', body.session_id)
+  if (scErr) return Response.json({ error: 'share_choice update failed: ' + scErr.message }, { status: 500 })
 
   // RPC: insert into seed_letters + pin reply_letter_id (idempotent)
   const { data, error } = await sup.rpc('share_player_letter', {
